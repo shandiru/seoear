@@ -6,6 +6,7 @@ export default function AppointmentSteps() {
     {
       id: 1,
       title: "Book your appointment online or by phone",
+      desc: "Schedule your appointment easily online or by phone at a time that works best for you.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -29,6 +30,7 @@ export default function AppointmentSteps() {
     {
       id: 2,
       title: "We visit your home at a convenient time",
+      desc: "Your clinician arrives promptly with sterilised, professional equipment for your comfort.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -53,6 +55,7 @@ export default function AppointmentSteps() {
     {
       id: 3,
       title: "The clinician explains and carries out a full ear assessment",
+      desc: "We assess your ears, explain every step, and ensure you feel comfortable before beginning treatment.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -74,6 +77,7 @@ export default function AppointmentSteps() {
     {
       id: 4,
       title: "Microsuction gently removes wax and restores clear hearing",
+      desc: "Using precise medical suction, your clinician safely removes ear wax — quick, clean, and water-free.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -88,16 +92,13 @@ export default function AppointmentSteps() {
           className="w-10 h-10"
         >
           <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path>
-          <path d="M20 3v4"></path>
-          <path d="M22 5h-4"></path>
-          <path d="M4 17v2"></path>
-          <path d="M5 18H3"></path>
         </svg>
       ),
     },
     {
       id: 5,
       title: "You’ll receive aftercare advice to help keep your ears healthy",
+      desc: "We’ll provide aftercare guidance to help you maintain healthy ears between treatments.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -120,23 +121,24 @@ export default function AppointmentSteps() {
   return (
     <section className="py-24 bg-[linear-gradient(to_bottom,#F8FAFC,white,#EAF7F3)]">
       <div className="container mx-auto px-4">
+        {/* Heading */}
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-[#0D1525] mb-4 font-serif">
-            What to Expect During Your Appointment
+            What to Expect
           </h2>
+          <p className="text-lg text-[#334155]">
+            Here’s what happens during your at-home ear wax removal appointment:
+          </p>
         </div>
 
         {/* Steps */}
         <div className="max-w-5xl mx-auto relative">
-          {/* Line connector */}
+          {/* Connector line */}
           <div className="hidden md:block absolute top-12 left-0 right-0 h-0.5 bg-[linear-gradient(to_right,#43AA8B22,#43AA8B,#43AA8B22)]" />
 
           <div className="grid md:grid-cols-5 gap-10 relative">
             {steps.map((step) => (
-              <div
-                key={step.id}
-                className="flex flex-col items-center text-center"
-              >
+              <div key={step.id} className="flex flex-col items-center text-center">
                 <div className="relative z-10 w-24 h-24 rounded-full bg-[#43AA8B] flex items-center justify-center mb-6 shadow-md hover:bg-[#318F6F] transition-all duration-300">
                   {step.icon}
                 </div>
@@ -154,14 +156,16 @@ export default function AppointmentSteps() {
           </div>
         </div>
 
-        {/* Bottom Info Box */}
+        {/* Bottom Info */}
         <div className="mt-16 p-8 rounded-2xl bg-[#43AA8B]/10 border border-[#43AA8B]/30 text-center">
           <p className="text-lg text-[#0D1525] leading-relaxed">
-           Appointments typically last around {" "}
-            <span className="font-semibold text-[#43AA8B]">30 minutes</span>, with
+            Appointments usually last around{" "}
+            <span className="font-semibold text-[#43AA8B]">30 minutes</span>, and
+            most clients experience{" "}
             <span className="font-semibold text-[#43AA8B]">
-              immediate results
-            </span>{" "}
+              immediate relief and clearer hearing
+            </span>
+            .
           </p>
         </div>
       </div>
