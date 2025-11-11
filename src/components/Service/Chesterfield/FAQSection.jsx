@@ -6,29 +6,27 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: "What areas of Burton do you cover?",
+      question: "Which areas do you cover?",
       answer:
-        "We cover Burton upon Trent, Stretton, Branston, Horninglow and nearby villages like Rolleston on Dove and Tatenhill.",
-    },
-    {
-      question: "Do I need to prepare my ears before treatment?",
-      answer:
-        "Using olive oil drops for a few days can help soften the wax, but it isn’t required before your appointment.",
+        "We cover Chesterfield, Brampton, Newbold, Hasland, Wingerworth, Walton and nearby villages across Derbyshire.",
     },
     {
       question: "How long does the appointment take?",
-      answer:
-        "Most appointments last around 30 minutes, and many clients notice clearer hearing immediately after treatment.",
+      answer: "Typically around 30 minutes.",
     },
     {
-      question: "Can I have both ears treated at once?",
-      answer:
-        "Yes, both ears can be treated in one visit for £60 — efficient and convenient.",
+      question: "Can both ears be treated in one session?",
+      answer: "Yes, both ears can be done together for £60.",
     },
     {
-      question: "How soon can I book?",
+      question: "Is microsuction safe?",
       answer:
-        "Appointments are usually available within just a few days across Staffordshire, including Burton and surrounding areas.",
+        "Yes, it’s a clean and gentle method for removing ear wax — widely used by hearing care professionals.",
+    },
+    {
+      question: "How quickly can I get an appointment?",
+      answer:
+        "Appointments are usually available within a few days across Derbyshire.",
     },
   ];
 
@@ -91,7 +89,7 @@ export default function FAQSection() {
           ))}
         </div>
 
-        {/* Subtle Decorative Gradient Line */}
+        {/* Decorative Gradient Line */}
         <div className="mt-12 h-1 w-32 mx-auto rounded-full bg-gradient-to-r from-[#9C79B3]/40 via-[#43AA8B] to-[#9C79B3]/40"></div>
       </div>
     </section>

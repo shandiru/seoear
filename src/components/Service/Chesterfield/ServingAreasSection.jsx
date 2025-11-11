@@ -3,18 +3,18 @@ import React from "react";
 
 export default function ServingAreasSection() {
   const areas = [
-    "Stapenhill",
-    "Winshill",
-    "Branston",
-    "Shobnall",
-    "Horninglow",
-    "Stretton",
-    "Anglesey",
-    "Eton Park",
-    "Burton Town Centre",
-    "Outwoods",
-    "Beam Hill",
-    "Dalton Road Area",
+    "Brampton",
+    "Hasland",
+    "Newbold",
+    "Walton",
+    "Boythorpe",
+    "Spital",
+    "Tapton",
+    "Whittington Moor",
+    "Hunloke Park",
+    "Holymoorside",
+    "Wingerworth",
+    "Chesterfield Town Centre",
   ];
 
   return (
@@ -25,13 +25,12 @@ export default function ServingAreasSection() {
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#0D1525] font-serif">
             Hear Clearly Again
           </h2>
-          <p className="text-lg text-[#334155] mb-2">
-            Book your ear wax removal in <strong>Burton</strong> today.
+          <p className="text-lg text-[#334155] mb-4">
+            Book your ear wax removal in Chesterfield today.
           </p>
           <p className="text-lg text-[#334155]">
-            <strong className="text-[#43AA8B]">Earwego</strong>, trusted across{" "}
-            <strong>Staffordshire</strong> for professional mobile ear wax
-            removal.
+            <strong className="text-[#43AA8B]">EarWeGo</strong>, trusted across Derbyshire
+            for professional mobile ear wax removal.
           </p>
         </div>
 
@@ -76,8 +75,8 @@ export default function ServingAreasSection() {
         <div className="mt-12 text-center">
           <p className="text-[#334155] mb-3">Don’t see your area listed?</p>
           <p className="text-sm text-[#4B5563] max-w-2xl mx-auto">
-            We cover a wide radius across <strong>Staffordshire</strong>. Contact us
-            to confirm if our at-home ear wax removal service is available in your area.
+            We cover Chesterfield and nearby towns across Derbyshire. Contact us
+            to confirm if our home visit ear wax removal service is available in your area.
           </p>
         </div>
       </div>

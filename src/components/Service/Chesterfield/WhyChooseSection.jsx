@@ -9,27 +9,9 @@ import "swiper/css/pagination";
 export default function WhyChooseCarousel() {
   const benefits = [
     {
-      icon: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="26"
-          height="26"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="#43AA8B"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        >
-          <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path>
-          <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-        </svg>
-      ),
       title: "Convenience",
       description:
-        "Home visits across Burton and surrounding villages — no travel or waiting rooms required.",
-    },
-    {
+        "Home visits across Chesterfield and nearby villages — we come to you for safe, stress-free ear care.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -42,15 +24,16 @@ export default function WhyChooseCarousel() {
           strokeLinecap="round"
           strokeLinejoin="round"
         >
-          <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path>
-          <circle cx="12" cy="8" r="6"></circle>
+          <path d="M21 10V6a2 2 0 0 0-2-2h-5.586a1 1 0 0 1-.707-.293l-1.414-1.414A1 1 0 0 0 10.586 2H5a2 2 0 0 0-2 2v6"></path>
+          <path d="M3 14v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4"></path>
+          <path d="M8 10h8"></path>
         </svg>
       ),
+    },
+    {
       title: "Professionalism",
       description:
-        "Experienced clinicians using modern, medical-grade equipment to ensure effective results.",
-    },
-    {
+        "Trained clinicians use medical-grade equipment and proven techniques for reliable results every time.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -63,14 +46,15 @@ export default function WhyChooseCarousel() {
           strokeLinecap="round"
           strokeLinejoin="round"
         >
-          <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+          <circle cx="12" cy="7" r="4"></circle>
+          <path d="M6 21v-2a6 6 0 0 1 12 0v2"></path>
         </svg>
       ),
+    },
+    {
       title: "Comfort",
       description:
-        "Friendly clinicians providing clear communication and gentle care throughout your appointment.",
-    },
-    {
+        "We ensure clear communication and a calm, polite service so you feel relaxed throughout your appointment.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -83,13 +67,32 @@ export default function WhyChooseCarousel() {
           strokeLinecap="round"
           strokeLinejoin="round"
         >
-          <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
-          <circle cx="12" cy="10" r="3"></circle>
+          <circle cx="12" cy="12" r="10"></circle>
+          <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+          <line x1="9" y1="9" x2="9.01" y2="9"></line>
+          <line x1="15" y1="9" x2="15.01" y2="9"></line>
         </svg>
       ),
+    },
+    {
       title: "Safety",
       description:
-        "Proven microsuction technique trusted across Staffordshire for its safety and reliability.",
+        "We use the trusted microsuction technique across Derbyshire — safe, clean, and highly effective.",
+      icon: (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="26"
+          height="26"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#43AA8B"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+        </svg>
+      ),
     },
   ];
 
@@ -98,16 +101,12 @@ export default function WhyChooseCarousel() {
       <div className="container mx-auto px-4 max-w-4xl text-center">
         {/* Header */}
         <h2 className="text-3xl md:text-4xl font-bold text-[#0D1525] mb-4 font-serif">
-          Why Choose <span className="text-[#43AA8B]">Earwego</span>?
+          Why Choose <span className="text-[#43AA8B]">EarWeGo</span>?
         </h2>
         <p className="text-lg md:text-xl text-[#334155] max-w-3xl mx-auto mb-10">
-          We combine professionalism, comfort, and safety — bringing expert ear
-          care directly to your home in Burton and nearby areas.
+          Our mission is to make ear wax removal in Chesterfield as safe,
+          convenient, and comfortable as possible — right from your own home.
         </p>
-
-        <h3 className="text-lg md:text-xl font-semibold text-[#0D1525] mb-8">
-          Here’s why people trust us:
-        </h3>
 
         {/* Carousel */}
         <div className="relative max-w-xl mx-auto">
