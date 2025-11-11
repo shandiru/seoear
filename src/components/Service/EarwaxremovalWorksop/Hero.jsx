@@ -23,15 +23,15 @@ export default function EarWaxHero() {
         <div className="container mx-auto px-4 py-16 md:py-24">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 text-[#0D1525]">
-               Ear Wax Removal in Worksop
+              Ear Wax Removal in Worksop
             </h1>
 
             <p className="text-xl md:text-2xl lg:text-3xl text-[#334155] mb-8">
-          If you’re dealing with blocked ears, ringing or muffled hearing in Worksop, Earwego provides professional ear wax removal at home. Our trained clinicians use gentle microsuction to clear ear wax quickly and safely without the need to visit a clinic.
+              Safe, professional ear care in the comfort of your own home
             </p>
 
             <p className="text-base md:text-lg lg:text-xl text-[#4B5563] leading-relaxed mb-12 max-w-3xl mx-auto">
-            We serve Worksop and nearby areas including Gateford, Kilton, Manton and local villages such as Carlton in Lindrick, Whitwell and Shireoaks.
+              We serve Worksop and nearby areas including Gateford, Kilton, Manton and local villages such as Carlton in Lindrick, Whitwell and Shireoaks.
             </p>
 
             {/* Buttons */}
