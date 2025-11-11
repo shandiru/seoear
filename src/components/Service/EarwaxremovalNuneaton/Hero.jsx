@@ -27,7 +27,7 @@ export default function EarWaxHero() {
             </h1>
 
             <p className="text-xl md:text-2xl lg:text-3xl text-[#334155] mb-8">
-           If you’re struggling with blocked ears or muffled hearing in Nuneaton, Earwego offers professional ear wax removal in the comfort of your own home. Our trained clinicians use gentle microsuction to remove ear wax safely and effectively, giving you clearer hearing without the need to visit a clinic.
+          Safe, professional ear care in the comfort of your own home
             </p>
 
             <p className="text-base md:text-lg lg:text-xl text-[#4B5563] leading-relaxed mb-12 max-w-3xl mx-auto">

@@ -27,7 +27,7 @@ export default function EarWaxHero() {
             </h1>
 
             <p className="text-xl md:text-2xl lg:text-3xl text-[#334155] mb-8">
-            If you’re in Stafford and struggling with blocked ears, our professional ear wax removal service offers quick relief without leaving home. Earwego provides safe, convenient ear care delivered by trained clinicians right across Stafford and the wider Staffordshire area.
+           Safe, professional ear care in the comfort of your own home
             </p>
 
             <p className="text-base md:text-lg lg:text-xl text-[#4B5563] leading-relaxed mb-12 max-w-3xl mx-auto">
