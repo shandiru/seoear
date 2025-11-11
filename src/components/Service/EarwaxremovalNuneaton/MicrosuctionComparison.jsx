@@ -11,7 +11,7 @@ export default function EarwegoServiceOverview() {
             Professional Ear Wax Removal Made Simple
           </h2>
           <p className="text-lg md:text-xl text-[#334155] max-w-3xl mx-auto">
-            There’s no messy ear syringing in Tamworth — just expert, friendly
+            There’s no messy ear syringing in Nuneaton — just expert, friendly
             care that fits around your schedule.
           </p>
         </div>
@@ -20,28 +20,24 @@ export default function EarwegoServiceOverview() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {[
             {
-              title: "Safe, Professional Microsuction",
-              description:
-                "Gentle and effective microsuction performed safely at home — no clinic visit needed.",
-              iconColor: "#43AA8B"
+              "title": "Safe and Effective Microsuction at Home",
+              "description": "Gentle and effective microsuction performed safely at home — no clinic visit needed.",
+              "iconColor": "#43AA8B"
             },
             {
-              title: "Flexible Appointment Times",
-              description:
-                "Appointments arranged to fit your schedule for complete convenience and ease.",
-              iconColor: "#43AA8B"
+              "title": "Convenient Appointment Times",
+              "description": "Appointments arranged to suit your schedule for complete convenience and ease.",
+              "iconColor": "#43AA8B"
             },
             {
-              title: "Friendly, Qualified Clinicians",
-              description:
-                "Experienced professionals with the right skills and equipment to deliver reliable ear care.",
-              iconColor: "#43AA8B"
+              "title": "Professional and Polite Clinicians",
+              "description": "Experienced professionals with the right skills and equipment to deliver reliable ear care.",
+              "iconColor": "#43AA8B"
             },
             {
-              title: "Fast Results & Lasting Comfort",
-              description:
-                "Enjoy clearer hearing immediately with results designed to provide lasting relief.",
-              iconColor: "#43AA8B"
+              "title": "Fast, Clean Treatment with Immediate Results",
+              "description": "Enjoy clearer hearing immediately with results designed to provide lasting relief.",
+              "iconColor": "#43AA8B"
             }
           ].map((item, index) => (
             <div
@@ -99,7 +95,7 @@ export default function EarwegoServiceOverview() {
             </div>
           </div>
           <p className="text-lg leading-relaxed max-w-3xl mx-auto">
-            No messy syringing or travel required, just reliable ear care where you are most comfortable.
+            No messy syringing or travel required, just safe ear care where you feel most comfortable.
           </p>
         </div>
       </div>

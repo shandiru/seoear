@@ -5,7 +5,7 @@ export default function AppointmentSteps() {
   const steps = [
     {
       id: 1,
-      title: "Book online or by phone",
+      title: "Book your appointment online or by phone",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +28,7 @@ export default function AppointmentSteps() {
     },
     {
       id: 2,
-      title: "We visit at a time that suits you",
+      title: "We visit your home at a convenient time",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@ export default function AppointmentSteps() {
     },
     {
       id: 3,
-      title: "The clinician checks your ears and explains the process",
+      title: "The clinician explains and carries out a full ear assessment",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +73,7 @@ export default function AppointmentSteps() {
     },
     {
       id: 4,
-      title: "Microsuction gently removes the wax",
+      title: "Microsuction gently removes wax and restores clear hearing",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +97,7 @@ export default function AppointmentSteps() {
     },
     {
       id: 5,
-      title: "Aftercare advice is given",
+      title: "You’ll receive aftercare advice to help keep your ears healthy",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"

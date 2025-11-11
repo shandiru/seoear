@@ -28,7 +28,7 @@ export default function WhyChooseCarousel() {
       ),
       title: "Convenience",
       description:
-        "Mobile service covering Tamworth and surrounding villages for stress-free ear care.",
+        "Home visits across Nuneaton and nearby villages",
     },
     {
       icon: (
@@ -49,7 +49,7 @@ export default function WhyChooseCarousel() {
       ),
       title: "Professionalism",
       description:
-        "Clinicians trained to deliver medical-standard care for safe and effective treatment.",
+        "Clinicians trained to deliver precise, reliable care.",
     },
     {
       icon: (
@@ -70,7 +70,7 @@ export default function WhyChooseCarousel() {
       ),
       title: "Comfort",
       description:
-        "Calm and reassuring service with clear communication throughout your appointment.",
+        "Clear communication and gentle techniques",
     },
     {
       icon: (
@@ -90,7 +90,7 @@ export default function WhyChooseCarousel() {
       ),
       title: "Safety",
       description:
-        "Clean, hygienic methods that protect your hearing during every microsuction treatment.",
+        "Trusted methods that protect your hearing.",
     },
   ];
 
@@ -102,7 +102,7 @@ export default function WhyChooseCarousel() {
           Why Choose <span className="text-[#43AA8B]">Earwego</span>?
         </h2>
         <p className="text-lg md:text-xl text-[#334155] max-w-3xl mx-auto mb-10">
-          Professional ear care in Tamworth — convenient, comfortable, and safe home visits by skilled clinicians.
+          Professional ear care in Nuneaton — convenient, comfortable, and safe home visits by skilled clinicians.
         </p>
 
         {/* Carousel */}

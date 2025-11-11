@@ -6,24 +6,24 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      "question": "Which areas of Tamworth do you visit?",
-      "answer": "We cover all areas including Amington, Glascote, Wilnecote, Two Gates, Dosthill and nearby villages like Polesworth."
+      "question": "Do you cover nearby villages?",
+      "answer": "Yes, we cover Nuneaton, Bulkington, Hartshill, Ansley and nearby parts of Warwickshire."
     },
     {
-      "question": "How soon can I book?",
-      "answer": "Appointments are usually available within a few days in Tamworthshire."
+      "question": "Can you remove wax from both ears in one session?",
+      "answer": "Yes, the cost is £60 for both ears during a single appointment."
     },
     {
-      "question": "Is the procedure safe?",
-      "answer": "Yes, microsuction is considered the safest method for ear wax removal."
+      "question": "How long does the treatment take?",
+      "answer": "Around 30 minutes."
     },
     {
-      "question": "Can both ears be treated in one session?",
-      "answer": "Yes, and the cost is £60 for both ears."
+      "question": "Is microsuction safe for everyone?",
+      "answer": "Yes, it’s the safest and most effective method available."
     },
     {
-      "question": "How long does treatment take?",
-      "answer": "Usually 30 minutes from start to finish."
+      "question": "How soon can I book an appointment?",
+      "answer": "Appointments are usually available within a few days across Warwickshire."
     }
   ]
 
