@@ -21,14 +21,14 @@ export default function FinalCTASection() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-[#0D1525] mb-6 font-serif">
-            Ready to Hear Clearly Again
+            Book Your Appointment
           </h2>
 
           <p className="text-lg md:text-xl text-[#4B5563] mb-4 leading-relaxed">
-           Book your ear wax removal in Leicester today, serving homes across Leicester and throughout Leicestershire.
+          Book your ear wax removal in Leicester today, serving homes across Leicester and throughout Leicestershire.
           </p>
           <p className="text-lg md:text-xl text-[#4B5563] mb-10 leading-relaxed">
-           Earwego, trusted by residents across Leicestershire for professional mobile ear wax removal.
+          Earwego, trusted by residents across Leicestershire for professional mobile ear wax removal.
           </p>
 
           {/* Buttons */}
