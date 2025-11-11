@@ -30,9 +30,17 @@ export default function EarWaxHero() {
               Safe, professional ear care in the comfort of your own home
             </p>
 
-            <p className="text-base md:text-lg lg:text-xl text-[#4B5563] leading-relaxed mb-12 max-w-3xl mx-auto">
-              We serve Worksop and nearby areas including Gateford, Kilton, Manton and local villages such as Carlton in Lindrick, Whitwell and Shireoaks.
-            </p>
+           <p className="text-base md:text-lg lg:text-xl text-[#4B5563] leading-relaxed mb-12 max-w-3xl mx-auto">
+  If you’re dealing with blocked ears, ringing or muffled hearing in{" "}
+  <strong className="text-[#43AA8B]">Worksop</strong>,{" "}
+  <strong className="text-[#43AA8B]">Earwego</strong> provides professional ear
+  wax removal at home. Our trained clinicians use gentle microsuction to clear
+  ear wax quickly and safely without the need to visit a clinic.
+ 
+  We serve Worksop and nearby areas including Gateford, Kilton, Manton and local
+  villages such as Carlton in Lindrick, Whitwell and Shireoaks.
+</p>
+
 
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

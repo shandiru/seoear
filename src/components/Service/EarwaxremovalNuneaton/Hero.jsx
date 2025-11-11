@@ -23,16 +23,27 @@ export default function EarWaxHero() {
         <div className="container mx-auto px-4 py-16 md:py-24">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 text-[#0D1525]">
-               Ear Wax Removal in Nuneaton
+             Ear Wax Removal in Nuneaton
             </h1>
 
             <p className="text-xl md:text-2xl lg:text-3xl text-[#334155] mb-8">
-          Safe, professional ear care in the comfort of your own home
+           Safe, professional ear care in the comfort of your own home
             </p>
 
-            <p className="text-base md:text-lg lg:text-xl text-[#4B5563] leading-relaxed mb-12 max-w-3xl mx-auto">
-             We serve all parts of Nuneaton and nearby areas including Attleborough, Stockingford, Whitestone and local villages such as Bulkington, Hartshill and Ansley.
-            </p>
+<p className="text-base md:text-lg lg:text-xl text-[#4B5563] leading-relaxed mb-12 max-w-3xl mx-auto">
+  If you’re struggling with blocked ears or muffled hearing in{" "}
+  <strong className="text-[#43AA8B]">Nuneaton</strong>,{" "}
+  <strong className="text-[#43AA8B]">Earwego</strong> offers professional ear
+  wax removal in the comfort of your own home. Our trained clinicians use gentle
+  microsuction to remove ear wax safely and effectively, giving you clearer
+  hearing without the need to visit a clinic.
+  
+  We serve all parts of Nuneaton and nearby areas including Attleborough,
+  Stockingford, Whitestone and local villages such as Bulkington, Hartshill and
+  Ansley.
+</p>
+
+
 
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

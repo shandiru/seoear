@@ -30,9 +30,18 @@ export default function EarWaxHero() {
            Safe, professional ear care in the comfort of your own home
             </p>
 
-            <p className="text-base md:text-lg lg:text-xl text-[#4B5563] leading-relaxed mb-12 max-w-3xl mx-auto">
-              We visit areas including Baswich, Weeping Cross, Wildwood and nearby villages such as Brocton and Great Haywood. Using advanced microsuction, we gently remove ear wax to restore clear, comfortable hearing.
-            </p>
+           <p className="text-base md:text-lg lg:text-xl text-[#4B5563] leading-relaxed mb-12 max-w-3xl mx-auto">
+  If you’re in <strong className="text-[#43AA8B]">Stafford</strong> and struggling with blocked ears, our professional ear
+  wax removal service offers quick relief without leaving home.{" "}
+  <strong className="text-[#43AA8B]">Earwego</strong> provides safe, convenient
+  ear care delivered by trained clinicians right across Stafford and the wider
+  Staffordshire area.
+  
+  We visit areas including Baswich, Weeping Cross, Wildwood and nearby villages
+  such as Brocton and Great Haywood. Using advanced microsuction, we gently
+  remove ear wax to restore clear, comfortable hearing.
+</p>
+
 
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
