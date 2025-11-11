@@ -18,6 +18,7 @@ import EarwaxremovalStafford from "./Page/EarwaxremovalStafford.jsx";
 import EarwaxremovalTamworth from "./Page/Tamworth.jsx";
 import Burton from "./Page/Burton.jsx";
 import Chesterfield from "./Page/Chesterfield.jsx";
+import EarwaxremovalNuneaton from "./Page/EarwaxremovalNuneaton.jsx";
 function App() {
   return (
     <Router>
@@ -28,7 +29,7 @@ function App() {
         <Route path="/symptoms" element={<ServiceDetailpage />} />
         <Route path="/terms-conditions" element={<TermsConditions />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-         <Route path="/derby" element={<Derby />} />
+        <Route path="/derby" element={<Derby />} />
         <Route
           path="/earwax-removal-nottingham"
           element={<EarwaxremovalNottingham />}
@@ -39,7 +40,8 @@ function App() {
         <Route path="/earwax-removal-stafford" element={<EarwaxremovalStafford />} />
         <Route path="/earwax-removal-tamworth" element={<EarwaxremovalTamworth />} />
         <Route path="/earwax-removal-burton" element={<Burton />} />
-         <Route path="/earwax-removal-chesterfield" element={<Chesterfield />} />
+        <Route path="/earwax-removal-chesterfield" element={<Chesterfield />} />
+        <Route path="/earwax-removal-nuneaton" element={<EarwaxremovalNuneaton />} />
         {/* ✅ Catch-all route for 404 */}
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
