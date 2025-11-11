@@ -12,7 +12,7 @@ export default function FinalCTASection() {
   // ✅ Call function
   const handleCall = () => {
     // Example: log or trigger analytics before call
-    console.log("📞 Call button clicked");
+    console.log(" Call button clicked");
     window.location.href = "tel:+448081371961";
   };
 
@@ -25,10 +25,10 @@ export default function FinalCTASection() {
           </h2>
 
           <p className="text-lg md:text-xl text-[#4B5563] mb-4 leading-relaxed">
-           Book your ear wax removal in Worksop today.
+           Book your ear wax removal in Loughborough today.
           </p>
           <p className="text-lg md:text-xl text-[#4B5563] mb-10 leading-relaxed">
-            Earwego, trusted across Nottinghamshire for professional mobile ear wax removal.
+            Earwego, trusted across Leicestershire for professional mobile ear wax removal.
           </p>
 
           {/* Buttons */}

@@ -11,7 +11,7 @@ export default function EarwegoServiceOverview() {
             Professional Ear Wax Removal Made Simple
           </h2>
           <p className="text-lg md:text-xl text-[#334155] max-w-3xl mx-auto">
-            There’s no messy ear syringing in Worksop — just expert, friendly
+            There’s no messy ear syringing in Loughborough — just expert, friendly
             care that fits around your schedule.
           </p>
         </div>
@@ -20,23 +20,23 @@ export default function EarwegoServiceOverview() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {[
             {
-              "title": "Safe Microsuction Performed at Home",
+              "title": "Professional Microsuction Treatment at Home",
               "description": "Gentle and effective microsuction performed safely in the comfort of your home — no clinic visit required.",
               "iconColor": "#43AA8B"
             },
             {
-              "title": "Appointments Arranged at Your Convenience",
+              "title": "Appointments Arranged Around Your Schedule",
               "description": "Flexible scheduling to suit your availability, making your ear care as convenient as possible.",
               "iconColor": "#43AA8B"
             },
             {
-              "title": "Professional, Polite Service from Trained Clinicians",
-              "description": "Experienced clinicians provide friendly, expert care using medical-grade equipment.",
+              "title": "Friendly, Polite and Professional Clinicians",
+              "description": "Experienced clinicians provide expert care using medical-grade equipment in a friendly and professional manner.",
               "iconColor": "#43AA8B"
             },
             {
-              "title": "Fast, Effective Results",
-              "description": "Enjoy clearer hearing and comfort immediately after treatment — quick and reliable results.",
+              "title": "Clean and Comfortable Results",
+              "description": "Enjoy clearer hearing and comfort immediately after treatment — quick, reliable, and hygienic results.",
               "iconColor": "#43AA8B"
             }
           ].map((item, index) => (
@@ -95,7 +95,7 @@ export default function EarwegoServiceOverview() {
             </div>
           </div>
           <p className="text-lg leading-relaxed max-w-3xl mx-auto">
-            No travel, no waiting rooms, just reliable ear care where you feel comfortable.
+            No water syringing, no travel, just safe ear care where you feel relaxed.
           </p>
         </div>
       </div>

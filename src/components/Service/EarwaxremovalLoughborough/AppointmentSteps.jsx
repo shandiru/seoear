@@ -28,7 +28,7 @@ export default function AppointmentSteps() {
     },
     {
       id: 2,
-      title: "We visit your home at a convenient time",
+      title: "We visit your home at a time that suits you",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@ export default function AppointmentSteps() {
     },
     {
       id: 3,
-      title: "The clinician carries out a short ear assessment",
+      title: "The clinician performs a short assessment",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +73,7 @@ export default function AppointmentSteps() {
     },
     {
       id: 4,
-      title: "Microsuction gently removes excess wax",
+      title: "Microsuction removes excess ear wax",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +97,7 @@ export default function AppointmentSteps() {
     },
     {
       id: 5,
-      title: "Aftercare advice helps maintain healthy ears",
+      title: "You receive aftercare advice to maintain healthy ears",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"

@@ -6,24 +6,24 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      "question": "Which areas do you cover?",
-      "answer": "We cover Worksop, Gateford, Kilton, Manton, Carlton in Lindrick, Whitwell, Shireoaks and nearby parts of Nottinghamshire."
+      "question": "Do you cover nearby areas?",
+      "answer": "Yes, we visit Shelthorpe, Quorn, Hathern, Barrow upon Soar, Mountsorrel, Sileby and other nearby villages across Leicestershire."
     },
     {
-      "question": "How long does the treatment take?",
-      "answer": "Most appointments take around 30 minutes."
+      "question": "How long does treatment take?",
+      "answer": "Around 30 minutes."
     },
     {
-      "question": "Do I need to use ear drops before treatment?",
-      "answer": "It’s optional, but a few drops of olive oil can help soften the wax."
+      "question": "Is microsuction safe for hearing aid users?",
+      "answer": "Yes, it’s clean and safe for people who wear hearing aids."
     },
     {
-      "question": "Is microsuction suitable for sensitive ears?",
-      "answer": "Yes, it’s gentle and safe for most people."
+      "question": "Can both ears be done at once?",
+      "answer": "Yes, both can be treated during a single visit for £60."
     },
     {
-      "question": "How soon can I book?",
-      "answer": "We usually have availability within a few days across Nottinghamshire."
+      "question": "How soon can I get an appointment?",
+      "answer": "Usually within a few days in Loughborough and nearby areas."
     }
   ]
 
