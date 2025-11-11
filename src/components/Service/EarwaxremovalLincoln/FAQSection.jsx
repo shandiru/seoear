@@ -5,30 +5,28 @@ export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState(null);
 
   const faqs = [
-    {
-      question: "What areas of Leicester do you cover?",
-      answer:
-        "We serve Oadby, Wigston, Glenfield, Braunstone, Birstall and nearby villages like Thurmaston.",
-    },
-    {
-      question: "Is microsuction suitable for everyone?",
-      answer:
-        "Yes, it’s safe for most people, including those with hearing aids.",
-    },
-    {
-      question: "How quickly can I book an appointment?",
-      answer:
-        "We usually have appointments available within a few days across Leicestershire.",
-    },
-    {
-      question: "Do I need to prepare my ears before treatment?",
-      answer:
-        "Using olive oil drops for a few days can help soften wax but isn’t essential.",
-    },
-    {
-      question: "Will it hurt?",
-      answer: "No, microsuction is gentle and pain-free.",
-    },
+     {
+    question: "Which areas do you cover?",
+    answer:
+      "We cover Lincoln city, North Hykeham, Washingborough, Bracebridge Heath and nearby villages such as Nettleham and Skellingthorpe.",
+  },
+  {
+    question: "How long will the appointment take?",
+    answer: "Usually 30 minutes, depending on the amount of wax.",
+  },
+  {
+    question: "Can children be treated?",
+    answer: "Yes, from age 5 and above with parental consent.",
+  },
+  {
+    question: "Is microsuction safe if I’ve had ear problems before?",
+    answer:
+      "Yes, it’s a controlled and gentle procedure ideal for sensitive ears.",
+  },
+  {
+    question: "How soon can I get an appointment?",
+    answer: "We usually have availability within a few days in Lincolnshire.",
+  },
   ];
 
 

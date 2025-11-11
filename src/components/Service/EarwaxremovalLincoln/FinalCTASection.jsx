@@ -25,10 +25,10 @@ export default function FinalCTASection() {
           </h2>
 
           <p className="text-lg md:text-xl text-[#4B5563] mb-4 leading-relaxed">
-           Book your ear wax removal in Leicester today, serving homes across Leicester and throughout Leicestershire.
+          Book your ear wax removal in Lincoln today, serving homes across Lincoln and Lincolnshire.
           </p>
           <p className="text-lg md:text-xl text-[#4B5563] mb-10 leading-relaxed">
-           Earwego, trusted by residents across Leicestershire for professional mobile ear wax removal.
+          Earwego, trusted by residents across Lincolnshire for professional mobile ear wax removal.
           </p>
 
           {/* Buttons */}
