@@ -56,6 +56,10 @@ const Navbar = () => {
     { name: "Chesterfield", path: "/earwax-removal-chesterfield" },
     { name: "Nuneaton", path: "/earwax-removal-nuneaton" },
     { name: "South Sheffield", path: "/earwax-removal-southsheffield" },
+    { name: "Worksop", path: "/earwax-removal-worksop" },
+     { name: "Loughborough", path: "/earwax-removal-loughborough" },
+
+   
   ];
 
   return (
