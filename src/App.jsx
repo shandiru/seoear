@@ -20,6 +20,7 @@ import Burton from "./Page/Burton.jsx";
 import Chesterfield from "./Page/Chesterfield.jsx";
 import EarwaxremovalNuneaton from "./Page/EarwaxremovalNuneaton.jsx";
 import SouthSheffield from "./Page/SouthSheffield.jsx";
+import EarwaxremovalWorksop from "./Page/EarwaxremovalWorksop.jsx";
 function App() {
   return (
     <Router>
@@ -44,6 +45,7 @@ function App() {
         <Route path="/earwax-removal-chesterfield" element={<Chesterfield />} />
         <Route path="/earwax-removal-nuneaton" element={<EarwaxremovalNuneaton />} />
         <Route path="/earwax-removal-southsheffield" element={<SouthSheffield />} />
+        <Route path="/earwax-removal-worksop" element={<EarwaxremovalWorksop />} />
         {/* ✅ Catch-all route for 404 */}
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
