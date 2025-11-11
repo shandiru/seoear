@@ -12,7 +12,8 @@ import EarwaxremovalNottingham from "./Page/EarwaxremovalNottingham.jsx";
 import NotFoundPage from "./Page/NotFoundPage.jsx"; // ✅ create this page
 import Derby from "./Page/Derby.jsx"
 import EarwaxremovalLeicester from "./Page/EarwaxremovalLeicester.jsx";
-import Lincoln from "./Page/Lincoln.jsx"
+import Lincoln from "./Page/Lincoln.jsx";
+import Grantham from "./Page/Grantham.jsx";
 function App() {
   return (
     <Router>
@@ -29,7 +30,8 @@ function App() {
           element={<EarwaxremovalNottingham />}
         />
         <Route path="/earwax-removal-leicester" element={<EarwaxremovalLeicester />} />
-          <Route path="/earwax-removal-lincoln" element={<Lincoln />} />
+        <Route path="/earwax-removal-lincoln" element={<Lincoln />} />
+        <Route path="/earwax-removal-grantham" element={<Grantham />} />
         {/* ✅ Catch-all route for 404 */}
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
