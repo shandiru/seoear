@@ -31,7 +31,7 @@ const Navbar = () => {
     }
   };
 
-  // Main links (user visible)
+  // Main links
   const links = [
     { label: "Why Us", href: "/#whyus" },
     { label: "Pricing", href: "/#pricing" },
@@ -71,7 +71,7 @@ const Navbar = () => {
               </HashLink>
             ))}
 
-            {/* ✅ Location Dropdown (user visible) */}
+            {/* ✅ Location Dropdown */}
             <div className="relative">
               <button
                 type="button"
@@ -95,13 +95,21 @@ const Navbar = () => {
                   >
                     Nottingham
                   </Link>
+                  <Link
+                    to="/derby"
+                    onClick={() => setLocationOpen(false)}
+                    className="block px-4 py-2 text-[#4B5563] hover:bg-[#F8FAFC] hover:text-[#0D1525] transition-colors"
+                  >
+                    Derby
+                  </Link>
                 </div>
               )}
             </div>
 
-            {/* ✅ Hidden SEO-only links (crawler visible) */}
+            {/* ✅ Hidden SEO-only links */}
             <div style={{ display: "none" }}>
               <a href="/earwax-removal-nottingham">Earwax Removal Nottingham</a>
+              <a href="/derby">Earwax Removal Derby</a>
             </div>
           </nav>
 
@@ -155,23 +163,36 @@ const Navbar = () => {
                 </button>
 
                 {locationOpen && (
-                  <Link
-                    to="/earwax-removal-nottingham"
-                    onClick={() => {
-                      setOpen(false);
-                      setLocationOpen(false);
-                    }}
-                    className="block ml-4 mt-1 px-3 py-2 text-[#4B5563] hover:bg-[#F8FAFC] hover:text-[#0D1525] rounded-md transition-colors"
-                  >
-                    Nottingham
-                  </Link>
+                  <>
+                    <Link
+                      to="/earwax-removal-nottingham"
+                      onClick={() => {
+                        setOpen(false);
+                        setLocationOpen(false);
+                      }}
+                      className="block ml-4 mt-1 px-3 py-2 text-[#4B5563] hover:bg-[#F8FAFC] hover:text-[#0D1525] rounded-md transition-colors"
+                    >
+                      Nottingham
+                    </Link>
+                    <Link
+                      to="/derby"
+                      onClick={() => {
+                        setOpen(false);
+                        setLocationOpen(false);
+                      }}
+                      className="block ml-4 mt-1 px-3 py-2 text-[#4B5563] hover:bg-[#F8FAFC] hover:text-[#0D1525] rounded-md transition-colors"
+                    >
+                      Derby
+                    </Link>
+                  </>
                 )}
               </div>
 
-              {/* ✅ Hidden SEO-only links for mobile (crawler only) */}
+              {/* ✅ Hidden SEO-only links for mobile */}
               <div style={{ display: "none" }}>
                 <a href="/earwax-removal-nottingham">Earwax Removal Nottingham</a>
-                  <a href="/">EarWeGo Home</a>
+                <a href="/derby">Earwax Removal Derby</a>
+                <a href="/">EarWeGo Home</a>
               </div>
             </nav>
 
