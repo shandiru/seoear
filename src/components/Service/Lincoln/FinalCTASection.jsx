@@ -11,7 +11,6 @@ export default function FinalCTASection() {
 
   // ✅ Call function
   const handleCall = () => {
-    // Example: log or trigger analytics before call
     console.log("📞 Call button clicked");
     window.location.href = "tel:+448081371961";
   };
@@ -20,17 +19,19 @@ export default function FinalCTASection() {
     <section className="py-20 bg-[linear-gradient(to_bottom_right,#F8FAFC,white,#EAF7F3)]">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
+          {/* ✅ Updated Heading */}
           <h2 className="text-4xl md:text-5xl font-bold text-[#0D1525] mb-6 font-serif">
-            Ready to Hear Clearly Again
+            Book Your Appointment
           </h2>
 
+          {/* ✅ Updated Paragraphs */}
           <p className="text-lg md:text-xl text-[#4B5563] mb-4 leading-relaxed">
-            You don’t have to put up with blocked ears or muffled hearing when
-            professional care is available locally.
+            Book your ear wax removal in Lincoln today, serving homes across
+            Lincoln and Lincolnshire.
           </p>
           <p className="text-lg md:text-xl text-[#4B5563] mb-10 leading-relaxed">
-            Book your ear wax removal in Lincoln today and enjoy safe, expert
-            treatment in the comfort of your own home.
+            Earwego, trusted by residents across Lincolnshire for professional
+            mobile ear wax removal.
           </p>
 
           {/* Buttons */}
@@ -57,7 +58,7 @@ export default function FinalCTASection() {
               Call Us Now
             </button>
 
-            {/* Book Online */}
+            {/* ✅ Book Online */}
             <button className="inline-flex items-center justify-center gap-2 rounded-md font-medium border border-[#43AA8B]/30 bg-white text-[#0D1525] hover:bg-[#EAF7F3] hover:border-[#43AA8B]/60 h-12 px-8 transition-all duration-300 w-full sm:w-auto text-base">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
