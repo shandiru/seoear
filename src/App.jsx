@@ -10,7 +10,7 @@ import PrivacyPolicy from "./components/PrivacyPolicy.jsx";
 import GDPRConsent from "./components/GDPRBanner.jsx";
 import EarwaxremovalNottingham from "./Page/EarwaxremovalNottingham.jsx";
 import NotFoundPage from "./Page/NotFoundPage.jsx"; // ✅ create this page
-
+import Derby from "./Page/Derby.jsx"
 function App() {
   return (
     <Router>
@@ -21,6 +21,7 @@ function App() {
         <Route path="/symptoms" element={<ServiceDetailpage />} />
         <Route path="/terms-conditions" element={<TermsConditions />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+         <Route path="/derby" element={<Derby />} />
         <Route
           path="/earwax-removal-nottingham"
           element={<EarwaxremovalNottingham />}
