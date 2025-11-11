@@ -6,29 +6,27 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: "Is microsuction safe?",
+      question: "Which areas do you cover?",
       answer:
-        "Yes. It is considered the safest and most effective method for ear wax removal, widely used by hearing professionals and clinics.",
+        "We cover Woodseats, Meersbrook, Heeley, Norton Lees, Totley, Dronfield and surrounding parts of South Yorkshire.",
     },
     {
-      question: "How often should I have wax removed?",
+      question: "Is microsuction safe for children?",
       answer:
-        "It varies from person to person, but most people benefit from treatment once or twice a year.",
+        "Yes, it’s gentle and suitable for most age groups, though parental consent is required for minors.",
     },
     {
-      question: "Can you remove wax from children's ears?",
-      answer:
-        "Yes, for children aged six and over, as long as they can stay comfortable and still during the procedure.",
+      question: "How long does an appointment take?",
+      answer: "Typically about 30 minutes.",
     },
     {
-      question: "Do you charge extra for home visits?",
-      answer:
-        "No, home visits within the Nottingham area are included in your price. Travel charges may apply outside the area.",
+      question: "Can both ears be done in one visit?",
+      answer: "Yes, both can be treated in one appointment for £60.",
     },
     {
-      question: "How long does the appointment take?",
+      question: "How quickly can I book?",
       answer:
-        "Appointments typically last around 30 minutes, and most clients notice clearer hearing immediately after treatment.",
+        "Appointments are normally available within a few days across South Yorkshire.",
     },
   ];
 
@@ -91,7 +89,7 @@ export default function FAQSection() {
           ))}
         </div>
 
-        {/* Subtle Decorative Gradient Line */}
+        {/* Decorative Gradient Line */}
         <div className="mt-12 h-1 w-32 mx-auto rounded-full bg-gradient-to-r from-[#9C79B3]/40 via-[#43AA8B] to-[#9C79B3]/40"></div>
       </div>
     </section>

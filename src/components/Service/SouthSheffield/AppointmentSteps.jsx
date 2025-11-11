@@ -5,8 +5,8 @@ export default function AppointmentSteps() {
   const steps = [
     {
       id: 1,
-      title: "Book Your Appointment",
-      desc: "Book a time online or by phone at a time that suits you.",
+      title: "Book Online or by Phone",
+      desc: "Book your appointment easily online or over the phone at a time that suits you best.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -29,8 +29,8 @@ export default function AppointmentSteps() {
     },
     {
       id: 2,
-      title: "We Come to You",
-      desc: "Your clinician arrives with sterilised, medical-grade tools.",
+      title: "We Visit Your Home",
+      desc: "Your clinician visits your home at a convenient time, bringing all necessary equipment.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -54,8 +54,8 @@ export default function AppointmentSteps() {
     },
     {
       id: 3,
-      title: "Inspection & Explanation",
-      desc: "We inspect your ear canals using an otoscope and explain each step.",
+      title: "Clinician Examines & Explains",
+      desc: "The clinician examines your ears and explains the full process before starting treatment.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -76,8 +76,8 @@ export default function AppointmentSteps() {
     },
     {
       id: 4,
-      title: "Gentle Treatment",
-      desc: "Microsuction treatment gently removes excess wax, restoring clear hearing.",
+      title: "Microsuction Treatment",
+      desc: "Microsuction gently removes ear wax using precise, medical-grade suction technology.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -102,7 +102,7 @@ export default function AppointmentSteps() {
     {
       id: 5,
       title: "Aftercare Advice",
-      desc: "Aftercare advice helps you maintain healthy ears between appointments.",
+      desc: "We provide simple aftercare tips to help you maintain good ear health after your treatment.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -127,7 +127,7 @@ export default function AppointmentSteps() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-[#0D1525] mb-4 font-serif">
-            What to Expect During Your Appointment
+            What to Expect
           </h2>
         </div>
 
@@ -163,12 +163,12 @@ export default function AppointmentSteps() {
         <div className="mt-16 p-8 rounded-2xl bg-[#43AA8B]/10 border border-[#43AA8B]/30 text-center">
           <p className="text-lg text-[#0D1525] leading-relaxed">
             A typical home visit lasts around{" "}
-            <span className="font-semibold text-[#43AA8B]">30 minutes</span>, and
-            most people notice{" "}
+            <span className="font-semibold text-[#43AA8B]">30 minutes</span>,
+            and most people experience{" "}
             <span className="font-semibold text-[#43AA8B]">
-              immediate results
+              immediate improvement
             </span>{" "}
-            with clearer hearing, balanced sound, and greater comfort.
+            in hearing clarity and overall comfort.
           </p>
         </div>
       </div>

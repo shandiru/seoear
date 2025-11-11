@@ -8,8 +8,13 @@ export default function MicrosuctionComparison() {
         {/* Heading */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-[#0D1525] mb-4 font-serif">
-            Microsuction: The Modern Alternative to Ear Syringing
+            Professional Ear Wax Removal Made Simple
           </h2>
+          <p className="text-lg text-[#4B5563] max-w-3xl mx-auto leading-relaxed">
+            Our South Sheffield clinicians provide safe, gentle, and professional
+            microsuction treatment — carried out in the comfort of your home.
+            Quick, clean, and effective with no messy syringing or long clinic waits.
+          </p>
         </div>
 
         {/* Two-column comparison */}
@@ -42,10 +47,10 @@ export default function MicrosuctionComparison() {
 
             <ul className="space-y-3 text-[#4B5563]">
               {[
-                "Uses water to flush out wax",
-                "Can cause dizziness and discomfort",
-                "Risk of infection from water",
-                "Less precise and controlled",
+                "Uses water to flush out ear wax",
+                "Can feel uncomfortable or messy",
+                "May cause dizziness or infection risk",
+                "Less precise and controlled process",
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-2">
                   <svg
@@ -97,10 +102,10 @@ export default function MicrosuctionComparison() {
 
             <ul className="space-y-3 text-[#334155]">
               {[
-                "Gentle medical suction device",
-                "Precise removal under visual guidance",
-                "Water-free, reducing infection risk",
-                "Cleaner, faster, more comfortable",
+                "Gentle suction safely removes wax",
+                "Performed by trained clinicians at home",
+                "No water — reduces infection risk",
+                "Fast, clean and comfortable results",
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-2">
                   <svg
@@ -147,12 +152,11 @@ export default function MicrosuctionComparison() {
             </div>
           </div>
           <p className="text-lg leading-relaxed max-w-3xl mx-auto">
-            It is the{" "}
+            Microsuction is the{" "}
             <strong> safest and most effective ear wax removal technique </strong>{" "}
-            recommended by the NHS and audiology professionals. Whether you've
-            tried ear suction in Nottingham before or it’s your first time seeking
-            help, microsuction offers a cleaner, faster, and more comfortable
-            solution.
+            recommended by the NHS and hearing professionals. Our South Sheffield
+            team provides quick, comfortable, and professional treatment right in
+            your own home — no syringing, no mess, just clear hearing again.
           </p>
         </div>
       </div>

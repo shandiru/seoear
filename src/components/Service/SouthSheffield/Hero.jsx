@@ -23,7 +23,7 @@ export default function EarWaxHero() {
         <div className="container mx-auto px-4 py-16 md:py-24">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 text-[#0D1525]">
-              Ear Wax Removal in Nottingham
+             Ear Wax Removal in South Sheffield
             </h1>
 
             <p className="text-xl md:text-2xl lg:text-3xl text-[#334155] mb-8">
@@ -31,12 +31,21 @@ export default function EarWaxHero() {
             </p>
 
             <p className="text-base md:text-lg lg:text-xl text-[#4B5563] leading-relaxed mb-12 max-w-3xl mx-auto">
-              Blocked ears can make life uncomfortable, from muffled hearing and ringing to that
-              frustrating feeling of fullness. At <strong className="text-[#43AA8B]">EarWeGo</strong>, our ear wax removal in
-              Nottingham service restores clear hearing quickly and safely without you having to
-              visit a clinic. Our trained clinicians come directly to your home, bringing
-              medical-grade microsuction equipment and a calm, friendly approach.
-            </p>
+  Blocked ears can make life uncomfortable, from muffled hearing and ringing to that
+  frustrating feeling of fullness. At <strong className="text-[#43AA8B]">EarWeGo</strong>, our ear wax removal in
+  South Sheffield restores clear hearing quickly and safely without you having to
+  visit a clinic. Our trained clinicians come directly to your home, bringing
+  medical-grade microsuction equipment and a calm, friendly approach.
+  <br /><br />
+  If you’re struggling with blocked ears or muffled hearing, our professional ear wax
+  removal service in South Sheffield brings safe and effective ear care directly to
+  your home. Our trained clinicians use gentle microsuction to remove ear wax quickly,
+  cleanly and comfortably.
+  <br /><br />
+  We serve all of South Sheffield and surrounding areas including Woodseats, Meersbrook,
+  Norton Lees, Heeley and nearby villages such as Dronfield and Totley.
+</p>
+
 
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
