@@ -11,6 +11,7 @@ import GDPRConsent from "./components/GDPRBanner.jsx";
 import EarwaxremovalNottingham from "./Page/EarwaxremovalNottingham.jsx";
 import NotFoundPage from "./Page/NotFoundPage.jsx"; // ✅ create this page
 import Derby from "./Page/Derby.jsx"
+import EarwaxremovalLeicester from "./Page/EarwaxremovalLeicester.jsx";
 function App() {
   return (
     <Router>
