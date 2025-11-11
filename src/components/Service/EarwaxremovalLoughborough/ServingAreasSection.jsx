@@ -26,8 +26,29 @@ export default function ServingAreasSection() {
             Serving Loughborough &amp; Surrounding Areas
           </h2>
           <p className="text-lg text-[#334155]">
-            We’ve helped hundreds of people across Loughborough, West Bridgford,
-            Beeston, Arnold, and surrounding areas hear clearly again — often in
+            We’ve helped hundreds of people across Shelthorpe
+
+            Dishley
+
+            Hathern
+
+            Burleigh
+
+            Forest Side
+
+            Outwoods
+
+            Nanpantan
+
+            Thorpe Acre
+
+            Hastings
+
+            Grange Park
+
+            Quorn
+
+            Loughborough Town Centre hear clearly again — often in
             just one visit.
           </p>
         </div>

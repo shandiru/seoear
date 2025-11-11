@@ -3,19 +3,19 @@ import React from "react";
 
 export default function ServingAreasSection() {
   const areas = [
-  "Baswich",
-  "Wildwood",
-  "Weeping Cross",
-  "Castletown",
-  "Highfields",
-  "Holmcroft",
-  "Rowley Park",
-  "Queensville",
-  "Rickerscote",
-  "Forebridge",
-  "Doxey",
-  "Burton Manor"
-];
+    "Baswich",
+    "Wildwood",
+    "Weeping Cross",
+    "Castletown",
+    "Highfields",
+    "Holmcroft",
+    "Rowley Park",
+    "Queensville",
+    "Rickerscote",
+    "Forebridge",
+    "Doxey",
+    "Burton Manor"
+  ];
 
   return (
     <section className="py-16 md:py-24 bg-[linear-gradient(to_bottom,#F8FAFC,white,#EAF7F3)]">
@@ -26,8 +26,29 @@ export default function ServingAreasSection() {
             Serving Stafford &amp; Surrounding Areas
           </h2>
           <p className="text-lg text-[#334155]">
-            We’ve helped hundreds of people across Stafford, West Bridgford,
-            Beeston, Arnold, and surrounding areas hear clearly again — often in
+            We’ve helped hundreds of people across Baswich
+
+            Wildwood
+
+            Weeping Cross
+
+            Castletown
+
+            Highfields
+
+            Holmcroft
+
+            Rowley Park
+
+            Queensville
+
+            Rickerscote
+
+            Forebridge
+
+            Doxey
+
+            Burton Manor hear clearly again — often in
             just one visit.
           </p>
         </div>

@@ -3,19 +3,19 @@ import React from "react";
 
 export default function ServingAreasSection() {
   const areas = [
-  "Amington",
-  "Glascote",
-  "Belgrave",
-  "Kettlebrook",
-  "Stonydelph",
-  "Wilnecote",
-  "Fazeley",
-  "Bolehall",
-  "Coton Green",
-  "Two Gates",
-  "Gillway",
-  "Tamworth Town Centre"
-];
+    "Amington",
+    "Glascote",
+    "Belgrave",
+    "Kettlebrook",
+    "Stonydelph",
+    "Wilnecote",
+    "Fazeley",
+    "Bolehall",
+    "Coton Green",
+    "Two Gates",
+    "Gillway",
+    "Tamworth Town Centre"
+  ];
 
   return (
     <section className="py-16 md:py-24 bg-[linear-gradient(to_bottom,#F8FAFC,white,#EAF7F3)]">
@@ -26,8 +26,29 @@ export default function ServingAreasSection() {
             Serving Tamworth &amp; Surrounding Areas
           </h2>
           <p className="text-lg text-[#334155]">
-            We’ve helped hundreds of people across Tamworth, West Bridgford,
-            Beeston, Arnold, and surrounding areas hear clearly again — often in
+            We’ve helped hundreds of people across Amington
+
+            Glascote
+
+            Belgrave
+
+            Kettlebrook
+
+            Stonydelph
+
+            Wilnecote
+
+            Fazeley
+
+            Bolehall
+
+            Coton Green
+
+            Two Gates
+
+            Gillway
+
+            Tamworth Town Centre hear clearly again — often in
             just one visit.
           </p>
         </div>

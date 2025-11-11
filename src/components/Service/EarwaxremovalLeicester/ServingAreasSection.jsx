@@ -26,8 +26,29 @@ export default function ServingAreasSection() {
             Serving Leicester &amp; Surrounding Areas
           </h2>
           <p className="text-lg text-[#334155]">
-            We’ve helped hundreds of people across Leicester, West Bridgford,
-            Beeston, Arnold, and surrounding areas hear clearly again — often in
+            We’ve helped hundreds of people across Evington
+
+            Oadby
+
+            Highfields
+
+            Belgrave
+
+            Aylestone
+
+            Knighton
+
+            Humberstone
+
+            Hamilton
+
+            Braunstone
+
+            Westcotes
+
+            Clarendon Park
+
+            Leicester City Centre hear clearly again — often in
             just one visit.
           </p>
         </div>
