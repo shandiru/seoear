@@ -109,7 +109,7 @@ const Navbar = () => {
             {/* ✅ Hidden SEO-only links */}
             <div style={{ display: "none" }}>
               <a href="/earwax-removal-nottingham">Earwax Removal Nottingham</a>
-              <a href="/earwax-removal-derby">Earwax Removal Derby</a>
+              <a href="/derby">Earwax Removal Derby</a>
             </div>
           </nav>
 
