@@ -8,8 +8,19 @@ export default function MicrosuctionComparison() {
         {/* Heading */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-[#0D1525] mb-4 font-serif">
-            Microsuction: The Modern Alternative to Ear Syringing
+            Professional Ear Wax Removal Made Simple
           </h2>
+          <p className="text-lg md:text-xl text-[#334155] max-w-3xl mx-auto leading-relaxed">
+            Our <strong>Burton specialists</strong> provide:
+            <br />
+            <br />
+            Safe, professional microsuction performed at home <br />
+            Appointments to suit your schedule <br />
+            Polite, well-trained clinicians <br />
+            Fast, clean results <br />
+            <br />
+            No messy syringing or waiting rooms — just safe and effective ear care in your own space.
+          </p>
         </div>
 
         {/* Two-column comparison */}
@@ -147,12 +158,12 @@ export default function MicrosuctionComparison() {
             </div>
           </div>
           <p className="text-lg leading-relaxed max-w-3xl mx-auto">
-            It is the{" "}
-            <strong> safest and most effective ear wax removal technique </strong>{" "}
-            recommended by the NHS and audiology professionals. Whether you've
-            tried ear suction in Nottingham before or it’s your first time seeking
-            help, microsuction offers a cleaner, faster, and more comfortable
-            solution.
+            Microsuction is the{" "}
+            <strong>safest and most effective ear wax removal method</strong>{" "}
+            recommended by hearing specialists. Trusted across Staffordshire,
+            our <strong>Burton-based mobile team</strong> brings clean, fast, and
+            comfortable ear care directly to your home — without the hassle of
+            visiting a clinic.
           </p>
         </div>
       </div>

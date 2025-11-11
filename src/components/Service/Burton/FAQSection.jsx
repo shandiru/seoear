@@ -6,29 +6,29 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: "Is microsuction safe?",
+      question: "What areas of Burton do you cover?",
       answer:
-        "Yes. It is considered the safest and most effective method for ear wax removal, widely used by hearing professionals and clinics.",
+        "We cover Burton upon Trent, Stretton, Branston, Horninglow and nearby villages like Rolleston on Dove and Tatenhill.",
     },
     {
-      question: "How often should I have wax removed?",
+      question: "Do I need to prepare my ears before treatment?",
       answer:
-        "It varies from person to person, but most people benefit from treatment once or twice a year.",
-    },
-    {
-      question: "Can you remove wax from children's ears?",
-      answer:
-        "Yes, for children aged six and over, as long as they can stay comfortable and still during the procedure.",
-    },
-    {
-      question: "Do you charge extra for home visits?",
-      answer:
-        "No, home visits within the Nottingham area are included in your price. Travel charges may apply outside the area.",
+        "Using olive oil drops for a few days can help soften the wax, but it isn’t required before your appointment.",
     },
     {
       question: "How long does the appointment take?",
       answer:
-        "Appointments typically last around 30 minutes, and most clients notice clearer hearing immediately after treatment.",
+        "Most appointments last around 30 minutes, and many clients notice clearer hearing immediately after treatment.",
+    },
+    {
+      question: "Can I have both ears treated at once?",
+      answer:
+        "Yes, both ears can be treated in one visit for £60 — efficient and convenient.",
+    },
+    {
+      question: "How soon can I book?",
+      answer:
+        "Appointments are usually available within just a few days across Staffordshire, including Burton and surrounding areas.",
     },
   ];
 

@@ -5,8 +5,8 @@ export default function AppointmentSteps() {
   const steps = [
     {
       id: 1,
-      title: "Book Your Appointment",
-      desc: "Book a time online or by phone at a time that suits you.",
+      title: "Book Online or by Phone",
+      desc: "Simply book an appointment online or give us a quick call — whichever suits you best.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -29,8 +29,8 @@ export default function AppointmentSteps() {
     },
     {
       id: 2,
-      title: "We Come to You",
-      desc: "Your clinician arrives with sterilised, medical-grade tools.",
+      title: "We Visit Your Home",
+      desc: "Your clinician arrives at a convenient time, fully equipped with medical-grade tools.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -54,8 +54,8 @@ export default function AppointmentSteps() {
     },
     {
       id: 3,
-      title: "Inspection & Explanation",
-      desc: "We inspect your ear canals using an otoscope and explain each step.",
+      title: "Ear Examination & Explanation",
+      desc: "Your clinician examines your ears and clearly explains each step before starting.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -76,8 +76,8 @@ export default function AppointmentSteps() {
     },
     {
       id: 4,
-      title: "Gentle Treatment",
-      desc: "Microsuction treatment gently removes excess wax, restoring clear hearing.",
+      title: "Safe Microsuction Treatment",
+      desc: "Gentle microsuction removes ear wax efficiently and comfortably — no water, no mess.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -101,8 +101,8 @@ export default function AppointmentSteps() {
     },
     {
       id: 5,
-      title: "Aftercare Advice",
-      desc: "Aftercare advice helps you maintain healthy ears between appointments.",
+      title: "Aftercare & Advice",
+      desc: "We offer clear aftercare guidance to help you maintain healthy, wax-free ears.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -125,10 +125,15 @@ export default function AppointmentSteps() {
   return (
     <section className="py-24 bg-[linear-gradient(to_bottom,#F8FAFC,white,#EAF7F3)]">
       <div className="container mx-auto px-4">
+        {/* Header */}
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-[#0D1525] mb-4 font-serif">
-            What to Expect During Your Appointment
+            What to Expect
           </h2>
+          <p className="text-lg md:text-xl text-[#334155] max-w-2xl mx-auto">
+            From booking to aftercare, our process is designed for your comfort and convenience.  
+            Here’s what happens when you choose <strong className="text-[#43AA8B]">Earwego</strong> in Burton:
+          </p>
         </div>
 
         {/* Steps */}
@@ -162,13 +167,13 @@ export default function AppointmentSteps() {
         {/* Bottom Info Box */}
         <div className="mt-16 p-8 rounded-2xl bg-[#43AA8B]/10 border border-[#43AA8B]/30 text-center">
           <p className="text-lg text-[#0D1525] leading-relaxed">
-            A typical home visit lasts around{" "}
-            <span className="font-semibold text-[#43AA8B]">30 minutes</span>, and
-            most people notice{" "}
+            A typical home visit in Burton lasts around{" "}
+            <span className="font-semibold text-[#43AA8B]">30 minutes</span>.  
+            Most people notice{" "}
             <span className="font-semibold text-[#43AA8B]">
-              immediate results
+              immediate improvement
             </span>{" "}
-            with clearer hearing, balanced sound, and greater comfort.
+            in hearing clarity, balance, and comfort — all without leaving home.
           </p>
         </div>
       </div>
