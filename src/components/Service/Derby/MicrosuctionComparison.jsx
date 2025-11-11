@@ -12,117 +12,58 @@ export default function MicrosuctionComparison() {
           </h2>
         </div>
 
-        {/* Two-column comparison */}
-        <div className="grid md:grid-cols-2 gap-8 mb-12">
-          {/* Left Column */}
-          <div className="bg-white rounded-2xl p-8 border border-[#E5E7EB] shadow-sm hover:shadow-[0_0_20px_#9C79B333] transition-all duration-300">
-            <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 rounded-full bg-[#FEECEC] flex items-center justify-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="#C53030"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="w-6 h-6"
-                >
-                  <circle cx="12" cy="12" r="10"></circle>
-                  <path d="m15 9-6 6"></path>
-                  <path d="m9 9 6 6"></path>
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-[#0D1525]">
-                Our Derby Specialists Provide
-              </h3>
+        {/* Single full-width green section */}
+        <div className="bg-white rounded-2xl p-8 border-2 border-[#43AA8B] shadow-sm hover:shadow-[0_0_25px_#43AA8B33] transition-all duration-300 mb-12">
+          <div className="flex items-center gap-3 mb-6">
+            <div className="w-12 h-12 rounded-full bg-[#43AA8B] flex items-center justify-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="white"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="w-6 h-6"
+              >
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="m9 12 2 2 4-4"></path>
+              </svg>
             </div>
-
-            <ul className="space-y-3 text-[#4B5563]">
-              {[
-                "Professional microsuction, the safest and most effective way to remove ear wax",
-                "A fully mobile service carried out in your home at a time that suits you",
-                "Qualified and experienced clinicians who understand ear health",
-                "Quick results, restoring clear hearing in minutes",
-              ].map((item, index) => (
-                <li key={index} className="flex items-start gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="#C53030"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="w-5 h-5 mt-0.5 flex-shrink-0"
-                  >
-                    <circle cx="12" cy="12" r="10"></circle>
-                    <path d="m15 9-6 6"></path>
-                    <path d="m9 9 6 6"></path>
-                  </svg>
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
+            <h3 className="text-xl font-semibold text-[#0D1525]">
+              Our Derby Specialists Provide
+            </h3>
           </div>
 
-          {/* Right Column */}
-          <div className="bg-white rounded-2xl p-8 border-2 border-[#43AA8B] shadow-sm hover:shadow-[0_0_25px_#43AA8B33] transition-all duration-300">
-            <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 rounded-full bg-[#43AA8B] flex items-center justify-center">
+          <ul className="space-y-3 text-[#334155]">
+            {[
+              "Professional microsuction, the safest and most effective way to remove ear wax",
+              "A fully mobile service carried out in your home at a time that suits you",
+              "Qualified and experienced clinicians who understand ear health",
+              "Quick results, restoring clear hearing in minutes",
+            ].map((item, index) => (
+              <li key={index} className="flex items-start gap-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
+                  width="20"
+                  height="20"
                   viewBox="0 0 24 24"
                   fill="none"
-                  stroke="white"
+                  stroke="#43AA8B"
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  className="w-6 h-6"
+                  className="w-5 h-5 mt-0.5 flex-shrink-0"
                 >
                   <circle cx="12" cy="12" r="10"></circle>
                   <path d="m9 12 2 2 4-4"></path>
                 </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-[#0D1525]">
-                Reliable, Friendly Care
-              </h3>
-            </div>
-
-            <ul className="space-y-3 text-[#334155]">
-              {[
-                "No messy ear syringing in Derby",
-                "No waiting rooms, no fuss",
-                "Fully mobile service – we come to you",
-                "Friendly, professional clinicians you can trust",
-              ].map((item, index) => (
-                <li key={index} className="flex items-start gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="#43AA8B"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="w-5 h-5 mt-0.5 flex-shrink-0"
-                  >
-                    <circle cx="12" cy="12" r="10"></circle>
-                    <path d="m9 12 2 2 4-4"></path>
-                  </svg>
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
         </div>
 
         {/* Bottom Highlight */}
@@ -147,8 +88,8 @@ export default function MicrosuctionComparison() {
             </div>
           </div>
           <p className="text-lg leading-relaxed max-w-3xl mx-auto">
-            There’s no messy ear syringing in Derby, no waiting rooms and no fuss — 
-            just reliable, friendly care from professionals you can trust.
+            Experience the safest, cleanest, and most effective ear wax removal in Derby —
+            all done in the comfort of your home by trusted professionals.
           </p>
         </div>
       </div>
