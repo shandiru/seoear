@@ -26,27 +26,26 @@ export default function ServingAreasSection() {
             Serving Tamworth &amp; Surrounding Areas
           </h2>
           <p className="text-lg text-[#334155]">
-            We’ve helped hundreds of people across Amington
+            We’ve helped hundreds of people across Amington,
 
-            Glascote
+            Glascote,
 
-            Belgrave
+            Belgrave,
 
-            Kettlebrook
+            Kettlebrook,
+            Stonydelph,
 
-            Stonydelph
+            Wilnecote,
 
-            Wilnecote
+            Fazeley,
 
-            Fazeley
+            Bolehall,
 
-            Bolehall
+            Coton Green,
 
-            Coton Green
+            Two Gates,
 
-            Two Gates
-
-            Gillway
+            Gillway,
 
             Tamworth Town Centre hear clearly again — often in
             just one visit.

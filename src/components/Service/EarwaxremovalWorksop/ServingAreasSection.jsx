@@ -27,27 +27,27 @@ export default function ServingAreasSection() {
             Serving Worksop &amp; Surrounding Areas
           </h2>
           <p className="text-lg text-[#334155]">
-            We’ve helped hundreds of people across Kilton
+            We’ve helped hundreds of people across Kilton,
 
-            Manton
+            Manton,
 
-            Gateford
+            Gateford,
 
-            Shireoaks
+            Shireoaks,
 
-            Carlton in Lindrick
+            Carlton in Lindrick,
 
-            Rhodesia
+            Rhodesia,
 
-            Creswell
+            Creswell,
 
-            Langold
+            Langold,
 
-            Rayton
+            Rayton,
 
-            Bracebridge
+            Bracebridge,
 
-            Sandy Lane
+            Sandy Lane,
 
             Worksop Town Centre hear clearly again — often in
             just one visit.

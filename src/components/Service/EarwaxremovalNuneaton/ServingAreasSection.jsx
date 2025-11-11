@@ -27,27 +27,27 @@ export default function ServingAreasSection() {
             Serving Nuneaton &amp; Surrounding Areas
           </h2>
           <p className="text-lg text-[#334155]">
-            We’ve helped hundreds of people across Abbey Green
+            We’ve helped hundreds of people across Abbey Green,
 
-            Attleborough
+            Attleborough,
 
-            Bermuda Park
+            Bermuda Park,
 
-            Camp Hill
+            Camp Hill,
 
-            Chapel End
+            Chapel End,
 
-            Stockingford
+            Stockingford,
 
-            Whitestone
+            Whitestone,
 
-            Weddington
+            Weddington,
 
-            Galley Common
+            Galley Common,
 
-            Hill Top
+            Hill Top,
 
-            St Nicolas Park
+            St Nicolas Park,
 
             Nuneaton Town Centre hear clearly again — often in
             just one visit.

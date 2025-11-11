@@ -26,27 +26,27 @@ export default function ServingAreasSection() {
             Serving Loughborough &amp; Surrounding Areas
           </h2>
           <p className="text-lg text-[#334155]">
-            We’ve helped hundreds of people across Shelthorpe
+            We’ve helped hundreds of people across Shelthorpe,
 
-            Dishley
+            Dishley,
 
-            Hathern
+            Hathern,
 
-            Burleigh
+            Burleigh,
 
-            Forest Side
+            Forest Side,
 
-            Outwoods
+            Outwoods,
 
-            Nanpantan
+            Nanpantan,
 
-            Thorpe Acre
+            Thorpe Acre,
 
-            Hastings
+            Hastings,
 
-            Grange Park
+            Grange Park,
 
-            Quorn
+            Quorn,
 
             Loughborough Town Centre hear clearly again — often in
             just one visit.

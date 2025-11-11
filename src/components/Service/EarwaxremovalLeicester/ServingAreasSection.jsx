@@ -26,27 +26,27 @@ export default function ServingAreasSection() {
             Serving Leicester &amp; Surrounding Areas
           </h2>
           <p className="text-lg text-[#334155]">
-            We’ve helped hundreds of people across Evington
+            We’ve helped hundreds of people across Evington,
 
-            Oadby
+            Oadby,
 
-            Highfields
+            Highfields,
 
-            Belgrave
+            Belgrave,
 
-            Aylestone
+            Aylestone,
 
-            Knighton
+            Knighton,
 
-            Humberstone
+            Humberstone,
 
-            Hamilton
+            Hamilton,
 
-            Braunstone
+            Braunstone,
 
-            Westcotes
+            Westcotes,
 
-            Clarendon Park
+            Clarendon Park,
 
             Leicester City Centre hear clearly again — often in
             just one visit.

@@ -26,27 +26,26 @@ export default function ServingAreasSection() {
             Serving Stafford &amp; Surrounding Areas
           </h2>
           <p className="text-lg text-[#334155]">
-            We’ve helped hundreds of people across Baswich
+            We’ve helped hundreds of people across Baswich,
+            Wildwood,
 
-            Wildwood
+            Weeping Cross,
 
-            Weeping Cross
+            Castletown,
 
-            Castletown
+            Highfields,
 
-            Highfields
+            Holmcroft,
 
-            Holmcroft
+            Rowley Park,
 
-            Rowley Park
+            Queensville,
 
-            Queensville
+            Rickerscote,
 
-            Rickerscote
+            Forebridge,
 
-            Forebridge
-
-            Doxey
+            Doxey,
 
             Burton Manor hear clearly again — often in
             just one visit.
