@@ -31,17 +31,12 @@ export default function EarWaxHero() {
             </p>
 
            <p className="text-base md:text-lg lg:text-xl text-[#4B5563] leading-relaxed mb-12 max-w-3xl mx-auto">
-  Blocked ears can make life uncomfortable, from muffled hearing and ringing to that
-  frustrating feeling of fullness. At <strong className="text-[#43AA8B]">EarWeGo</strong>, our ear wax removal in
-  Nottingham service restores clear hearing quickly and safely without you having to
-  visit a clinic. Our trained clinicians come directly to your home, bringing
-  medical-grade microsuction equipment and a calm, friendly approach.
-  <br /><br />
+ 
   If blocked ears are affecting your comfort or hearing, <strong className="text-[#43AA8B]">EarWeGo</strong> provides safe and
   professional ear wax removal in Chesterfield, all from the comfort of your own home.
   Our trained clinicians use gentle microsuction to remove ear wax quickly and
   effectively.
-  <br /><br />
+  
   We cover Chesterfield and surrounding areas including Hasland, Brampton, Newbold and
   nearby villages such as Wingerworth, Walton and Holymoorside.
 </p>

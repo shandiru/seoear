@@ -31,17 +31,12 @@ export default function EarWaxHero() {
             </p>
 
             <p className="text-base md:text-lg lg:text-xl text-[#4B5563] leading-relaxed mb-12 max-w-3xl mx-auto">
-  Blocked ears can make life uncomfortable, from muffled hearing and ringing to that
-  frustrating feeling of fullness. At <strong className="text-[#43AA8B]">EarWeGo</strong>, our ear wax removal in
-  South Sheffield restores clear hearing quickly and safely without you having to
-  visit a clinic. Our trained clinicians come directly to your home, bringing
-  medical-grade microsuction equipment and a calm, friendly approach.
-  <br /><br />
+ 
   If you’re struggling with blocked ears or muffled hearing, our professional ear wax
   removal service in South Sheffield brings safe and effective ear care directly to
   your home. Our trained clinicians use gentle microsuction to remove ear wax quickly,
   cleanly and comfortably.
-  <br /><br />
+  
   We serve all of South Sheffield and surrounding areas including Woodseats, Meersbrook,
   Norton Lees, Heeley and nearby villages such as Dronfield and Totley.
 </p>
