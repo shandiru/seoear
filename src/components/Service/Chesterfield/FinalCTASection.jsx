@@ -29,7 +29,7 @@ export default function FinalCTASection() {
             professional care is available locally.
           </p>
           <p className="text-lg md:text-xl text-[#4B5563] mb-10 leading-relaxed">
-            Book your ear wax removal in Nottingham today and enjoy safe, expert
+            Book your ear wax removal in Chesterfield today and enjoy safe, expert
             treatment in the comfort of your own home.
           </p>
 

@@ -5,8 +5,8 @@ export default function AppointmentSteps() {
   const steps = [
     {
       id: 1,
-      title: "Book Your Appointment",
-      desc: "Book a time online or by phone at a time that suits you.",
+      title: "Book Online or by Phone",
+      desc: "Book your ear wax removal appointment easily online or by giving us a quick call.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -29,8 +29,8 @@ export default function AppointmentSteps() {
     },
     {
       id: 2,
-      title: "We Come to You",
-      desc: "Your clinician arrives with sterilised, medical-grade tools.",
+      title: "We Visit at a Convenient Time",
+      desc: "Your clinician visits at a time that suits you, bringing all necessary equipment.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -54,8 +54,8 @@ export default function AppointmentSteps() {
     },
     {
       id: 3,
-      title: "Inspection & Explanation",
-      desc: "We inspect your ear canals using an otoscope and explain each step.",
+      title: "Clinician Checks & Explains",
+      desc: "The clinician inspects your ears and clearly explains the procedure before treatment.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -76,8 +76,8 @@ export default function AppointmentSteps() {
     },
     {
       id: 4,
-      title: "Gentle Treatment",
-      desc: "Microsuction treatment gently removes excess wax, restoring clear hearing.",
+      title: "Wax Removed Safely",
+      desc: "Ear wax is gently removed using medical-grade microsuction for safe, effective results.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -101,8 +101,8 @@ export default function AppointmentSteps() {
     },
     {
       id: 5,
-      title: "Aftercare Advice",
-      desc: "Aftercare advice helps you maintain healthy ears between appointments.",
+      title: "Aftercare Advice Provided",
+      desc: "We provide simple aftercare guidance to help you maintain healthy, wax-free ears.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -127,7 +127,7 @@ export default function AppointmentSteps() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-[#0D1525] mb-4 font-serif">
-            What to Expect During Your Appointment
+            What to Expect
           </h2>
         </div>
 
@@ -162,13 +162,11 @@ export default function AppointmentSteps() {
         {/* Bottom Info Box */}
         <div className="mt-16 p-8 rounded-2xl bg-[#43AA8B]/10 border border-[#43AA8B]/30 text-center">
           <p className="text-lg text-[#0D1525] leading-relaxed">
-            A typical home visit lasts around{" "}
+            Most appointments take around{" "}
             <span className="font-semibold text-[#43AA8B]">30 minutes</span>, and
-            most people notice{" "}
-            <span className="font-semibold text-[#43AA8B]">
-              immediate results
-            </span>{" "}
-            with clearer hearing, balanced sound, and greater comfort.
+            you’ll usually experience{" "}
+            <span className="font-semibold text-[#43AA8B]">immediate relief</span>{" "}
+            and clearer hearing right after treatment.
           </p>
         </div>
       </div>

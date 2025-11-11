@@ -6,29 +6,27 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: "Is microsuction safe?",
+      question: "Which areas do you cover?",
       answer:
-        "Yes. It is considered the safest and most effective method for ear wax removal, widely used by hearing professionals and clinics.",
-    },
-    {
-      question: "How often should I have wax removed?",
-      answer:
-        "It varies from person to person, but most people benefit from treatment once or twice a year.",
-    },
-    {
-      question: "Can you remove wax from children's ears?",
-      answer:
-        "Yes, for children aged six and over, as long as they can stay comfortable and still during the procedure.",
-    },
-    {
-      question: "Do you charge extra for home visits?",
-      answer:
-        "No, home visits within the Nottingham area are included in your price. Travel charges may apply outside the area.",
+        "We cover Chesterfield, Brampton, Newbold, Hasland, Wingerworth, Walton and nearby villages across Derbyshire.",
     },
     {
       question: "How long does the appointment take?",
+      answer: "Typically around 30 minutes.",
+    },
+    {
+      question: "Can both ears be treated in one session?",
+      answer: "Yes, both ears can be done together for £60.",
+    },
+    {
+      question: "Is microsuction safe?",
       answer:
-        "Appointments typically last around 30 minutes, and most clients notice clearer hearing immediately after treatment.",
+        "Yes, it’s a clean and gentle method for removing ear wax — widely used by hearing care professionals.",
+    },
+    {
+      question: "How quickly can I get an appointment?",
+      answer:
+        "Appointments are usually available within a few days across Derbyshire.",
     },
   ];
 
@@ -91,7 +89,7 @@ export default function FAQSection() {
           ))}
         </div>
 
-        {/* Subtle Decorative Gradient Line */}
+        {/* Decorative Gradient Line */}
         <div className="mt-12 h-1 w-32 mx-auto rounded-full bg-gradient-to-r from-[#9C79B3]/40 via-[#43AA8B] to-[#9C79B3]/40"></div>
       </div>
     </section>
