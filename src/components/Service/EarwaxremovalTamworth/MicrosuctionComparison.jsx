@@ -82,10 +82,10 @@ export default function EarwegoServiceOverview() {
         <div className="bg-[linear-gradient(to_right,#43AA8B,#9C79B3)] rounded-2xl p-10 text-center text-white shadow-lg">
           <div className="flex justify-center mb-4">
             <div className="w-16 h-16 rounded-full bg-white/20 flex items-center justify-center">
-              <svg
+               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="28"
-                height="28"
+                width="26"
+                height="26"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="white"
@@ -94,7 +94,8 @@ export default function EarwegoServiceOverview() {
                 strokeLinejoin="round"
                 className="w-8 h-8"
               >
-                <path d="M12 2v20M2 12h20" />
+                <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path>
+                <circle cx="12" cy="8" r="6"></circle>
               </svg>
             </div>
           </div>
