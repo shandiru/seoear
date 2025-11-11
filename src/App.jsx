@@ -10,6 +10,7 @@ import PrivacyPolicy from "./components/PrivacyPolicy.jsx";
 import GDPRConsent from "./components/GDPRBanner.jsx";
 import EarwaxremovalNottingham from "./Page/EarwaxremovalNottingham.jsx";
 import NotFoundPage from "./Page/NotFoundPage.jsx"; // ✅ create this page
+import EarwaxremovalLeicester from "./Page/EarwaxremovalLeicester.jsx";
 
 function App() {
   return (
@@ -21,11 +22,8 @@ function App() {
         <Route path="/symptoms" element={<ServiceDetailpage />} />
         <Route path="/terms-conditions" element={<TermsConditions />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-        <Route
-          path="/earwax-removal-nottingham"
-          element={<EarwaxremovalNottingham />}
-        />
-
+        <Route path="/earwax-removal-nottingham" element={<EarwaxremovalNottingham />} />
+        <Route path="/earwax-removal-leicester" element={<EarwaxremovalLeicester />} />
         {/* ✅ Catch-all route for 404 */}
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
