@@ -20,21 +20,23 @@ export default function ServingAreasSection() {
   return (
     <section className="py-16 md:py-24 bg-[linear-gradient(to_bottom,#F8FAFC,white,#EAF7F3)]">
       <div className="container mx-auto px-4">
-        {/* Section Header */}
+        {/* ✅ Section Header */}
         <div className="text-center mb-12 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#0D1525] font-serif">
-            Hear Clearly Again
+            Serving South Sheffield &amp; Surrounding Areas
           </h2>
-          <p className="text-lg text-[#334155] mb-4">
-            Book your ear wax removal in South Sheffield today.
-          </p>
-          <p className="text-lg text-[#334155]">
-            <strong className="text-[#43AA8B]">EarWeGo</strong>, trusted across South
-            Yorkshire for professional mobile ear wax removal.
+          <p className="text-lg text-[#334155] leading-relaxed">
+            We’ve helped residents across{" "}
+            <strong>
+              Woodseats, Beauchief, Greenhill, Norton Lees, Meersbrook, Heeley,
+              Lowedges, Bradway, Totley, Dore, Jordanthorpe, Abbeydale
+            </strong>{" "}
+            and nearby South Yorkshire areas experience clearer hearing — often in just
+            one visit.
           </p>
         </div>
 
-        {/* Grid of Areas */}
+        {/* ✅ Grid of Areas */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 max-w-5xl mx-auto">
           {areas.map((area, index) => (
             <div
@@ -60,7 +62,8 @@ export default function ServingAreasSection() {
                     <circle cx="12" cy="10" r="3"></circle>
                   </svg>
                 </div>
-                {/* Text */}
+
+                {/* Area Name */}
                 <div className="flex-1 min-w-0">
                   <h3 className="font-semibold text-sm leading-tight text-[#0D1525]">
                     {area}
@@ -71,13 +74,16 @@ export default function ServingAreasSection() {
           ))}
         </div>
 
-        {/* Footer Text */}
+        {/* ✅ Footer Text */}
         <div className="mt-12 text-center">
-          <p className="text-[#334155] mb-3">Don’t see your area listed?</p>
-          <p className="text-sm text-[#4B5563] max-w-2xl mx-auto">
-            We cover all of South Sheffield and nearby areas across South Yorkshire.
-            Contact us to confirm if our home-visit ear wax removal service is available
-            where you live.
+          <p className="text-[#334155] mb-3 font-medium">
+            Don’t see your area listed?
+          </p>
+          <p className="text-sm text-[#4B5563] max-w-2xl mx-auto leading-relaxed">
+            We cover homes across <strong>South Sheffield</strong> and the wider{" "}
+            <strong>South Yorkshire</strong> area. Contact us to confirm if our
+            convenient at-home ear wax removal service is available in your
+            location.
           </p>
         </div>
       </div>

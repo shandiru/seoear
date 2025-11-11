@@ -20,22 +20,22 @@ export default function ServingAreasSection() {
   return (
     <section className="py-16 md:py-24 bg-[linear-gradient(to_bottom,#F8FAFC,white,#EAF7F3)]">
       <div className="container mx-auto px-4">
-        {/* Section Header */}
+        {/* ✅ Section Header */}
         <div className="text-center mb-12 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#0D1525] font-serif">
-            Hear Clearly Again
+            Serving Burton &amp; Surrounding Areas
           </h2>
-          <p className="text-lg text-[#334155] mb-2">
-            Book your ear wax removal in <strong>Burton</strong> today.
-          </p>
-          <p className="text-lg text-[#334155]">
-            <strong className="text-[#43AA8B]">Earwego</strong>, trusted across{" "}
-            <strong>Staffordshire</strong> for professional mobile ear wax
-            removal.
+          <p className="text-lg text-[#334155] leading-relaxed">
+            We’ve helped residents across{" "}
+            <strong>
+              Stapenhill, Winshill, Branston, Shobnall, Horninglow, Stretton,
+              Anglesey, Eton Park, Burton Town Centre, Outwoods, Beam Hill
+            </strong>{" "}
+            and the <strong>Dalton Road Area</strong> hear clearly again — often in just one visit.
           </p>
         </div>
 
-        {/* Grid of Areas */}
+        {/* ✅ Grid of Areas */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 max-w-5xl mx-auto">
           {areas.map((area, index) => (
             <div
@@ -61,7 +61,8 @@ export default function ServingAreasSection() {
                     <circle cx="12" cy="10" r="3"></circle>
                   </svg>
                 </div>
-                {/* Text */}
+
+                {/* Area Name */}
                 <div className="flex-1 min-w-0">
                   <h3 className="font-semibold text-sm leading-tight text-[#0D1525]">
                     {area}
@@ -72,12 +73,15 @@ export default function ServingAreasSection() {
           ))}
         </div>
 
-        {/* Footer Text */}
+        {/* ✅ Footer Text */}
         <div className="mt-12 text-center">
-          <p className="text-[#334155] mb-3">Don’t see your area listed?</p>
-          <p className="text-sm text-[#4B5563] max-w-2xl mx-auto">
-            We cover a wide radius across <strong>Staffordshire</strong>. Contact us
-            to confirm if our at-home ear wax removal service is available in your area.
+          <p className="text-[#334155] mb-3 font-medium">
+            Don’t see your area listed?
+          </p>
+          <p className="text-sm text-[#4B5563] max-w-2xl mx-auto leading-relaxed">
+            We cover a wide radius across <strong>Burton and Staffordshire</strong>.
+            Contact us to confirm if our convenient at-home ear wax removal
+            service is available in your area.
           </p>
         </div>
       </div>
