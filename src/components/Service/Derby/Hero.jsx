@@ -27,14 +27,24 @@ export default function EarWaxHero() {
             </h1>
 
             <p className="text-xl md:text-2xl lg:text-3xl text-[#334155] mb-8">
-              Safe, professional ear care in the comfort of your own home
+           Safe, professional ear care in the comfort of your own home
             </p>
 
-            <p className="text-base md:text-lg lg:text-xl text-[#4B5563] leading-relaxed mb-12 max-w-3xl mx-auto">
-             If you’re struggling with blocked ears in Derby, our friendly local team brings safe, professional ear care straight to your door. At Earwego, our ear wax removal in Derby service offers instant relief without needing to travel to a clinic or wait weeks for an appointment.
+<p className="text-base md:text-lg lg:text-xl text-[#4B5563] leading-relaxed mb-12 max-w-3xl mx-auto">
+  If you’re struggling with blocked ears in{" "}
+  <strong className="text-[#43AA8B]">Derby</strong>, our friendly local team
+  brings safe, professional ear care straight to your door. At{" "}
+  <strong className="text-[#43AA8B]">Earwego</strong>, our ear wax removal in
+  Derby service offers instant relief without needing to travel to a clinic or
+  wait weeks for an appointment.
+  
+  Our trained clinicians visit homes across Derby and nearby areas including
+  Allestree, Mickleover, Littleover, Chaddesden, Duffield and Belper. Using
+  advanced microsuction equipment, we gently and safely remove ear wax to
+  restore clear hearing quickly and comfortably.
+</p>
 
-Our trained clinicians visit homes across Derby and nearby areas including Allestree, Mickleover, Littleover, Chaddesden, Duffield and Belper. Using advanced microsuction equipment, we gently and safely remove ear wax to restore clear hearing quickly and comfortably.
-            </p>
+
 
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
