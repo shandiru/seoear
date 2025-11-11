@@ -27,8 +27,29 @@ export default function ServingAreasSection() {
             Serving Worksop &amp; Surrounding Areas
           </h2>
           <p className="text-lg text-[#334155]">
-            We’ve helped hundreds of people across Worksop, West Bridgford,
-            Beeston, Arnold, and surrounding areas hear clearly again — often in
+            We’ve helped hundreds of people across Kilton,
+
+            Manton,
+
+            Gateford,
+
+            Shireoaks,
+
+            Carlton in Lindrick,
+
+            Rhodesia,
+
+            Creswell,
+
+            Langold,
+
+            Rayton,
+
+            Bracebridge,
+
+            Sandy Lane,
+
+            Worksop Town Centre hear clearly again — often in
             just one visit.
           </p>
         </div>

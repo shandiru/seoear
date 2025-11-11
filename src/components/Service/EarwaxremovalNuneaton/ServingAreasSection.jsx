@@ -27,8 +27,29 @@ export default function ServingAreasSection() {
             Serving Nuneaton &amp; Surrounding Areas
           </h2>
           <p className="text-lg text-[#334155]">
-            We’ve helped hundreds of people across Nuneaton, West Bridgford,
-            Beeston, Arnold, and surrounding areas hear clearly again — often in
+            We’ve helped hundreds of people across Abbey Green,
+
+            Attleborough,
+
+            Bermuda Park,
+
+            Camp Hill,
+
+            Chapel End,
+
+            Stockingford,
+
+            Whitestone,
+
+            Weddington,
+
+            Galley Common,
+
+            Hill Top,
+
+            St Nicolas Park,
+
+            Nuneaton Town Centre hear clearly again — often in
             just one visit.
           </p>
         </div>
