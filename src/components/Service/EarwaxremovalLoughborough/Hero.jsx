@@ -23,16 +23,26 @@ export default function EarWaxHero() {
         <div className="container mx-auto px-4 py-16 md:py-24">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 text-[#0D1525]">
-              Ear Wax Removal in Loughborough
+               Ear Wax Removal in Loughborough
             </h1>
 
             <p className="text-xl md:text-2xl lg:text-3xl text-[#334155] mb-8">
-              If you’re experiencing blocked ears or reduced hearing, Earwego offers professional ear wax removal in Loughborough carried out in the comfort of your own home. Our qualified clinicians use gentle microsuction to clear ear wax quickly, safely and effectively.
+              Safe, professional ear care in the comfort of your own home
             </p>
 
             <p className="text-base md:text-lg lg:text-xl text-[#4B5563] leading-relaxed mb-12 max-w-3xl mx-auto">
-              We cover Loughborough and surrounding areas including Shelthorpe, Hathern, Quorn, Barrow upon Soar and nearby villages such as Mountsorrel and Sileby.
-            </p>
+  If you’re struggling with blocked ears in Derby, our friendly local team
+  brings safe, professional ear care straight to your door. At{" "}
+  <strong className="text-[#43AA8B]">EarWeGo</strong>, our ear wax removal in
+  Derby service offers instant relief without needing to travel to a clinic or
+  wait weeks for an appointment.
+  
+  Our trained clinicians visit homes across Derby and nearby areas including
+  Allestree, Mickleover, Littleover, Chaddesden, Duffield and Belper. Using
+  advanced microsuction equipment, we gently and safely remove ear wax to
+  restore clear hearing quickly and comfortably.
+</p>
+
 
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
