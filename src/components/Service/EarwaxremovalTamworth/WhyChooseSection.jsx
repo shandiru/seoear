@@ -28,7 +28,7 @@ export default function WhyChooseCarousel() {
       ),
       title: "Convenience",
       description:
-        "Home visits across Stafford and surrounding villages — professional ear care delivered at your door.",
+        "Mobile service covering Tamworth and surrounding villages for stress-free ear care.",
     },
     {
       icon: (
@@ -49,7 +49,7 @@ export default function WhyChooseCarousel() {
       ),
       title: "Professionalism",
       description:
-        "Experienced clinicians with a deep understanding of ear health to ensure safe and effective treatment.",
+        "Clinicians trained to deliver medical-standard care for safe and effective treatment.",
     },
     {
       icon: (
@@ -70,7 +70,7 @@ export default function WhyChooseCarousel() {
       ),
       title: "Comfort",
       description:
-        "Friendly service with clear explanations, keeping every appointment calm and reassuring.",
+        "Calm and reassuring service with clear communication throughout your appointment.",
     },
     {
       icon: (
@@ -90,7 +90,7 @@ export default function WhyChooseCarousel() {
       ),
       title: "Safety",
       description:
-        "Proven microsuction technique ensures a clean, safe, and effective ear wax removal experience.",
+        "Clean, hygienic methods that protect your hearing during every microsuction treatment.",
     },
   ];
 
@@ -102,12 +102,11 @@ export default function WhyChooseCarousel() {
           Why Choose <span className="text-[#43AA8B]">Earwego</span>?
         </h2>
         <p className="text-lg md:text-xl text-[#334155] max-w-3xl mx-auto mb-10">
-          Professional ear care in Stafford — convenient, comfortable, and safe home visits by experienced specialists.
+          Professional ear care in Tamworth — convenient, comfortable, and safe home visits by skilled clinicians.
         </p>
 
         {/* Carousel */}
         <div className="relative max-w-xl mx-auto">
-          {/* Swiper Arrows */}
           <button
             className="swiper-button-prev inline-flex items-center justify-center gap-2 text-sm font-medium transition-all border border-[#43AA8B]/40 shadow-xs hover:bg-[#43AA8B] hover:text-white size-9 absolute left-0 top-1/2 -translate-y-1/2 -translate-x-6 rounded-full bg-transparent text-[#43AA8B]"
             aria-label="Previous benefit"

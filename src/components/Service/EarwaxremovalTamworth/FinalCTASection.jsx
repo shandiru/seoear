@@ -25,10 +25,10 @@ export default function FinalCTASection() {
           </h2>
 
           <p className="text-lg md:text-xl text-[#4B5563] mb-4 leading-relaxed">
-        Book your ear wax removal in Stafford today, serving homes across Stafford and throughout Staffordshire.
-          </p>
+       Book your ear wax removal in Tamworth today.
+       </p>
           <p className="text-lg md:text-xl text-[#4B5563] mb-10 leading-relaxed">
-Earwego, trusted by residents across Staffordshire for professional mobile ear wax removal.
+Earwego, trusted across Staffordshire for professional mobile ear wax removal.
           </p>
 
           {/* Buttons */}

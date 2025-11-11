@@ -23,15 +23,15 @@ export default function EarWaxHero() {
         <div className="container mx-auto px-4 py-16 md:py-24">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 text-[#0D1525]">
-              Ear Wax Removal in Stafford
+              Ear Wax Removal in Tamworth
             </h1>
 
             <p className="text-xl md:text-2xl lg:text-3xl text-[#334155] mb-8">
-            If you’re in Stafford and struggling with blocked ears, our professional ear wax removal service offers quick relief without leaving home. Earwego provides safe, convenient ear care delivered by trained clinicians right across Stafford and the wider Staffordshire area.
+           If blocked ears are affecting your comfort or hearing, Earwego provides professional ear wax removal in Tamworth, all from the comfort of your own home. Our fully trained clinicians use safe and gentle microsuction to remove wax quickly and effectively.
             </p>
 
             <p className="text-base md:text-lg lg:text-xl text-[#4B5563] leading-relaxed mb-12 max-w-3xl mx-auto">
-              We visit areas including Baswich, Weeping Cross, Wildwood and nearby villages such as Brocton and Great Haywood. Using advanced microsuction, we gently remove ear wax to restore clear, comfortable hearing.
+              We cover all of Tamworth and nearby areas including Amington, Glascote, Wilnecote, Two Gates and local villages such as Polesworth and Dosthill.
             </p>
 
             {/* Buttons */}

@@ -11,7 +11,7 @@ export default function EarwegoServiceOverview() {
             Professional Ear Wax Removal Made Simple
           </h2>
           <p className="text-lg md:text-xl text-[#334155] max-w-3xl mx-auto">
-            There’s no messy ear syringing in Stafford — just expert, friendly
+            There’s no messy ear syringing in Tamworth — just expert, friendly
             care that fits around your schedule.
           </p>
         </div>
@@ -20,29 +20,29 @@ export default function EarwegoServiceOverview() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {[
             {
-              title: "Safe Home Treatment",
+              title: "Safe, Professional Microsuction",
               description:
-                "Gentle, effective microsuction performed in the comfort of your home — no clinic visit needed.",
-              iconColor: "#43AA8B",
+                "Gentle and effective microsuction performed safely at home — no clinic visit needed.",
+              iconColor: "#43AA8B"
             },
             {
-              title: "Flexible Appointments",
+              title: "Flexible Appointment Times",
               description:
-                "We arrange visits at a time that suits your schedule for complete convenience and ease.",
-              iconColor: "#43AA8B",
+                "Appointments arranged to fit your schedule for complete convenience and ease.",
+              iconColor: "#43AA8B"
             },
             {
-              title: "Experienced Clinicians",
+              title: "Friendly, Qualified Clinicians",
               description:
-                "Qualified professionals with the right skills and equipment to deliver reliable ear care.",
-              iconColor: "#43AA8B",
+                "Experienced professionals with the right skills and equipment to deliver reliable ear care.",
+              iconColor: "#43AA8B"
             },
             {
-              title: "Quick Relief & Clear Results",
+              title: "Fast Results & Lasting Comfort",
               description:
-                "Enjoy clearer hearing and comfort immediately after your treatment — results you can feel.",
-              iconColor: "#43AA8B",
-            },
+                "Enjoy clearer hearing immediately with results designed to provide lasting relief.",
+              iconColor: "#43AA8B"
+            }
           ].map((item, index) => (
             <div
               key={index}
@@ -99,7 +99,7 @@ export default function EarwegoServiceOverview() {
             </div>
           </div>
           <p className="text-lg leading-relaxed max-w-3xl mx-auto">
-            There’s no need for ear syringing in Stafford clinics, just reliable care from professionals who come to you.
+            No messy syringing or travel required, just reliable ear care where you are most comfortable.
           </p>
         </div>
       </div>

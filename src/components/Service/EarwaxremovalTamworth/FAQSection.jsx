@@ -6,24 +6,24 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      "question": "Which areas do you cover?",
-      "answer": "We serve Stafford, Baswich, Weeping Cross, Wildwood and surrounding villages like Brocton and Great Haywood."
+      "question": "Which areas of Tamworth do you visit?",
+      "answer": "We cover all areas including Amington, Glascote, Wilnecote, Two Gates, Dosthill and nearby villages like Polesworth."
     },
     {
-      "question": "How quickly can I book?",
-      "answer": "We usually offer appointments within a few days across Staffordshire."
+      "question": "How soon can I book?",
+      "answer": "Appointments are usually available within a few days in Tamworthshire."
     },
     {
-      "question": "Is microsuction painful?",
-      "answer": "No, it’s gentle and comfortable with immediate improvement in most cases."
+      "question": "Is the procedure safe?",
+      "answer": "Yes, microsuction is considered the safest method for ear wax removal."
     },
     {
-      "question": "Can I have both ears done in one visit?",
-      "answer": "Yes, our pricing includes £60 for both ears in a single session."
+      "question": "Can both ears be treated in one session?",
+      "answer": "Yes, and the cost is £60 for both ears."
     },
     {
-      "question": "Do you provide aftercare advice?",
-      "answer": "Yes, your clinician will explain how to keep your ears healthy between visits."
+      "question": "How long does treatment take?",
+      "answer": "Usually 30 minutes from start to finish."
     }
   ]
 

@@ -73,7 +73,7 @@ export default function AppointmentSteps() {
     },
     {
       id: 4,
-      title: "Microsuction gently removes wax",
+      title: "Microsuction gently removes the wax",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +97,7 @@ export default function AppointmentSteps() {
     },
     {
       id: 5,
-      title: "Aftercare advice provided",
+      title: "Aftercare advice is given",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"

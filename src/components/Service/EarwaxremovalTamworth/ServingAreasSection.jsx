@@ -3,18 +3,18 @@ import React from "react";
 
 export default function ServingAreasSection() {
   const areas = [
-  "Baswich",
-  "Wildwood",
-  "Weeping Cross",
-  "Castletown",
-  "Highfields",
-  "Holmcroft",
-  "Rowley Park",
-  "Queensville",
-  "Rickerscote",
-  "Forebridge",
-  "Doxey",
-  "Burton Manor"
+  "Amington",
+  "Glascote",
+  "Belgrave",
+  "Kettlebrook",
+  "Stonydelph",
+  "Wilnecote",
+  "Fazeley",
+  "Bolehall",
+  "Coton Green",
+  "Two Gates",
+  "Gillway",
+  "Tamworth Town Centre"
 ];
 
   return (
@@ -23,10 +23,10 @@ export default function ServingAreasSection() {
         {/* Section Header */}
         <div className="text-center mb-12 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#0D1525] font-serif">
-            Serving Stafford &amp; Surrounding Areas
+            Serving Tamworth &amp; Surrounding Areas
           </h2>
           <p className="text-lg text-[#334155]">
-            We’ve helped hundreds of people across Stafford, West Bridgford,
+            We’ve helped hundreds of people across Tamworth, West Bridgford,
             Beeston, Arnold, and surrounding areas hear clearly again — often in
             just one visit.
           </p>
@@ -75,7 +75,7 @@ export default function ServingAreasSection() {
             Don’t see your area listed?
           </p>
           <p className="text-sm text-[#4B5563] max-w-2xl mx-auto">
-            We cover a wide radius across Stafford. Contact us to confirm
+            We cover a wide radius across Tamworth. Contact us to confirm
             if our at-home ear wax removal service is available in your area.
           </p>
         </div>
