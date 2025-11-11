@@ -21,14 +21,14 @@ export default function FinalCTASection() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-[#0D1525] mb-6 font-serif">
-            Ready to Hear Clearly Again
+            Hear Clearly Again
           </h2>
 
           <p className="text-lg md:text-xl text-[#4B5563] mb-4 leading-relaxed">
-          Book your ear wax removal in Lincoln today, serving homes across Lincoln and Lincolnshire.
+        Book your ear wax removal in Stafford today, serving homes across Stafford and throughout Staffordshire.
           </p>
           <p className="text-lg md:text-xl text-[#4B5563] mb-10 leading-relaxed">
-          Earwego, trusted by residents across Lincolnshire for professional mobile ear wax removal.
+Earwego, trusted by residents across Staffordshire for professional mobile ear wax removal.
           </p>
 
           {/* Buttons */}

@@ -5,29 +5,27 @@ export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState(null);
 
   const faqs = [
-     {
-    question: "Which areas do you cover?",
-    answer:
-      "We cover Lincoln city, North Hykeham, Washingborough, Bracebridge Heath and nearby villages such as Nettleham and Skellingthorpe.",
-  },
-  {
-    question: "How long will the appointment take?",
-    answer: "Usually 30 minutes, depending on the amount of wax.",
-  },
-  {
-    question: "Can children be treated?",
-    answer: "Yes, from age 5 and above with parental consent.",
-  },
-  {
-    question: "Is microsuction safe if I’ve had ear problems before?",
-    answer:
-      "Yes, it’s a controlled and gentle procedure ideal for sensitive ears.",
-  },
-  {
-    question: "How soon can I get an appointment?",
-    answer: "We usually have availability within a few days in Lincolnshire.",
-  },
-  ];
+    {
+      "question": "Which areas do you cover?",
+      "answer": "We serve Stafford, Baswich, Weeping Cross, Wildwood and surrounding villages like Brocton and Great Haywood."
+    },
+    {
+      "question": "How quickly can I book?",
+      "answer": "We usually offer appointments within a few days across Staffordshire."
+    },
+    {
+      "question": "Is microsuction painful?",
+      "answer": "No, it’s gentle and comfortable with immediate improvement in most cases."
+    },
+    {
+      "question": "Can I have both ears done in one visit?",
+      "answer": "Yes, our pricing includes £60 for both ears in a single session."
+    },
+    {
+      "question": "Do you provide aftercare advice?",
+      "answer": "Yes, your clinician will explain how to keep your ears healthy between visits."
+    }
+  ]
 
 
   return (
@@ -44,8 +42,8 @@ export default function FAQSection() {
             <div
               key={index}
               className={`transition-all ${openIndex === index
-                  ? "bg-[#EAF7F3]/50"
-                  : "hover:bg-[#F8FAFC] hover:shadow-[0_0_10px_#43AA8B11]"
+                ? "bg-[#EAF7F3]/50"
+                : "hover:bg-[#F8FAFC] hover:shadow-[0_0_10px_#43AA8B11]"
                 }`}
             >
               <button
@@ -74,8 +72,8 @@ export default function FAQSection() {
 
               <div
                 className={`overflow-hidden transition-all duration-300 ease-in-out ${openIndex === index
-                    ? "max-h-40 opacity-100 px-6 pb-5"
-                    : "max-h-0 opacity-0 px-6"
+                  ? "max-h-40 opacity-100 px-6 pb-5"
+                  : "max-h-0 opacity-0 px-6"
                   }`}
               >
                 <p className="text-[#4B5563] text-base leading-relaxed">

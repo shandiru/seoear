@@ -28,7 +28,7 @@ export default function AppointmentSteps() {
     },
     {
       id: 2,
-      title: "We visit your home at a time that suits you",
+      title: "We visit at a time that suits you",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@ export default function AppointmentSteps() {
     },
     {
       id: 3,
-      title: "The clinician explains and carries out the treatment",
+      title: "The clinician checks your ears and explains the process",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +73,7 @@ export default function AppointmentSteps() {
     },
     {
       id: 4,
-      title: "Wax is removed using precise microsuction",
+      title: "Microsuction gently removes wax",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +97,7 @@ export default function AppointmentSteps() {
     },
     {
       id: 5,
-      title: "You receive practical aftercare advice",
+      title: "Aftercare advice provided",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
