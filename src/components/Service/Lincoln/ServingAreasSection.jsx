@@ -3,18 +3,18 @@ import React from "react";
 
 export default function ServingAreasSection() {
   const areas = [
-    "Nottingham City Centre",
-    "West Bridgford",
-    "Beeston",
-    "Arnold",
-    "Clifton",
-    "Mapperley",
-    "Carlton",
-    "Bulwell",
-    "Hucknall",
-    "Long Eaton",
-    "Stapleford",
-    "Gedling",
+    "Bracebridge Heath",
+    "Ermine",
+    "Glebe Park",
+    "Hartsholme",
+    "Birchwood",
+    "Boultham",
+    "Monks Road",
+    "St Giles",
+    "Carholme",
+    "Swallow Beck",
+    "City Centre (Cathedral Quarter & Bailgate)",
+    "North Hykeham",
   ];
 
   return (
@@ -23,12 +23,15 @@ export default function ServingAreasSection() {
         {/* Section Header */}
         <div className="text-center mb-12 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#0D1525] font-serif">
-            Serving Nottingham &amp; Surrounding Areas
+            Book Your Appointment
           </h2>
           <p className="text-lg text-[#334155]">
-            We’ve helped hundreds of people across Nottingham, West Bridgford,
-            Beeston, Arnold, and surrounding areas hear clearly again — often in
-            just one visit.
+            Book your ear wax removal in Lincoln today, serving homes across
+            Lincoln and Lincolnshire.
+          </p>
+          <p className="text-lg text-[#334155] mt-3">
+            <strong className="text-[#43AA8B]">EarWeGo</strong>, trusted by residents across Lincolnshire
+            for professional mobile ear wax removal.
           </p>
         </div>
 
@@ -75,7 +78,7 @@ export default function ServingAreasSection() {
             Don’t see your area listed?
           </p>
           <p className="text-sm text-[#4B5563] max-w-2xl mx-auto">
-            We cover a wide radius across Nottinghamshire. Contact us to confirm
+            We cover a wide radius across Lincolnshire. Contact us to confirm
             if our at-home ear wax removal service is available in your area.
           </p>
         </div>

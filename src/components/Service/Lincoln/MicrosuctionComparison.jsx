@@ -8,121 +8,62 @@ export default function MicrosuctionComparison() {
         {/* Heading */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-[#0D1525] mb-4 font-serif">
-            Microsuction: The Modern Alternative to Ear Syringing
+            Professional Ear Wax Removal Made Simple
           </h2>
         </div>
 
-        {/* Two-column comparison */}
-        <div className="grid md:grid-cols-2 gap-8 mb-12">
-          {/* Left – Traditional Ear Syringing */}
-          <div className="bg-white rounded-2xl p-8 border border-[#E5E7EB] shadow-sm hover:shadow-[0_0_20px_#9C79B333] transition-all duration-300">
-            <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 rounded-full bg-[#FEECEC] flex items-center justify-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="#C53030"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="w-6 h-6"
-                >
-                  <circle cx="12" cy="12" r="10"></circle>
-                  <path d="m15 9-6 6"></path>
-                  <path d="m9 9 6 6"></path>
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-[#0D1525]">
-                Traditional Ear Syringing
-              </h3>
+        {/* Single full-width section */}
+        <div className="bg-white rounded-2xl p-8 border-2 border-[#43AA8B] shadow-sm hover:shadow-[0_0_25px_#43AA8B33] transition-all duration-300 mb-12">
+          <div className="flex items-center gap-3 mb-6">
+            <div className="w-12 h-12 rounded-full bg-[#43AA8B] flex items-center justify-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="white"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="w-6 h-6"
+              >
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="m9 12 2 2 4-4"></path>
+              </svg>
             </div>
-
-            <ul className="space-y-3 text-[#4B5563]">
-              {[
-                "Uses water to flush out wax",
-                "Can cause dizziness and discomfort",
-                "Risk of infection from water",
-                "Less precise and controlled",
-              ].map((item, index) => (
-                <li key={index} className="flex items-start gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="#C53030"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="w-5 h-5 mt-0.5 flex-shrink-0"
-                  >
-                    <circle cx="12" cy="12" r="10"></circle>
-                    <path d="m15 9-6 6"></path>
-                    <path d="m9 9 6 6"></path>
-                  </svg>
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
+            <h3 className="text-xl font-semibold text-[#0D1525]">
+              Our Lincoln Clinicians Provide:
+            </h3>
           </div>
 
-          {/* Right – Modern Microsuction */}
-          <div className="bg-white rounded-2xl p-8 border-2 border-[#43AA8B] shadow-sm hover:shadow-[0_0_25px_#43AA8B33] transition-all duration-300">
-            <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 rounded-full bg-[#43AA8B] flex items-center justify-center">
+          <ul className="space-y-3 text-[#334155]">
+            {[
+              "Safe microsuction treatment in your home",
+              "Appointments arranged at your convenience",
+              "Experienced, professional clinicians",
+              "Quick results and lasting relief",
+            ].map((item, index) => (
+              <li key={index} className="flex items-start gap-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
+                  width="20"
+                  height="20"
                   viewBox="0 0 24 24"
                   fill="none"
-                  stroke="white"
+                  stroke="#43AA8B"
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  className="w-6 h-6"
+                  className="w-5 h-5 mt-0.5 flex-shrink-0"
                 >
                   <circle cx="12" cy="12" r="10"></circle>
                   <path d="m9 12 2 2 4-4"></path>
                 </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-[#0D1525]">
-                Modern Microsuction
-              </h3>
-            </div>
-
-            <ul className="space-y-3 text-[#334155]">
-              {[
-                "Gentle medical suction device",
-                "Precise removal under visual guidance",
-                "Water-free, reducing infection risk",
-                "Cleaner, faster, more comfortable",
-              ].map((item, index) => (
-                <li key={index} className="flex items-start gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="#43AA8B"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="w-5 h-5 mt-0.5 flex-shrink-0"
-                  >
-                    <circle cx="12" cy="12" r="10"></circle>
-                    <path d="m9 12 2 2 4-4"></path>
-                  </svg>
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
         </div>
 
         {/* Bottom Highlight */}
@@ -147,12 +88,8 @@ export default function MicrosuctionComparison() {
             </div>
           </div>
           <p className="text-lg leading-relaxed max-w-3xl mx-auto">
-            It is the{" "}
-            <strong> safest and most effective ear wax removal technique </strong>{" "}
-            recommended by the NHS and audiology professionals. Whether you've
-            tried ear suction in Nottingham before or it’s your first time seeking
-            help, microsuction offers a cleaner, faster, and more comfortable
-            solution.
+            There’s no messy ear cleaning in Lincoln clinics or travel required — 
+            just expert care where you’re most comfortable.
           </p>
         </div>
       </div>

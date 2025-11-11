@@ -6,29 +6,26 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: "Is microsuction safe?",
+      question: "Which areas do you cover?",
       answer:
-        "Yes. It is considered the safest and most effective method for ear wax removal, widely used by hearing professionals and clinics.",
+        "We cover Lincoln city, North Hykeham, Washingborough, Bracebridge Heath and nearby villages such as Nettleham and Skellingthorpe.",
     },
     {
-      question: "How often should I have wax removed?",
-      answer:
-        "It varies from person to person, but most people benefit from treatment once or twice a year.",
+      question: "How long will the appointment take?",
+      answer: "Usually 30 minutes, depending on the amount of wax.",
     },
     {
-      question: "Can you remove wax from children's ears?",
-      answer:
-        "Yes, for children aged six and over, as long as they can stay comfortable and still during the procedure.",
+      question: "Can children be treated?",
+      answer: "Yes, from age 5 and above with parental consent.",
     },
     {
-      question: "Do you charge extra for home visits?",
+      question: "Is microsuction safe if I’ve had ear problems before?",
       answer:
-        "No, home visits within the Nottingham area are included in your price. Travel charges may apply outside the area.",
+        "Yes, it’s a controlled and gentle procedure ideal for sensitive ears.",
     },
     {
-      question: "How long does the appointment take?",
-      answer:
-        "Appointments typically last around 30 minutes, and most clients notice clearer hearing immediately after treatment.",
+      question: "How soon can I get an appointment?",
+      answer: "We usually have availability within a few days in Lincolnshire.",
     },
   ];
 
@@ -91,7 +88,7 @@ export default function FAQSection() {
           ))}
         </div>
 
-        {/* Subtle Decorative Gradient Line */}
+        {/* Decorative Line */}
         <div className="mt-12 h-1 w-32 mx-auto rounded-full bg-gradient-to-r from-[#9C79B3]/40 via-[#43AA8B] to-[#9C79B3]/40"></div>
       </div>
     </section>

@@ -21,75 +21,12 @@ export default function WhyChooseCarousel() {
           strokeLinecap="round"
           strokeLinejoin="round"
         >
-          <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path>
-          <circle cx="12" cy="8" r="6"></circle>
-        </svg>
-      ),
-      title: "Professional expertise",
-      description:
-        "All treatments are carried out by trained, certified clinicians experienced in ear health and microsuction.",
-    },
-    {
-      icon: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="26"
-          height="26"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="#43AA8B"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        >
-          <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
-        </svg>
-      ),
-      title: "Safe & gentle microsuction",
-      description:
-        "The modern, medically recommended alternative to ear syringing. Clean, precise, and water-free, reducing infection risk.",
-    },
-    {
-      icon: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="26"
-          height="26"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="#43AA8B"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        >
-          <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path>
           <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
         </svg>
       ),
-      title: "Fully mobile service",
+      title: "Convenience",
       description:
-        "We bring everything to you — no travelling, no waiting rooms, no stress.",
-    },
-    {
-      icon: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="26"
-          height="26"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="#43AA8B"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        >
-          <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
-          <circle cx="12" cy="10" r="3"></circle>
-        </svg>
-      ),
-      title: "Local and trusted",
-      description:
-        "Based in Nottingham, we’re proud to serve our community with reliable, home-visit ear care.",
+        "Home visits across Lincoln and nearby areas — no need to travel or wait in clinics.",
     },
     {
       icon: (
@@ -108,9 +45,50 @@ export default function WhyChooseCarousel() {
           <polyline points="12 6 12 12 16 14"></polyline>
         </svg>
       ),
-      title: "Clear results in minutes",
+      title: "Professionalism",
       description:
-        "Most clients notice an immediate improvement in hearing and comfort after treatment.",
+        "Trained, well-equipped clinicians providing expert ear care with precision and care.",
+    },
+    {
+      icon: (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="26"
+          height="26"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#43AA8B"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+          <circle cx="12" cy="10" r="3"></circle>
+        </svg>
+      ),
+      title: "Comfort",
+      description:
+        "A calm, reassuring experience with clear communication and a gentle touch throughout.",
+    },
+    {
+      icon: (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="26"
+          height="26"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#43AA8B"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+        </svg>
+      ),
+      title: "Safety",
+      description:
+        "Gentle, hygienic microsuction methods trusted by clients across Lincolnshire.",
     },
   ];
 
@@ -119,17 +97,12 @@ export default function WhyChooseCarousel() {
       <div className="container mx-auto px-4 max-w-4xl text-center">
         {/* Header */}
         <h2 className="text-3xl md:text-4xl font-bold text-[#0D1525] mb-4 font-serif">
-          Why Choose <span className="text-[#43AA8B]">Earwego</span> for Ear Wax Removal in Nottingham
+          Why Choose <span className="text-[#43AA8B]">EarWeGo</span>?
         </h2>
         <p className="text-lg md:text-xl text-[#334155] max-w-3xl mx-auto mb-10">
-          We’re not just another ear cleaning service. We’re a small team of
-          qualified hearing care professionals who care deeply about your comfort,
-          safety, and confidence.
+          We’re proud to bring safe, comfortable, and professional ear wax removal
+          services directly to your home in Lincoln and surrounding areas.
         </p>
-
-        <h3 className="text-lg md:text-xl font-semibold text-[#0D1525] mb-8">
-          What makes us different:
-        </h3>
 
         {/* Carousel */}
         <div className="relative max-w-xl mx-auto">

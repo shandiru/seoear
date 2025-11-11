@@ -10,28 +10,27 @@ export default function PricingSection() {
     {
       title: "Single Ear",
       price: "£50",
-      subtitle: "Per ear treatment",
+      subtitle: "Professional treatment",
       button: "Book Single Ear",
       features: [
-        "Professional micro suction",
-        "Medical Grade Equipment",
-        "Home visit included",
-        "Same day appointments",
+        "Safe microsuction ear wax removal",
+        "Qualified clinician visit",
+        "At-home service included",
+        "Quick and effective results",
       ],
       popular: false,
     },
     {
       title: "Both Ears",
       price: "£60",
-      subtitle: "Complete treatment",
-      highlight: "Save £40!",
+      subtitle: "Complete ear wax removal",
       button: "Book Both Ears",
       features: [
-        "Professional micro suction",
-        "Medical Grade Equipment",
-        "Home visit included",
-        "Same day appointments",
-        "Complete ear health check",
+        "Safe microsuction ear wax removal",
+        "Qualified clinician visit",
+        "At-home service included",
+        "Quick and effective results",
+        "Full ear health check",
       ],
       popular: true,
     },
@@ -60,14 +59,14 @@ export default function PricingSection() {
         {/* Heading */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-[#0D1525] mb-4 font-serif">
-            Simple, Transparent Pricing
+            Pricing
           </h2>
           <p className="text-xl text-[#4B5563]">
-            Home visits only – no hidden fees, no clinic charges
+            No hidden fees or extra charges — the price you see is the price you pay.
           </p>
         </div>
 
-        {/* Pricing cards */}
+        {/* Pricing Cards */}
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-12 items-stretch">
           {plans.map((plan, i) => (
             <div
@@ -85,7 +84,6 @@ export default function PricingSection() {
                 </div>
               )}
 
-              {/* Content */}
               <div>
                 <h3 className="text-3xl font-bold text-center mb-4 text-[#0D1525]">
                   {plan.title}
@@ -96,11 +94,6 @@ export default function PricingSection() {
                     {plan.price}
                   </div>
                   <p className="text-[#4B5563]">{plan.subtitle}</p>
-                  {plan.highlight && (
-                    <p className="text-[#9C79B3] font-semibold mt-1">
-                      {plan.highlight}
-                    </p>
-                  )}
                 </div>
 
                 <ul className="space-y-4 mb-8 text-[#0D1525]">
@@ -126,7 +119,6 @@ export default function PricingSection() {
                 </ul>
               </div>
 
-              {/* ✅ Book Button now makes a phone call */}
               <div className="mt-auto">
                 <button
                   onClick={handleCall}
@@ -153,14 +145,13 @@ export default function PricingSection() {
           ))}
         </div>
 
-        {/* Footer text */}
-        <div className="text-center space-y-4">
+        {/* Footer Text */}
+        <div className="text-center space-y-3">
           <p className="text-lg font-semibold text-[#0D1525]">
-            All prices include home visit – no additional travel charges
+            No hidden fees or extra charges — the price you see is the price you pay.
           </p>
           <p className="text-[#4B5563]">
-            Covering Derby, Nottingham, Leicestershire, Lincolnshire, and
-            Staffordshire
+            Serving homes across Lincoln and Lincolnshire.
           </p>
         </div>
       </div>

@@ -5,8 +5,8 @@ export default function AppointmentSteps() {
   const steps = [
     {
       id: 1,
-      title: "Book Your Appointment",
-      desc: "Book a time online or by phone at a time that suits you.",
+      title: "Book Online or by Phone",
+      desc: "Easily book your appointment online or call us to choose a time that suits you.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -29,8 +29,8 @@ export default function AppointmentSteps() {
     },
     {
       id: 2,
-      title: "We Come to You",
-      desc: "Your clinician arrives with sterilised, medical-grade tools.",
+      title: "We Visit Your Home",
+      desc: "Your clinician arrives fully equipped to carry out your ear wax removal in comfort.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -54,8 +54,8 @@ export default function AppointmentSteps() {
     },
     {
       id: 3,
-      title: "Inspection & Explanation",
-      desc: "We inspect your ear canals using an otoscope and explain each step.",
+      title: "Explanation & Treatment",
+      desc: "The clinician explains the process clearly before carrying out safe microsuction treatment.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -76,8 +76,8 @@ export default function AppointmentSteps() {
     },
     {
       id: 4,
-      title: "Gentle Treatment",
-      desc: "Microsuction treatment gently removes excess wax, restoring clear hearing.",
+      title: "Wax Removed Using Microsuction",
+      desc: "Precise, gentle suction removes the wax while ensuring your safety and comfort.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -102,7 +102,7 @@ export default function AppointmentSteps() {
     {
       id: 5,
       title: "Aftercare Advice",
-      desc: "Aftercare advice helps you maintain healthy ears between appointments.",
+      desc: "Receive practical advice to help maintain healthy, clear ears after your appointment.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -127,7 +127,7 @@ export default function AppointmentSteps() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-[#0D1525] mb-4 font-serif">
-            What to Expect During Your Appointment
+            What to Expect
           </h2>
         </div>
 
@@ -168,7 +168,7 @@ export default function AppointmentSteps() {
             <span className="font-semibold text-[#43AA8B]">
               immediate results
             </span>{" "}
-            with clearer hearing, balanced sound, and greater comfort.
+            with clearer hearing, comfort, and peace of mind.
           </p>
         </div>
       </div>
