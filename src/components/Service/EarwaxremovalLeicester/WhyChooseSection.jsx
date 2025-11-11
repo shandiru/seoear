@@ -27,7 +27,7 @@ export default function WhyChooseCarousel() {
         </svg>
       ),
       title: "Convenience",
-      description: "Home visits across Leicester and nearby areas — we come to you for stress-free ear care.",
+      description: " Home visits across Leicester and nearby areas.",
     },
     {
       icon: (
@@ -47,7 +47,7 @@ export default function WhyChooseCarousel() {
         </svg>
       ),
       title: "Professionalism",
-      description: "Trained clinicians using medical-grade equipment ensure the highest standards of ear care.",
+      description: "Trained clinicians using medical-grade equipment.",
     },
     {
       icon: (
@@ -67,7 +67,7 @@ export default function WhyChooseCarousel() {
         </svg>
       ),
       title: "Comfort",
-      description: "We provide clear explanations and gentle treatment to ensure a calm, reassuring experience.",
+      description: " Clear explanations and gentle treatment.",
     },
     {
       icon: (
@@ -86,7 +86,7 @@ export default function WhyChooseCarousel() {
         </svg>
       ),
       title: "Safety",
-      description: "We follow strict hygiene and sterilisation standards for your complete peace of mind.",
+      description: "We follow strict hygiene standards.",
     },
   ];
 

@@ -27,11 +27,13 @@ export default function EarWaxHero() {
             </h1>
 
             <p className="text-xl md:text-2xl lg:text-3xl text-[#334155] mb-8">
-             Safe, professional ear care in the comfort of your own home
+              Safe, professional ear care in the comfort of your own home
             </p>
 
             <p className="text-base md:text-lg lg:text-xl text-[#4B5563] leading-relaxed mb-12 max-w-3xl mx-auto">
-             Our Leicester clinicians visit areas such as Oadby, Braunstone, Wigston and Glenfield. We also serve nearby villages including Kirby Muxloe and Thurmaston. Using gentle microsuction, we remove ear wax safely and efficiently for clearer, more comfortable hearing.
+              If you’re in Leicester and dealing with blocked ears, our mobile ear wax removal service brings fast, professional relief to you. At Earwego, we make it simple to enjoy safe ear care from qualified clinicians without visiting a clinic.
+
+              Our Leicester clinicians visit areas such as Oadby, Braunstone, Wigston and Glenfield. We also serve nearby villages including Kirby Muxloe and Thurmaston. Using gentle microsuction, we remove ear wax safely and efficiently for clearer, more comfortable hearing.
             </p>
 
             {/* Buttons */}
