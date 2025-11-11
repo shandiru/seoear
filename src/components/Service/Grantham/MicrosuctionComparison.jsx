@@ -8,44 +8,47 @@ export default function MicrosuctionComparison() {
         {/* Heading */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-[#0D1525] mb-4 font-serif">
-            Microsuction: The Modern Alternative to Ear Syringing
+            Professional Ear Wax Removal Made Simple
           </h2>
+          <p className="text-lg md:text-xl text-[#334155] max-w-3xl mx-auto">
+            Our Grantham specialists provide safe, gentle, and effective ear care
+            right at home — no messy syringing or travel needed.
+          </p>
         </div>
 
-        {/* Two-column comparison */}
+        {/* Two-column list layout */}
         <div className="grid md:grid-cols-2 gap-8 mb-12">
-          {/* Left – Traditional Ear Syringing */}
+          {/* Left column – Service Features */}
           <div className="bg-white rounded-2xl p-8 border border-[#E5E7EB] shadow-sm hover:shadow-[0_0_20px_#9C79B333] transition-all duration-300">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 rounded-full bg-[#FEECEC] flex items-center justify-center">
+              <div className="w-12 h-12 rounded-full bg-[#43AA8B]/10 flex items-center justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
                   fill="none"
-                  stroke="#C53030"
+                  stroke="#43AA8B"
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   className="w-6 h-6"
                 >
                   <circle cx="12" cy="12" r="10"></circle>
-                  <path d="m15 9-6 6"></path>
-                  <path d="m9 9 6 6"></path>
+                  <path d="m9 12 2 2 4-4"></path>
                 </svg>
               </div>
               <h3 className="text-xl font-semibold text-[#0D1525]">
-                Traditional Ear Syringing
+                Our Grantham Specialists Provide:
               </h3>
             </div>
 
             <ul className="space-y-3 text-[#4B5563]">
               {[
-                "Uses water to flush out wax",
-                "Can cause dizziness and discomfort",
-                "Risk of infection from water",
-                "Less precise and controlled",
+                "Safe microsuction performed at home",
+                "Convenient appointments arranged around you",
+                "Polite, professional clinicians with full training",
+                "Fast, clean and effective treatment",
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-2">
                   <svg
@@ -54,15 +57,14 @@ export default function MicrosuctionComparison() {
                     height="20"
                     viewBox="0 0 24 24"
                     fill="none"
-                    stroke="#C53030"
+                    stroke="#43AA8B"
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     className="w-5 h-5 mt-0.5 flex-shrink-0"
                   >
                     <circle cx="12" cy="12" r="10"></circle>
-                    <path d="m15 9-6 6"></path>
-                    <path d="m9 9 6 6"></path>
+                    <path d="m9 12 2 2 4-4"></path>
                   </svg>
                   <span>{item}</span>
                 </li>
@@ -70,7 +72,7 @@ export default function MicrosuctionComparison() {
             </ul>
           </div>
 
-          {/* Right – Modern Microsuction */}
+          {/* Right column – Key Benefit Summary */}
           <div className="bg-white rounded-2xl p-8 border-2 border-[#43AA8B] shadow-sm hover:shadow-[0_0_25px_#43AA8B33] transition-all duration-300">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 rounded-full bg-[#43AA8B] flex items-center justify-center">
@@ -91,16 +93,16 @@ export default function MicrosuctionComparison() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold text-[#0D1525]">
-                Modern Microsuction
+                Why Choose Earwego?
               </h3>
             </div>
 
             <ul className="space-y-3 text-[#334155]">
               {[
-                "Gentle medical suction device",
-                "Precise removal under visual guidance",
-                "Water-free, reducing infection risk",
-                "Cleaner, faster, more comfortable",
+                "No messy ear syringing or water irrigation",
+                "No need to travel across town",
+                "Quick, precise, and hygienic treatment",
+                "Clear hearing restored comfortably in your own home",
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-2">
                   <svg
@@ -147,12 +149,10 @@ export default function MicrosuctionComparison() {
             </div>
           </div>
           <p className="text-lg leading-relaxed max-w-3xl mx-auto">
-            It is the{" "}
-            <strong> safest and most effective ear wax removal technique </strong>{" "}
-            recommended by the NHS and audiology professionals. Whether you've
-            tried ear suction in Nottingham before or it’s your first time seeking
-            help, microsuction offers a cleaner, faster, and more comfortable
-            solution.
+            No messy syringing, no long journeys — just{" "}
+            <strong>clearer hearing in comfort</strong> with our trusted mobile
+            microsuction service in Grantham. Experience safe, clean, and
+            professional ear care at home.
           </p>
         </div>
       </div>

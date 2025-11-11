@@ -3,18 +3,18 @@ import React from "react";
 
 export default function ServingAreasSection() {
   const areas = [
-    "Nottingham City Centre",
-    "West Bridgford",
-    "Beeston",
-    "Arnold",
-    "Clifton",
-    "Mapperley",
-    "Carlton",
-    "Bulwell",
-    "Hucknall",
-    "Long Eaton",
-    "Stapleford",
-    "Gedling",
+    "Barrowby Gate",
+    "Gonerby Hill Foot",
+    "Manthorpe",
+    "Alma Park",
+    "Earlesfield",
+    "Harrowby",
+    "Somerby Hill",
+    "Great Gonerby",
+    "Swingbridge",
+    "St. Anne’s",
+    "Green Hill",
+    "Grantham Town Centre",
   ];
 
   return (
@@ -23,12 +23,14 @@ export default function ServingAreasSection() {
         {/* Section Header */}
         <div className="text-center mb-12 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#0D1525] font-serif">
-            Serving Nottingham &amp; Surrounding Areas
+            Hear Clearly Again
           </h2>
           <p className="text-lg text-[#334155]">
-            We’ve helped hundreds of people across Nottingham, West Bridgford,
-            Beeston, Arnold, and surrounding areas hear clearly again — often in
-            just one visit.
+            Book your ear wax removal in <strong className="text-[#43AA8B]">Grantham</strong> today.
+            <br />
+            <br />
+            <strong className="text-[#43AA8B]">Earwego</strong>, trusted across Lincolnshire for professional
+            mobile ear wax removal.
           </p>
         </div>
 
@@ -71,12 +73,10 @@ export default function ServingAreasSection() {
 
         {/* Footer Text */}
         <div className="mt-12 text-center">
-          <p className="text-[#334155] mb-3">
-            Don’t see your area listed?
-          </p>
+          <p className="text-[#334155] mb-3">Don’t see your area listed?</p>
           <p className="text-sm text-[#4B5563] max-w-2xl mx-auto">
-            We cover a wide radius across Nottinghamshire. Contact us to confirm
-            if our at-home ear wax removal service is available in your area.
+            We cover all of Grantham and surrounding villages. Contact us to confirm
+            if our home visit ear wax removal service is available in your area.
           </p>
         </div>
       </div>

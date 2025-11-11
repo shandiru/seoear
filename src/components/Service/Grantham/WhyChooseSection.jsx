@@ -21,54 +21,33 @@ export default function WhyChooseCarousel() {
           strokeLinecap="round"
           strokeLinejoin="round"
         >
-          <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path>
-          <circle cx="12" cy="8" r="6"></circle>
-        </svg>
-      ),
-      title: "Professional expertise",
-      description:
-        "All treatments are carried out by trained, certified clinicians experienced in ear health and microsuction.",
-    },
-    {
-      icon: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="26"
-          height="26"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="#43AA8B"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        >
-          <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
-        </svg>
-      ),
-      title: "Safe & gentle microsuction",
-      description:
-        "The modern, medically recommended alternative to ear syringing. Clean, precise, and water-free, reducing infection risk.",
-    },
-    {
-      icon: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="26"
-          height="26"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="#43AA8B"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        >
           <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path>
           <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
         </svg>
       ),
-      title: "Fully mobile service",
+      title: "Convenience",
+      description: "Home visits across Grantham and local villages.",
+    },
+    {
+      icon: (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="26"
+          height="26"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#43AA8B"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path>
+          <circle cx="12" cy="8" r="6"></circle>
+        </svg>
+      ),
+      title: "Professionalism",
       description:
-        "We bring everything to you — no travelling, no waiting rooms, no stress.",
+        "Trained clinicians using medical-grade tools for every appointment.",
     },
     {
       icon: (
@@ -87,9 +66,8 @@ export default function WhyChooseCarousel() {
           <circle cx="12" cy="10" r="3"></circle>
         </svg>
       ),
-      title: "Local and trusted",
-      description:
-        "Based in Nottingham, we’re proud to serve our community with reliable, home-visit ear care.",
+      title: "Comfort",
+      description: "Clear explanations and gentle care every step of the way.",
     },
     {
       icon: (
@@ -104,13 +82,12 @@ export default function WhyChooseCarousel() {
           strokeLinecap="round"
           strokeLinejoin="round"
         >
-          <circle cx="12" cy="12" r="10"></circle>
-          <polyline points="12 6 12 12 16 14"></polyline>
+          <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
         </svg>
       ),
-      title: "Clear results in minutes",
+      title: "Safety",
       description:
-        "Most clients notice an immediate improvement in hearing and comfort after treatment.",
+        "Trusted microsuction method that protects your ear health.",
     },
   ];
 
@@ -119,21 +96,17 @@ export default function WhyChooseCarousel() {
       <div className="container mx-auto px-4 max-w-4xl text-center">
         {/* Header */}
         <h2 className="text-3xl md:text-4xl font-bold text-[#0D1525] mb-4 font-serif">
-          Why Choose <span className="text-[#43AA8B]">Earwego</span> for Ear Wax Removal in Nottingham
+          Why Choose <span className="text-[#43AA8B]">Earwego</span>?
         </h2>
         <p className="text-lg md:text-xl text-[#334155] max-w-3xl mx-auto mb-10">
-          We’re not just another ear cleaning service. We’re a small team of
-          qualified hearing care professionals who care deeply about your comfort,
-          safety, and confidence.
+          Experience reliable, gentle ear care in the comfort of your own home.
+          We bring expert service to Grantham and nearby villages for safe,
+          comfortable results.
         </p>
-
-        <h3 className="text-lg md:text-xl font-semibold text-[#0D1525] mb-8">
-          What makes us different:
-        </h3>
 
         {/* Carousel */}
         <div className="relative max-w-xl mx-auto">
-          {/* Swiper Arrows */}
+          {/* Navigation Arrows */}
           <button
             className="swiper-button-prev inline-flex items-center justify-center gap-2 text-sm font-medium transition-all border border-[#43AA8B]/40 shadow-xs hover:bg-[#43AA8B] hover:text-white size-9 absolute left-0 top-1/2 -translate-y-1/2 -translate-x-6 rounded-full bg-transparent text-[#43AA8B]"
             aria-label="Previous benefit"
@@ -174,6 +147,7 @@ export default function WhyChooseCarousel() {
             </svg>
           </button>
 
+          {/* Swiper Carousel */}
           <Swiper
             modules={[Navigation, Pagination, A11y, Autoplay]}
             spaceBetween={40}

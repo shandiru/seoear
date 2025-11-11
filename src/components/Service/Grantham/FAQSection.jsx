@@ -6,29 +6,29 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: "Is microsuction safe?",
+      question: "Do you visit areas outside Grantham?",
       answer:
-        "Yes. It is considered the safest and most effective method for ear wax removal, widely used by hearing professionals and clinics.",
+        "Yes, we cover Barrowby, Great Gonerby, Harlaxton, Belton and nearby villages across Lincolnshire.",
     },
     {
-      question: "How often should I have wax removed?",
+      question: "Is microsuction suitable for older clients?",
       answer:
-        "It varies from person to person, but most people benefit from treatment once or twice a year.",
+        "Yes, it’s gentle and ideal for clients of all ages.",
     },
     {
-      question: "Can you remove wax from children's ears?",
+      question: "How long will it take?",
       answer:
-        "Yes, for children aged six and over, as long as they can stay comfortable and still during the procedure.",
+        "Most appointments last around 30 minutes.",
     },
     {
-      question: "Do you charge extra for home visits?",
+      question: "Is ear wax removal safe for hearing aid users?",
       answer:
-        "No, home visits within the Nottingham area are included in your price. Travel charges may apply outside the area.",
+        "Yes, and it can even improve hearing aid performance by reducing blockage and feedback.",
     },
     {
-      question: "How long does the appointment take?",
+      question: "How soon can I book?",
       answer:
-        "Appointments typically last around 30 minutes, and most clients notice clearer hearing immediately after treatment.",
+        "Appointments are usually available within a few days in Grantham and nearby areas.",
     },
   ];
 
@@ -91,7 +91,7 @@ export default function FAQSection() {
           ))}
         </div>
 
-        {/* Subtle Decorative Gradient Line */}
+        {/* Decorative Gradient Line */}
         <div className="mt-12 h-1 w-32 mx-auto rounded-full bg-gradient-to-r from-[#9C79B3]/40 via-[#43AA8B] to-[#9C79B3]/40"></div>
       </div>
     </section>
