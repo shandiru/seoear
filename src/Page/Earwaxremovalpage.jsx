@@ -23,7 +23,7 @@ function Earwax() {
           content="ear wax removal, micro suction, ear cleaning, home ear care, safe ear treatment, EarWeGo"
         />
         <meta name="robots" content="index, follow" />
-         <link rel="canonical" href="https://earwego.co.uk/Earwaxremovalpage" />
+         <link rel="canonical" href="https://earwego.co.uk/Earwaxremovalpage/" />
          <meta name="google-site-verification" content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" />
       </Helmet>
 

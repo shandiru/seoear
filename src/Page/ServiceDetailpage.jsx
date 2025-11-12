@@ -137,7 +137,7 @@ export default function ServiceDetail() {
           name="description"
           content="Explore symptoms like muffled hearing, tinnitus, earache, dizziness, itchiness, and device issues. Learn how EarWeGo Nottingham provides safe micro suction ear wax removal to restore clear hearing."
         />
-        <link rel="canonical" href="https://earwego.co.uk/symptoms" />
+        <link rel="canonical" href="https://earwego.co.uk/symptoms/" />
         <meta name="google-site-verification" content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" />
       </Helmet>
     <main className="py-10">
