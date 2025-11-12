@@ -33,7 +33,7 @@ function App() {
         <Route path="/symptoms" element={<ServiceDetailpage />} />
         <Route path="/terms-conditions" element={<TermsConditions />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-        <Route path="/derby" element={<Derby />} />
+        <Route path="/earwax-removal-derby" element={<Derby />} />
         <Route
           path="/earwax-removal-nottingham"
           element={<EarwaxremovalNottingham />}

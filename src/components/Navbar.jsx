@@ -9,7 +9,6 @@ const Navbar = () => {
   const [locationOpen, setLocationOpen] = useState(false);
   const location = useLocation();
 
-  // Close mobile menu when resizing to desktop
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth >= 1024) setOpen(false);
@@ -18,13 +17,11 @@ const Navbar = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  // Auto-close dropdown when route changes
   useEffect(() => {
     setOpen(false);
     setLocationOpen(false);
   }, [location]);
 
-  // Smooth scroll for internal hash links
   const enhancedScroll = (el) => {
     if (el) {
       const y = el.getBoundingClientRect().top + window.scrollY - 100;
@@ -32,34 +29,33 @@ const Navbar = () => {
     }
   };
 
+  // ✅ Navigation links (with trailing slash)
   const links = [
     { label: "Why Us", href: "/#whyus" },
     { label: "Pricing", href: "/#pricing" },
     { label: "Team", href: "/#team" },
     { label: "Reviews", href: "/#reviews" },
     { label: "FAQ", href: "/#faq" },
-    { label: "Symptoms", href: "/symptoms" },
-    { label: "Micro Suction", href: "/Earwaxremovalpage" },
+    { label: "Symptoms", href: "/symptoms/" },
+    { label: "Micro Suction", href: "/earwaxremovalpage/" },
     { label: "Contact", href: "/#contact" },
   ];
 
-  // ✅ All Service Area Locations
+  // ✅ Updated Service Area Locations (with trailing slash)
   const locations = [
-    { name: "Nottingham", path: "/earwax-removal-nottingham" },
-    { name: "Derby", path: "/derby" },
-    { name: "Leicester", path: "/earwax-removal-leicester" },
-    { name: "Lincoln", path: "/earwax-removal-lincoln" },
-    { name: "Grantham", path: "/earwax-removal-grantham" },
-    { name: "Stafford", path: "/earwax-removal-stafford" },
-    { name: "Tamworth", path: "/earwax-removal-tamworth" },
-    { name: "Burton", path: "/earwax-removal-burton" },
-    { name: "Chesterfield", path: "/earwax-removal-chesterfield" },
-    { name: "Nuneaton", path: "/earwax-removal-nuneaton" },
-    { name: "South Sheffield", path: "/earwax-removal-southsheffield" },
-    { name: "Worksop", path: "/earwax-removal-worksop" },
-     { name: "Loughborough", path: "/earwax-removal-loughborough" },
-
-   
+    { name: "Nottingham", path: "/earwax-removal-nottingham/" },
+    { name: "Derby", path: "/earwax-removal-derby/" },
+    { name: "Leicester", path: "/earwax-removal-leicester/" },
+    { name: "Lincoln", path: "/earwax-removal-lincoln/" },
+    { name: "Grantham", path: "/earwax-removal-grantham/" },
+    { name: "Stafford", path: "/earwax-removal-stafford/" },
+    { name: "Tamworth", path: "/earwax-removal-tamworth/" },
+    { name: "Burton", path: "/earwax-removal-burton/" },
+    { name: "Chesterfield", path: "/earwax-removal-chesterfield/" },
+    { name: "Nuneaton", path: "/earwax-removal-nuneaton/" },
+    { name: "South Sheffield", path: "/earwax-removal-southsheffield/" },
+    { name: "Worksop", path: "/earwax-removal-worksop/" },
+    { name: "Loughborough", path: "/earwax-removal-loughborough/" },
   ];
 
   return (

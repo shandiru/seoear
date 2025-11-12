@@ -27,7 +27,7 @@ function EarwaxremovalWorksop() {
         />
         <meta name="robots" content="index, follow" />
         <meta name="google-site-verification" content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" />
-          <link rel="canonical" href="https://earwego.co.uk/earwax-removal-Worksop" />
+          <link rel="canonical" href="https://www.earwego.co.uk/earwax-removal-worksop/" />
       </Helmet>
 
       {/* ✅ Page Sections */}
