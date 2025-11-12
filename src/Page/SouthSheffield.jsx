@@ -23,7 +23,7 @@ function SouthSheffield() {
         />
         <meta
           name="keywords"
-          content="ear wax removal Nottingham, microsuction SouthSheffield, home ear care, EarWeGo, ear cleaning Nottingham"
+          content="ear wax removal SouthSheffield, microsuction SouthSheffield, home ear care, EarWeGo, ear cleaning SouthSheffield"
         />
         <meta name="robots" content="index, follow" />
         <meta name="google-site-verification" content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" />
