@@ -16,14 +16,15 @@ function EarwaxremovalStafford() {
     <>
       {/* ✅ SEO Metadata */}
       <Helmet>
-        <title>Ear Wax Removal in Stafford | EarWeGo</title>
+        <title>Ear Wax Removal Stafford | Expert & Safe Ear Cleaning</title>
+        <meta name="title" content="Ear Wax Removal Stafford | Expert & Safe Ear Cleaning"></meta>
         <meta
           name="description"
-          content="Professional ear wax removal in Stafford using safe micro-suction. Home visits available with trained clinicians. Restore your hearing clarity today."
+          content="Trust EarWeGo for mobile ear wax removal in Stafford. Expert, gentle ear cleaning in the comfort of your home. Book your appointment today."
         />
         <meta
           name="keywords"
-          content="ear wax removal Stafford, microsuction Stafford, home ear care, EarWeGo, ear cleaning Stafford"
+          content="ear wax removal Stafford , ear syringing Stafford ,ear cleaning Stafford"
         />
         <meta name="robots" content="index, follow" />
         <meta name="google-site-verification" content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" />

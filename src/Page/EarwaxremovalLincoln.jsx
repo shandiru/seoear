@@ -16,14 +16,15 @@ function EarwaxremovalLincoln() {
     <>
       {/* ✅ SEO Metadata */}
       <Helmet>
-        <title>Ear Wax Removal in Lincoln | EarWeGo</title>
+        <title>Ear Wax Removal Lincoln | Safe & Gentle Ear Cleaning Service</title>
+        <meta name="title" content="Ear Wax Removal Lincoln | Safe & Gentle Ear Cleaning Service"></meta>
         <meta
           name="description"
-          content="Professional ear wax removal in Lincoln using safe micro-suction. Home visits available with trained clinicians. Restore your hearing clarity today."
+          content="Book ear wax removal in Lincoln with EarWeGo’s mobile team. Safe, gentle ear cleaning at your home or office. Request your appointment now."
         />
         <meta
           name="keywords"
-          content="ear wax removal Lincoln, microsuction Lincoln, home ear care, EarWeGo, ear cleaning Lincoln"
+          content="ear wax removal Lincoln , ear cleaning Lincoln"
         />
         <meta name="robots" content="index, follow" />
         <meta name="google-site-verification" content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" />

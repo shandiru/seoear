@@ -16,14 +16,15 @@ function Chesterfield() {
     <>
       {/* ✅ SEO Metadata */}
       <Helmet>
-        <title>Ear Wax Removal in Burton | EarWeGo</title>
+        <title>Ear Wax Removal Chesterfield | Expert Ear Cleaning Specialists</title>
+        <meta name="title" content="Ear Wax Removal Chesterfield | Expert Ear Cleaning Specialists"></meta>
         <meta
           name="description"
-          content="Professional ear wax removal in chesterfield using safe micro-suction. Home visits available with trained clinicians. Restore your hearing clarity today."
+          content="Choose EarWeGo for mobile ear wax removal in Chesterfield. Expert ear cleaning in the comfort of your home. Request your appointment now."
         />
         <meta
           name="keywords"
-          content="ear wax removal chesterfield, microsuction chesterfield, home ear care, EarWeGo, ear cleaning chesterfield"
+          content="ear wax removal chesterfield , ear cleaning chesterfield"
         />
         <meta name="robots" content="index, follow" />
         <meta name="google-site-verification" content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" />

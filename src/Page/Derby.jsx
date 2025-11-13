@@ -16,14 +16,15 @@ function EarwaxremovalDerby() {
     <>
       {/* ✅ SEO Metadata */}
       <Helmet>
-        <title>Ear Wax Removal in Derby | EarWeGo</title>
+        <title>Ear Wax Removal Derby | Gentle & Professional Ear Cleaning</title>
+          <meta name="title" content="Ear Wax Removal Derby | Gentle & Professional Ear Cleaning"></meta>
         <meta
           name="description"
-          content="Professional ear wax removal in Derby using safe micro-suction. Home visits available with trained clinicians. Restore your hearing clarity today."
+          content="Book mobile ear wax removal in Derby with EarWeGo. Gentle, professional ear cleaning at your convenience. Schedule your appointment today."
         />
         <meta
           name="keywords"
-          content="ear wax removal Derby, microsuction Derby, home ear care, EarWeGo, ear cleaning Derby"
+          content="ear wax removal derby, ear syringing derby, ear cleaning derby"
         />
         <meta name="robots" content="index, follow" />
         <meta name="google-site-verification" content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" />

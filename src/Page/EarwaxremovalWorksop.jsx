@@ -16,14 +16,15 @@ function EarwaxremovalWorksop() {
     <>
       {/* ✅ SEO Metadata */}
       <Helmet>
-        <title>Ear Wax Removal in Worksop | EarWeGo</title>
+        <title>Ear Wax Removal Worksop | Safe & Gentle Ear Cleaning </title>
+        <meta name="title" content="Ear Wax Removal Worksop | Safe & Gentle Ear Cleaning "></meta>
         <meta
           name="description"
-          content="Professional ear wax removal in Worksop using safe micro-suction. Home visits available with trained clinicians. Restore your hearing clarity today."
+          content="Service	Book mobile ear wax removal in Worksop with EarWeGo. Safe, gentle ear cleaning wherever you are. Schedule your appointment today."
         />
         <meta
           name="keywords"
-          content="ear wax removal Worksop, microsuction Worksop, home ear care, EarWeGo, ear cleaning Worksop"
+          content="ear wax removal worksop"
         />
         <meta name="robots" content="index, follow" />
         <meta name="google-site-verification" content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" />

@@ -16,14 +16,15 @@ function EarwaxremovalLoughborough() {
         <>
             {/* ✅ SEO Metadata */}
             <Helmet>
-                <title>Ear Wax Removal in Loughborough | EarWeGo</title>
+                <title>Ear Wax Removal Loughborough | Trusted Ear Cleaning Service</title>
+                <meta name="title" content="Ear Wax Removal Loughborough | Trusted Ear Cleaning Service"></meta>
                 <meta
                     name="description"
-                    content="Professional ear wax removal in Loughborough using safe micro-suction. Home visits available with trained clinicians. Restore your hearing clarity today."
+                    content="Book mobile ear wax removal in Loughborough with EarWeGo. Trusted, effective ear cleaning where you are. Request your appointment now."
                 />
                 <meta
                     name="keywords"
-                    content="ear wax removal Loughborough, microsuction Loughborough, home ear care, EarWeGo, ear cleaning Loughborough"
+                    content="ear wax removal Loughborough , ear cleaning Loughborough , ear syringing loughborough"
                 />
                 <meta name="robots" content="index, follow" />
                 <meta name="google-site-verification" content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" />

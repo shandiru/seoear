@@ -16,14 +16,15 @@ function EarwaxremovalTamworth() {
     <>
       {/* ✅ SEO Metadata */}
       <Helmet>
-        <title>Ear Wax Removal in Tamworth | EarWeGo</title>
+        <title>Ear Wax Removal Tamworth | Safe & Reliable Ear Cleaning</title>
+        <meta name="title" content="Ear Wax Removal Tamworth | Safe & Reliable Ear Cleaning"></meta>
         <meta
           name="description"
-          content="Professional ear wax removal in Tamworth using safe micro-suction. Home visits available with trained clinicians. Restore your hearing clarity today."
+          content="Book mobile ear wax removal in Tamworth with EarWeGo. Safe, reliable ear cleaning in your home or office. Schedule your appointment today."
         />
         <meta
           name="keywords"
-          content="ear wax removal Tamworth, microsuction Tamworth, home ear care, EarWeGo, ear cleaning Tamworth"
+          content="ear wax removal Tamworth"
         />
         <meta name="robots" content="index, follow" />
         <meta name="google-site-verification" content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" />

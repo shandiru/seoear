@@ -16,14 +16,15 @@ function EarwaxremovalLeicester() {
     <>
       {/* ✅ SEO Metadata */}
       <Helmet>
-        <title>Ear Wax Removal in Leicester | EarWeGo</title>
+        <title>Ear Wax Removal Leicester | Trusted Ear Cleaning Specialists</title>
+          <meta name="title" content="Ear Wax Removal Leicester | Trusted Ear Cleaning Specialists"></meta>
         <meta
           name="description"
-          content="Professional ear wax removal in Leicester using safe micro-suction. Home visits available with trained clinicians. Restore your hearing clarity today."
+          content="Choose EarWeGo for mobile ear wax removal in Leicester. Trusted, professional ear cleaning wherever you are. Book your appointment today."
         />
         <meta
           name="keywords"
-          content="ear wax removal Leicester, microsuction Leicester, home ear care, EarWeGo, ear cleaning Leicester"
+          content="ear wax removal Leicester , ear syringing leicester"
         />
         <meta name="robots" content="index, follow" />
         <meta name="google-site-verification" content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" />
