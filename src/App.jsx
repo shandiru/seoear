@@ -33,22 +33,22 @@ function App() {
         <Route path="/symptoms" element={<ServiceDetailpage />} />
         <Route path="/terms-conditions" element={<TermsConditions />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-        <Route path="areas-we-cover/earwax-removal-derby" element={<Derby />} />
+        <Route path="/areas-we-cover/earwax-removal-derby" element={<Derby />} />
         <Route
-          path="areas-we-cover/earwax-removal-nottingham"
+          path="/areas-we-cover/earwax-removal-nottingham"
           element={<EarwaxremovalNottingham />}
         />
-        <Route path="areas-we-cover/earwax-removal-leicester" element={<EarwaxremovalLeicester />} />
-        <Route path="areas-we-cover/earwax-removal-lincoln" element={<Lincoln />} />
-        <Route path="areas-we-cover/earwax-removal-grantham" element={<Grantham />} />
-        <Route path="areas-we-cover/earwax-removal-stafford" element={<EarwaxremovalStafford />} />
-        <Route path="areas-we-cover/earwax-removal-tamworth" element={<EarwaxremovalTamworth />} />
-        <Route path="areas-we-cover/earwax-removal-burton" element={<Burton />} />
-        <Route path="areas-we-cover/earwax-removal-chesterfield" element={<Chesterfield />} />
-        <Route path="areas-we-cover/earwax-removal-nuneaton" element={<EarwaxremovalNuneaton />} />
-        <Route path="areas-we-cover/earwax-removal-southsheffield" element={<SouthSheffield />} />
-        <Route path="areas-we-cover/earwax-removal-worksop" element={<EarwaxremovalWorksop />} />
-         <Route path="areas-we-cover/earwax-removal-loughborough" element={<EarwaxremovalLoughborough />} />
+        <Route path="/areas-we-cover/earwax-removal-leicester" element={<EarwaxremovalLeicester />} />
+        <Route path="/areas-we-cover/earwax-removal-lincoln" element={<Lincoln />} />
+        <Route path="/areas-we-cover/earwax-removal-grantham" element={<Grantham />} />
+        <Route path="/areas-we-cover/earwax-removal-stafford" element={<EarwaxremovalStafford />} />
+        <Route path="/areas-we-cover/earwax-removal-tamworth" element={<EarwaxremovalTamworth />} />
+        <Route path="/areas-we-cover/earwax-removal-burton" element={<Burton />} />
+        <Route path="/areas-we-cover/earwax-removal-chesterfield" element={<Chesterfield />} />
+        <Route path="/areas-we-cover/earwax-removal-nuneaton" element={<EarwaxremovalNuneaton />} />
+        <Route path="/areas-we-cover/earwax-removal-southsheffield" element={<SouthSheffield />} />
+        <Route path="/areas-we-cover/earwax-removal-worksop" element={<EarwaxremovalWorksop />} />
+         <Route path="/areas-we-cover/earwax-removal-loughborough" element={<EarwaxremovalLoughborough />} />
         {/* ✅ Catch-all route for 404 */}
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
