@@ -43,19 +43,19 @@ const Navbar = () => {
 
   // ✅ Updated Service Area Locations (with trailing slash)
   const locations = [
-    { name: "Nottingham", path: "/areas-we-cover/earwax-removal-nottingham/" },
-    { name: "Derby", path: "/areas-we-cover/earwax-removal-derby/" },
-    { name: "Leicester", path: "/areas-we-cover/earwax-removal-leicester/" },
-    { name: "Lincoln", path: "/areas-we-cover/earwax-removal-lincoln/" },
-    { name: "Grantham", path: "/areas-we-cover/earwax-removal-grantham/" },
-    { name: "Stafford", path: "/areas-we-cover/earwax-removal-stafford/" },
-    { name: "Tamworth", path: "/areas-we-cover/earwax-removal-tamworth/" },
-    { name: "Burton", path: "/areas-we-cover/earwax-removal-burton/" },
-    { name: "Chesterfield", path: "/areas-we-cover/earwax-removal-chesterfield/" },
-    { name: "Nuneaton", path: "/areas-we-cover/earwax-removal-nuneaton/" },
-    { name: "South Sheffield", path: "/areas-we-cover/earwax-removal-southsheffield/" },
-    { name: "Worksop", path: "/areas-we-cover/earwax-removal-worksop/" },
-    { name: "Loughborough", path: "/areas-we-cover/earwax-removal-loughborough/" },
+    { name: "Nottingham", path: "/areas-we-cover/ear-wax-removal-nottingham/" },
+    { name: "Derby", path: "/areas-we-cover/ear-wax-removal-derby/" },
+    { name: "Leicester", path: "/areas-we-cover/ear-wax-removal-leicester/" },
+    { name: "Lincoln", path: "/areas-we-cover/ear-wax-removal-lincoln/" },
+    { name: "Grantham", path: "/areas-we-cover/ear-wax-removal-grantham/" },
+    { name: "Stafford", path: "/areas-we-cover/ear-wax-removal-stafford/" },
+    { name: "Tamworth", path: "/areas-we-cover/ear-wax-removal-tamworth/" },
+    { name: "Burton", path: "/areas-we-cover/ear-wax-removal-burton/" },
+    { name: "Chesterfield", path: "/areas-we-cover/ear-wax-removal-chesterfield/" },
+    { name: "Nuneaton", path: "/areas-we-cover/ear-wax-removal-nuneaton/" },
+    { name: "South Sheffield", path: "/areas-we-cover/ear-wax-removal-southsheffield/" },
+    { name: "Worksop", path: "/areas-we-cover/ear-wax-removal-worksop/" },
+    { name: "Loughborough", path: "/areas-we-cover/ear-wax-removal-loughborough/" },
   ];
 
   return (
