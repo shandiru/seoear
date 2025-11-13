@@ -53,7 +53,7 @@ const Navbar = () => {
     { name: "Burton", path: "/areas-we-cover/ear-wax-removal-burton/" },
     { name: "Chesterfield", path: "/areas-we-cover/ear-wax-removal-chesterfield/" },
     { name: "Nuneaton", path: "/areas-we-cover/ear-wax-removal-nuneaton/" },
-    { name: "South Sheffield", path: "/areas-we-cover/ear-wax-removal-southsheffield/" },
+    { name: "South Sheffield", path: "/areas-we-cover/ear-wax-removal-south-sheffield/" },
     { name: "Worksop", path: "/areas-we-cover/ear-wax-removal-worksop/" },
     { name: "Loughborough", path: "/areas-we-cover/ear-wax-removal-loughborough/" },
   ];

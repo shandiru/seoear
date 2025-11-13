@@ -2,15 +2,17 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+
 import HomePage from "./Page/Homepage";
 import Earwaxremovalpage from "./Page/Earwaxremovalpage";
 import ServiceDetailpage from "./Page/ServiceDetailpage";
+
 import TermsConditions from "./components/Term.jsx";
 import PrivacyPolicy from "./components/PrivacyPolicy.jsx";
 import GDPRConsent from "./components/GDPRBanner.jsx";
+
 import EarwaxremovalNottingham from "./Page/EarwaxremovalNottingham.jsx";
-import NotFoundPage from "./Page/NotFoundPage.jsx"; // ✅ create this page
-import Derby from "./Page/Derby.jsx"
+import Derby from "./Page/Derby.jsx";
 import EarwaxremovalLeicester from "./Page/EarwaxremovalLeicester.jsx";
 import Lincoln from "./Page/Lincoln.jsx";
 import Grantham from "./Page/Grantham.jsx";
@@ -23,21 +25,26 @@ import SouthSheffield from "./Page/SouthSheffield.jsx";
 import EarwaxremovalWorksop from "./Page/EarwaxremovalWorksop.jsx";
 import EarwaxremovalLoughborough from "./Page/EarwaxremovalLoughborough.jsx";
 
+import NotFoundPage from "./Page/NotFoundPage.jsx";
+
 function App() {
   return (
     <Router>
       <Navbar />
+
       <Routes>
+        {/* Main Pages */}
         <Route path="/" element={<HomePage />} />
-        <Route path="/Earwaxremovalpage" element={<Earwaxremovalpage />} />
+        <Route path="/earwaxremovalpage" element={<Earwaxremovalpage />} />
         <Route path="/symptoms" element={<ServiceDetailpage />} />
+
+        {/* Legal Pages */}
         <Route path="/terms-conditions" element={<TermsConditions />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+
+        {/* Areas We Cover */}
         <Route path="/areas-we-cover/ear-wax-removal-derby" element={<Derby />} />
-        <Route
-          path="/areas-we-cover/ear-wax-removal-nottingham"
-          element={<EarwaxremovalNottingham />}
-        />
+        <Route path="/areas-we-cover/ear-wax-removal-nottingham" element={<EarwaxremovalNottingham />} />
         <Route path="/areas-we-cover/ear-wax-removal-leicester" element={<EarwaxremovalLeicester />} />
         <Route path="/areas-we-cover/ear-wax-removal-lincoln" element={<Lincoln />} />
         <Route path="/areas-we-cover/ear-wax-removal-grantham" element={<Grantham />} />
@@ -46,12 +53,14 @@ function App() {
         <Route path="/areas-we-cover/ear-wax-removal-burton" element={<Burton />} />
         <Route path="/areas-we-cover/ear-wax-removal-chesterfield" element={<Chesterfield />} />
         <Route path="/areas-we-cover/ear-wax-removal-nuneaton" element={<EarwaxremovalNuneaton />} />
-        <Route path="/areas-we-cover/ear-wax-removal-southsheffield" element={<SouthSheffield />} />
+        <Route path="/areas-we-cover/ear-wax-removal-south-sheffield" element={<SouthSheffield />} />
         <Route path="/areas-we-cover/ear-wax-removal-worksop" element={<EarwaxremovalWorksop />} />
-         <Route path="/areas-we-cover/ear-wax-removal-loughborough" element={<EarwaxremovalLoughborough />} />
-        {/* ✅ Catch-all route for 404 */}
+        <Route path="/areas-we-cover/ear-wax-removal-loughborough" element={<EarwaxremovalLoughborough />} />
+
+        {/* Catch-all 404 */}
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
+
       <Footer />
       <GDPRConsent />
     </Router>

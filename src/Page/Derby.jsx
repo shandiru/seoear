@@ -28,7 +28,8 @@ function EarwaxremovalDerby() {
         />
         <meta name="robots" content="index, follow" />
         <meta name="google-site-verification" content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" />
-        <link rel="canonical" href="https://earwego.co.uk/earwax-removal-derby/" />
+      <link rel="canonical" href="https://earwego.co.uk/areas-we-cover/ear-wax-removal-derby/" />
+
 
       </Helmet>
 
