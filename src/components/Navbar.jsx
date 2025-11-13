@@ -43,19 +43,19 @@ const Navbar = () => {
 
   // ✅ Updated Service Area Locations (with trailing slash)
   const locations = [
-    { name: "Nottingham", path: "/earwax-removal-nottingham/" },
-    { name: "Derby", path: "/earwax-removal-derby/" },
-    { name: "Leicester", path: "/earwax-removal-leicester/" },
-    { name: "Lincoln", path: "/earwax-removal-lincoln/" },
-    { name: "Grantham", path: "/earwax-removal-grantham/" },
-    { name: "Stafford", path: "/earwax-removal-stafford/" },
-    { name: "Tamworth", path: "/earwax-removal-tamworth/" },
-    { name: "Burton", path: "/earwax-removal-burton/" },
-    { name: "Chesterfield", path: "/earwax-removal-chesterfield/" },
-    { name: "Nuneaton", path: "/earwax-removal-nuneaton/" },
-    { name: "South Sheffield", path: "/earwax-removal-southsheffield/" },
-    { name: "Worksop", path: "/earwax-removal-worksop/" },
-    { name: "Loughborough", path: "/earwax-removal-loughborough/" },
+    { name: "Nottingham", path: "areas-we-cover/earwax-removal-nottingham/" },
+    { name: "Derby", path: "areas-we-cover/earwax-removal-derby/" },
+    { name: "Leicester", path: "areas-we-cover/earwax-removal-leicester/" },
+    { name: "Lincoln", path: "areas-we-cover/earwax-removal-lincoln/" },
+    { name: "Grantham", path: "areas-we-cover/earwax-removal-grantham/" },
+    { name: "Stafford", path: "areas-we-cover/earwax-removal-stafford/" },
+    { name: "Tamworth", path: "areas-we-cover/earwax-removal-tamworth/" },
+    { name: "Burton", path: "areas-we-cover/earwax-removal-burton/" },
+    { name: "Chesterfield", path: "areas-we-cover/earwax-removal-chesterfield/" },
+    { name: "Nuneaton", path: "areas-we-cover/earwax-removal-nuneaton/" },
+    { name: "South Sheffield", path: "areas-we-cover/earwax-removal-southsheffield/" },
+    { name: "Worksop", path: "areas-we-cover/earwax-removal-worksop/" },
+    { name: "Loughborough", path: "areas-we-cover/earwax-removal-loughborough/" },
   ];
 
   return (
