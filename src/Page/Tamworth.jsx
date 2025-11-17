@@ -28,7 +28,7 @@ function EarwaxremovalTamworth() {
         />
         <meta name="robots" content="index, follow" />
         <meta name="google-site-verification" content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" />
-        <link rel="canonical" href="https://www.earwego.co.uk/areas-we-cover/ear-wax-removal-tamworth/" />
+        <link rel="canonical" href="https://earwego.co.uk/areas-we-cover/ear-wax-removal-tamworth/" />
 
       </Helmet>
 
