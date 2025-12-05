@@ -305,6 +305,7 @@ const ContactSection = () => {
               <p className="text-sm text-[#334155] text-center">
                 Same-day appointments often available • No obligation consultation
               </p>
+              <p class="text-sm text-[#334155] text-center">By submitting this form, you agree to us processing your details to respond to your enquiry. Your information is handled securely and in line with our Privacy Policy.</p>
             </form>
           </div>
         </div>
