@@ -136,22 +136,26 @@ export default function Hero() {
 
           {/* Right Column */}
           <div
-            className="relative flex justify-center"
-            data-aos="fade-left"
-            data-aos-delay="200"
-          >
-            <div className="absolute inset-0 bg-linear-to-br from-[#9C79B3]/30 to-[#43AA8B]/30 rounded-full blur-[120px] animate-pulse-slow"></div>
+  className="relative flex justify-center"
+  data-aos="fade-left"
+  data-aos-delay="200"
+>
+  <div className="absolute inset-0 bg-linear-to-br from-[#9C79B3]/30 to-[#43AA8B]/30 rounded-full blur-[120px] animate-pulse-slow"></div>
 
-            <div className="relative z-10 bg-white rounded-2xl shadow-2xl p-10 max-w-md w-full flex items-center justify-center group">
-              <img
-                src="/LOGO2.png"
-                alt="EarWeGo Icons"
-                className="mx-auto w-[260px] sm:w-[280px] h-[260px] sm:h-[280px] object-contain transition-transform duration-500 group-hover:scale-105"
-                loading="lazy"
-                decoding="async"
-              />
-            </div>
-          </div>
+  {/* Video Card */}
+  <div className="relative z-10 bg-white rounded-2xl shadow-2xl max-w-md w-full h-[320px] overflow-hidden group">
+    <video
+      src="/hero.mp4"
+      className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+      autoPlay
+      loop
+      muted
+      playsInline
+      preload="auto"
+    />
+  </div>
+</div>
+
         </div>
       </div>
 
