@@ -38,7 +38,7 @@ export default function Footer() {
                 { label: "Home", to: "/#home" },
                 { label: "Why Choose Us", to: "/#whyus" },
                 { label: "Pricing", to: "/#pricing" },
-                { label: "Reviews", to: "/#reviews" },
+                { label: "Reviews", to: "/reviews" },
                 { label: "Contact", to: "/#contact" },
               ].map((link) => (
                 <li key={link.label}>
