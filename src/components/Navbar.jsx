@@ -34,7 +34,7 @@ const Navbar = () => {
     { label: "Why Us", href: "/#whyus" },
     { label: "Pricing", href: "/#pricing" },
     { label: "Team", href: "/#team" },
-    { label: "Reviews", href: "/#reviews" },
+    { label: "Reviews", href: "/reviews" },
     { label: "FAQ", href: "/#faq" },
     { label: "Symptoms", href: "/symptoms/" },
     { label: "Micro Suction", href: "/earwaxremovalpage/" },

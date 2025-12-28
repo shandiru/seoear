@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-
+import ReviewPage from "./Page/Review.jsx";
 import HomePage from "./Page/Homepage";
 import Earwaxremovalpage from "./Page/Earwaxremovalpage";
 import ServiceDetailpage from "./Page/ServiceDetailpage";
@@ -56,6 +56,8 @@ function App() {
         <Route path="/areas-we-cover/ear-wax-removal-south-sheffield" element={<SouthSheffield />} />
         <Route path="/areas-we-cover/ear-wax-removal-worksop" element={<EarwaxremovalWorksop />} />
         <Route path="/areas-we-cover/ear-wax-removal-loughborough" element={<EarwaxremovalLoughborough />} />
+        {/* Reviews Page */}
+        <Route path="/reviews" element={<ReviewPage />} />
 
         {/* Catch-all 404 */}
         <Route path="*" element={<NotFoundPage />} />
