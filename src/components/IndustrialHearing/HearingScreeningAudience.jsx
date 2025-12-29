@@ -50,9 +50,11 @@ export default function HearingScreeningAudience() {
         </div>
 
         {/* CTA Button */}
-        <button className="px-8 sm:px-10 py-2 text-base sm:text-lg font-medium rounded-md bg-emerald-500 text-white hover:bg-emerald-600 transition">
+        <a
+          href="tel:+448081371961"
+          className="px-8 sm:px-10 py-2 text-base sm:text-lg font-medium rounded-md bg-emerald-500 text-white hover:bg-emerald-600 transition">
           Schedule Your Team&apos;s Screening
-        </button>
+        </a>
       </div>
     </section>
   );

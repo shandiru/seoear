@@ -1,8 +1,16 @@
 import { ArrowLeft, Settings } from "lucide-react";
+import { HashLink } from "react-router-hash-link";
 
 export default function AutomotiveHearingScreening() {
+  const scrollWithOffset = (el) => {
+    if (el) {
+      const y = el.getBoundingClientRect().top + window.scrollY - 100; // offset for sticky header
+      window.scrollTo({ top: y, behavior: "smooth" });
+    }
+  };
+
   return (
-    <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-gray-800 to-slate-900">
+    <section className="relative min-h-[100vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-gray-800 to-slate-900">
       {/* Background Image */}
       <div className="absolute inset-0 bg-[url('/automotive-workshop-mechanics-engineering.jpg')] bg-cover bg-center opacity-20"></div>
       {/* Gradient Overlay */}
@@ -39,9 +47,13 @@ export default function AutomotiveHearingScreening() {
 
         {/* Button */}
         <div>
-          <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-all disabled:pointer-events-none disabled:opacity-50 h-10 rounded-md bg-emerald-500 hover:bg-emerald-600 text-white text-lg px-8 focus:outline-none focus-visible:ring-3 focus-visible:ring-emerald-400">
+          <HashLink
+            to="/#contact"
+            scroll={scrollWithOffset}
+            className="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-all disabled:pointer-events-none disabled:opacity-50 h-10 rounded-md bg-emerald-500 hover:bg-emerald-600 text-white text-lg px-8 focus:outline-none focus-visible:ring-3 focus-visible:ring-emerald-400"
+          >
             Request a Quote Today
-          </button>
+          </HashLink>
         </div>
       </div>
     </section>

@@ -1,46 +1,72 @@
-import { ArrowLeft, Factory } from "lucide-react";
+import { ArrowLeft, Warehouse } from "lucide-react";
+import { HashLink } from "react-router-hash-link";
 
-export default function IndustrialHero() {
+const WarehouseLogisticsHero = () => {
+  // Smooth scroll function with offset for sticky navbar
+  const enhancedScroll = (el) => {
+    if (el) {
+      const y = el.getBoundingClientRect().top + window.scrollY - 100;
+      window.scrollTo({ top: y, behavior: "smooth" });
+    }
+  };
+
   return (
-    <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900">
-      {/* Background image */}
-      <div className="absolute inset-0 bg-[url('/industrial-processing-plant-heavy-industry.jpg')] bg-cover bg-center opacity-20"></div>
-      <div className="absolute inset-0 bg-gradient-to-t from-purple-900 via-purple-900/50 to-transparent"></div>
+    <section className="relative min-h-[100vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 px-4">
+      
+      {/* Background Image */}
+      <div
+        className="absolute inset-0 bg-[url('/industrial-processing-plant-heavy-industry.jpg')] bg-cover bg-center opacity-20"
+        aria-hidden="true"
+      />
+
+      {/* Overlay Gradient */}
+      <div
+        className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent"
+        aria-hidden="true"
+      />
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 py-20 text-center sm:text-left">
-        {/* Back link */}
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+
+        {/* Back Link */}
         <a
           href="/industrial"
-          className="inline-flex items-center gap-2 text-purple-300 hover:text-purple-200 mb-6 text-sm px-5"
+          className="inline-flex items-center gap-2 text-emerald-400 hover:text-emerald-300 mb-6 px-5"
         >
           <ArrowLeft className="w-4 h-4" />
           <span>Back to Services</span>
         </a>
 
-        {/* Category tag */}
-        <div className="inline-flex items-center gap-2 bg-purple-500/10 border border-purple-500/20 rounded-full px-4 py-2 mb-6">
-          <Factory className="w-4 h-4 text-purple-300" />
-          <span className="text-sm font-medium text-purple-300">
+        {/* Category Badge */}
+        <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/20 rounded-full px-4 py-2 mb-6">
+          <Warehouse className="w-4 h-4 text-emerald-400" />
+          <span className="text-sm font-medium text-emerald-400">
             Heavy Industry & Processing
           </span>
         </div>
 
         {/* Heading */}
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 text-balance">
+        <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 text-balance">
           Hearing Screening for Industrial Plants & Processing Facilities
         </h1>
 
-        {/* Subtitle */}
-        <p className="text-lg sm:text-xl md:text-2xl text-purple-50 max-w-3xl mx-auto sm:mx-0 mb-8 text-pretty">
+        {/* Subheading */}
+        <p className="text-xl text-slate-300 max-w-3xl mb-8 text-pretty">
           Large-Scale Hearing Surveillance for Heavy Industry
         </p>
 
         {/* CTA Button */}
-        <button className="h-10 sm:h-12 px-6 sm:px-8 md:px-10 rounded-md bg-purple-500 hover:bg-purple-600 text-white text-base sm:text-lg font-medium transition focus:outline-none focus:ring-4 focus:ring-purple-400/40">
+        <HashLink
+          to="/#contact"
+          scroll={enhancedScroll}
+          className="inline-flex items-center justify-center h-12 rounded-md bg-emerald-500 hover:bg-emerald-600 text-white text-lg font-medium px-8 transition"
+        >
           Contact Us Today
-        </button>
+        </HashLink>
+
       </div>
     </section>
   );
-}
+};
+
+export default WarehouseLogisticsHero;

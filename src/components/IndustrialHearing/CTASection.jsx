@@ -1,4 +1,13 @@
+import { HashLink } from "react-router-hash-link";
+
 export default function CTASection() {
+  const scrollWithOffset = (el) => {
+    if (el) {
+      const y = el.getBoundingClientRect().top + window.scrollY - 100; // adjust offset for sticky header
+      window.scrollTo({ top: y, behavior: "smooth" });
+    }
+  };
+
   return (
     <section className="py-16 sm:py-20 lg:py-24 bg-gradient-to-br from-emerald-500 to-emerald-600">
       <div className="container mx-auto px-4 text-center">
@@ -12,13 +21,23 @@ export default function CTASection() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="h-12 px-8 sm:px-10 rounded-md bg-white text-emerald-600 text-base sm:text-lg font-medium transition hover:bg-emerald-50 focus:outline-none focus:ring-4 focus:ring-white/30">
+          {/* Scroll to Contact Section */}
+          <a
+          href="tel:+448081371961"
+           
+            className="h-12 px-8 sm:px-10 rounded-md bg-white text-emerald-600 text-base sm:text-lg font-medium transition hover:bg-emerald-50 focus:outline-none focus:ring-4 focus:ring-white/30 inline-flex items-center justify-center"
+          >
             Get in Touch Today
-          </button>
+          </a>
 
-          <button className="h-12 px-8 sm:px-10 rounded-md border border-white text-white bg-transparent text-base sm:text-lg font-medium transition hover:bg-white/10 focus:outline-none focus:ring-4 focus:ring-white/30">
+          {/* Make Call */}
+          <HashLink
+             to="/#contact"
+            scroll={scrollWithOffset}
+            className="h-12 px-8 sm:px-10 rounded-md border border-white text-white bg-transparent text-base sm:text-lg font-medium transition hover:bg-white/10 focus:outline-none focus:ring-4 focus:ring-white/30 inline-flex items-center justify-center"
+          >
             Discuss Custom Programme
-          </button>
+          </HashLink>
         </div>
       </div>
     </section>

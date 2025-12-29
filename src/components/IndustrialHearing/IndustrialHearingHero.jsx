@@ -1,9 +1,17 @@
 import { Volume2 } from "lucide-react";
+import { HashLink } from "react-router-hash-link";
 
 export default function IndustrialHearingHero() {
+  const scrollWithOffset = (el) => {
+    if (el) {
+      const y = el.getBoundingClientRect().top + window.scrollY - 100; // adjust offset
+      window.scrollTo({ top: y, behavior: "smooth" });
+    }
+  };
+
   return (
-    <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
-      
+    <section className="relative min-h-[100vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center opacity-20"
@@ -18,7 +26,7 @@ export default function IndustrialHearingHero() {
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
-        
+
         {/* Badge */}
         <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/20 rounded-full px-4 py-2 mb-6">
           <Volume2 className="w-4 h-4 text-emerald-400" />
@@ -40,13 +48,20 @@ export default function IndustrialHearingHero() {
 
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="px-8 py-3 text-lg font-medium rounded-md bg-emerald-500 text-white hover:bg-emerald-600 transition">
+          <HashLink
+            to="/#contact"
+            scroll={scrollWithOffset}
+            className="px-8 py-3 text-lg font-medium rounded-md bg-emerald-500 text-white hover:bg-emerald-600 transition"
+          >
             Book On-Site Testing
-          </button>
+          </HashLink>
 
-          <button className="px-8 py-3 text-lg font-medium rounded-md border border-white/20 text-white hover:bg-white/10 transition">
+          <HashLink
+            to="#learn"
+            scroll={scrollWithOffset}
+            className="px-8 py-3 text-lg font-medium rounded-md border border-white/20 text-white hover:bg-white/10 transition">
             Learn More
-          </button>
+          </HashLink>
         </div>
       </div>
     </section>

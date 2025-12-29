@@ -106,7 +106,7 @@ const Navbar = () => {
                 onClick={() => setServicesOpen((prev) => !prev)}
                 className="flex items-center gap-1 text-[#4B5563] hover:text-[#0D1525] font-medium text-base"
               >
-                Services
+                Industrial
                 {servicesOpen ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
               </button>
               {servicesOpen && (
@@ -211,7 +211,7 @@ const Navbar = () => {
                   onClick={() => setServicesOpen(!servicesOpen)}
                   className="w-full flex items-center justify-between py-2 text-base font-medium text-[#4B5563] hover:text-[#0D1525] transition-colors"
                 >
-                  Services
+                  Industrial
                   {servicesOpen ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
                 </button>
                 {servicesOpen && (
