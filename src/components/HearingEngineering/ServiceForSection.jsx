@@ -86,7 +86,7 @@ export default function ServiceForSection() {
   ];
 
   return (
-    <section className="py-16 bg-muted/30">
+    <section className="py-16 bg-[rgba(0,0,0,0.03)]">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-12 text-center">
           Who This Service Is For
@@ -95,7 +95,7 @@ export default function ServiceForSection() {
           {audience.map((item, idx) => (
             <div
               key={idx}
-              className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border shadow-sm p-6 text-center hover:border-emerald-500 transition-colors"
+              className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border border-gray-200 shadow-sm p-6 text-center hover:border-emerald-500 transition-colors"
             >
               {item.icon}
               <p className="font-medium text-sm">{item.title}</p>

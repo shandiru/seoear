@@ -22,7 +22,7 @@ const ServiceHero = () => {
         
         {/* Back Button */}
         <a
-          href="/"
+          href="/industrial"
           className="inline-flex items-center gap-3 text-emerald-400 hover:text-emerald-300 mb-8 px-2 md:px-4"
         >
           <ArrowLeft className="w-5 h-5" />

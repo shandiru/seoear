@@ -49,7 +49,7 @@ export default function HearingTestProcess() {
 
         {/* Duration */}
         <div className="mt-10 sm:mt-12 text-center">
-          <div className="inline-flex items-center gap-2 bg-muted px-6 py-3 rounded-full">
+          <div className="inline-flex items-center gap-2 bg-[rgba(0,0,0,0.03)] px-6 py-3 rounded-full">
             <Clock className="w-5 h-5 text-emerald-500" />
             <span className="text-sm sm:text-base font-medium">
               Each test takes 10–15 minutes per person

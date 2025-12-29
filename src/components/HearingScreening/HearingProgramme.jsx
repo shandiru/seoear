@@ -33,7 +33,7 @@ export default function HearingProgramme() {
             {items.map((item, index) => (
               <div
                 key={index}
-                className="flex items-start gap-4 p-4 rounded-lg bg-muted/50 transition-colors hover:bg-muted/60"
+                className="flex items-start gap-4 p-4 rounded-lg bg-[rgba(0,0,0,0.03)] transition-colors hover:bg-[rgba(0,0,0,0.03)]/60"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

@@ -37,7 +37,7 @@ export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState(null);
 
   return (
-    <section className="py-16 sm:py-20 bg-muted/30">
+    <section className="py-16 sm:py-20 bg-[rgba(0,0,0,0.03)]">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold mb-10 text-center">
@@ -48,7 +48,7 @@ export default function FAQSection() {
             {faqs.map((faq, index) => (
               <div
                 key={index}
-                className="bg-background rounded-lg border"
+                className="bg-background rounded-lg border border-gray-200"
               >
                 <button
                   onClick={() =>

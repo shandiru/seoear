@@ -73,7 +73,7 @@ export default function WhyScreening() {
   ];
 
   return (
-    <section className="py-16 bg-muted/30">
+    <section className="py-16 bg-[rgba(0,0,0,0.03)]">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-12 text-center">
           Why Hearing Screening Is Critical in Industrial Plants
@@ -82,7 +82,7 @@ export default function WhyScreening() {
           {cards.map((card, index) => (
             <div
               key={index}
-              className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl shadow-sm p-6 border-2 hover:border-purple-500 transition-colors"
+              className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl shadow-sm p-6 border-2 border-gray-200 hover:border-purple-500 transition-colors"
             >
               {card.icon}
               <h3 className="font-semibold mb-2">{card.title}</h3>

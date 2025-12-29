@@ -7,11 +7,16 @@ import { useLocation, Link } from "react-router-dom";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [locationOpen, setLocationOpen] = useState(false);
+  const [servicesOpen, setServicesOpen] = useState(false);
   const location = useLocation();
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth >= 1024) setOpen(false);
+      if (window.innerWidth >= 1024) {
+        setOpen(false);
+        setLocationOpen(false);
+        setServicesOpen(false);
+      }
     };
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
@@ -20,6 +25,7 @@ const Navbar = () => {
   useEffect(() => {
     setOpen(false);
     setLocationOpen(false);
+    setServicesOpen(false);
   }, [location]);
 
   const enhancedScroll = (el) => {
@@ -29,7 +35,7 @@ const Navbar = () => {
     }
   };
 
-  // ✅ Navigation links (with trailing slash)
+  // Navigation links (regular links)
   const links = [
     { label: "Why Us", href: "/#whyus" },
     { label: "Pricing", href: "/#pricing" },
@@ -41,7 +47,17 @@ const Navbar = () => {
     { label: "Contact", href: "/#contact" },
   ];
 
-  // ✅ Updated Service Area Locations (with trailing slash)
+  // Service Pages
+  const services = [
+    { label: "Industrial Hearing", href: "/industrial" },
+    { label: "Factories", href: "/services/factories" },
+    { label: "Construction", href: "/services/construction" },
+    { label: "Warehouses", href: "/services/warehouses" },
+    { label: "Workshops", href: "/services/workshops" },
+    { label: "Industrial Plants", href: "/services/industrial-plants" },
+  ];
+
+  // Locations
   const locations = [
     { name: "Nottingham", path: "/areas-we-cover/ear-wax-removal-nottingham/" },
     { name: "Derby", path: "/areas-we-cover/ear-wax-removal-derby/" },
@@ -62,7 +78,7 @@ const Navbar = () => {
     <header className="bg-white shadow-sm sticky top-0 z-50 transition-all duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          {/* ✅ Logo */}
+          {/* Logo */}
           <Link to="/" className="flex items-center">
             <img
               src="/LOGO2-removebg-preview.png"
@@ -73,7 +89,7 @@ const Navbar = () => {
             />
           </Link>
 
-          {/* ✅ Desktop Navigation */}
+          {/* Desktop Navigation */}
           <nav className="hidden lg:flex space-x-8 items-center">
             {links.map((link) => (
               <HashLink
@@ -86,7 +102,33 @@ const Navbar = () => {
               </HashLink>
             ))}
 
-            {/* ✅ Location Dropdown */}
+            {/* Services Dropdown */}
+            <div className="relative">
+              <button
+                type="button"
+                onClick={() => setServicesOpen((prev) => !prev)}
+                className="flex items-center gap-1 text-[#4B5563] hover:text-[#0D1525] font-medium text-base"
+              >
+                Industrial
+                {servicesOpen ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+              </button>
+              {servicesOpen && (
+                <div className="absolute right-0 mt-2 w-60 bg-white border border-gray-200 shadow-md rounded-md py-2 z-50">
+                  {services.map((service) => (
+                    <Link
+                      key={service.label}
+                      to={service.href}
+                      onClick={() => setServicesOpen(false)}
+                      className="block px-4 py-2 text-[#4B5563] hover:bg-[#F8FAFC] hover:text-[#0D1525] transition-colors"
+                    >
+                      {service.label}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            {/* Location Dropdown */}
             <div className="relative">
               <button
                 type="button"
@@ -94,13 +136,8 @@ const Navbar = () => {
                 className="flex items-center gap-1 text-[#4B5563] hover:text-[#0D1525] font-medium text-base"
               >
                 Location
-                {locationOpen ? (
-                  <ChevronUp className="w-4 h-4" />
-                ) : (
-                  <ChevronDown className="w-4 h-4" />
-                )}
+                {locationOpen ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
               </button>
-
               {locationOpen && (
                 <div className="absolute right-0 mt-2 w-60 bg-white border border-gray-200 shadow-md rounded-md py-2 z-50">
                   {locations.map((loc) => (
@@ -117,7 +154,7 @@ const Navbar = () => {
               )}
             </div>
 
-            {/* ✅ Hidden SEO-only links */}
+            {/* Hidden SEO-only links */}
             <div style={{ display: "none" }}>
               {locations.map((loc) => (
                 <a key={loc.name} href={loc.path}>
@@ -127,7 +164,7 @@ const Navbar = () => {
             </div>
           </nav>
 
-          {/* ✅ Desktop Call Now */}
+          {/* Desktop Call Now */}
           <a
             href="tel:+448081371961"
             className="hidden lg:inline-flex items-center gap-2 rounded-md text-sm font-semibold shadow h-10 px-5 bg-[#43AA8B] hover:bg-[#368a75] text-white transition-all"
@@ -136,7 +173,7 @@ const Navbar = () => {
             Call Now
           </a>
 
-          {/* ✅ Mobile Hamburger */}
+          {/* Mobile Hamburger */}
           <button
             aria-label="Toggle Menu"
             onClick={() => setOpen(!open)}
@@ -146,7 +183,7 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* ✅ Mobile Drawer */}
+        {/* Mobile Drawer */}
         {open && (
           <div className="lg:hidden border-t border-gray-200 py-4 animate-fadeIn overflow-y-auto max-h-[80vh]">
             <nav className="flex flex-col space-y-1">
@@ -162,20 +199,43 @@ const Navbar = () => {
                 </HashLink>
               ))}
 
-              {/* ✅ Mobile Location Dropdown */}
+              {/* Mobile Services Dropdown */}
+              <div className="px-3">
+                <button
+                  onClick={() => setServicesOpen(!servicesOpen)}
+                  className="w-full flex items-center justify-between py-2 text-base font-medium text-[#4B5563] hover:text-[#0D1525] transition-colors"
+                >
+                  Services
+                  {servicesOpen ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+                </button>
+                {servicesOpen && (
+                  <div className="ml-4 mt-1 flex flex-col space-y-1">
+                    {services.map((service) => (
+                      <Link
+                        key={service.label}
+                        to={service.href}
+                        onClick={() => {
+                          setOpen(false);
+                          setServicesOpen(false);
+                        }}
+                        className="block px-3 py-2 text-[#4B5563] hover:bg-[#F8FAFC] hover:text-[#0D1525] rounded-md transition-colors"
+                      >
+                        {service.label}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              {/* Mobile Location Dropdown */}
               <div className="px-3">
                 <button
                   onClick={() => setLocationOpen(!locationOpen)}
                   className="w-full flex items-center justify-between py-2 text-base font-medium text-[#4B5563] hover:text-[#0D1525] transition-colors"
                 >
                   Location
-                  {locationOpen ? (
-                    <ChevronUp className="w-4 h-4" />
-                  ) : (
-                    <ChevronDown className="w-4 h-4" />
-                  )}
+                  {locationOpen ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
                 </button>
-
                 {locationOpen && (
                   <div className="ml-4 mt-1 flex flex-col space-y-1">
                     {locations.map((loc) => (
@@ -195,7 +255,7 @@ const Navbar = () => {
                 )}
               </div>
 
-              {/* ✅ Hidden SEO-only links for mobile */}
+              {/* Hidden SEO-only links for mobile */}
               <div style={{ display: "none" }}>
                 {locations.map((loc) => (
                   <a key={loc.name} href={loc.path}>
@@ -205,7 +265,7 @@ const Navbar = () => {
               </div>
             </nav>
 
-            {/* ✅ Mobile Call Button */}
+            {/* Mobile Call Button */}
             <a
               href="tel:+448081371961"
               onClick={() => setOpen(false)}

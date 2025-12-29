@@ -21,8 +21,8 @@ const WarehouseLogisticsHero = () => {
 
         {/* Back Link */}
         <a
-          href="/"
-          className="inline-flex items-center gap-2 text-blue-300 hover:text-blue-200 mb-6"
+          href="/industrial"
+          className="inline-flex items-center gap-2 text-blue-300 hover:text-blue-200 mb-6 px-5"
         >
           <ArrowLeft className="w-4 h-4" />
           <span>Back to Services</span>

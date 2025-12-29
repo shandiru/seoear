@@ -33,7 +33,7 @@ export default function WorkshopTestProcess() {
             {steps.map((step, idx) => (
               <div
                 key={idx}
-                className="flex items-start gap-4 p-4 rounded-lg bg-muted/50"
+                className="flex items-start gap-4 p-4 rounded-lg bg-[rgba(0,0,0,0.03)]"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

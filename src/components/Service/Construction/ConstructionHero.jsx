@@ -22,8 +22,8 @@ const ConstructionHero = () => {
         
         {/* Back Button */}
         <a
-          href="/"
-          className="inline-flex items-center gap-3 text-amber-300 hover:text-amber-200 mb-8"
+          href="/industrial"
+          className="inline-flex items-center gap-3 text-amber-300 hover:text-amber-200 mb-8 px-5"
         >
           <ArrowLeft className="w-5 h-5 " />
           <span>Back to Services</span>

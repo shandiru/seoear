@@ -1,3 +1,5 @@
+import { ArrowLeft, Factory } from "lucide-react";
+
 export default function IndustrialHero() {
   return (
     <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900">
@@ -9,44 +11,16 @@ export default function IndustrialHero() {
       <div className="relative z-10 container mx-auto px-4 py-20 text-center sm:text-left">
         {/* Back link */}
         <a
-          href="/"
-          className="inline-flex items-center gap-2 text-purple-300 hover:text-purple-200 mb-6 text-sm"
+          href="/industrial"
+          className="inline-flex items-center gap-2 text-purple-300 hover:text-purple-200 mb-6 text-sm px-5"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            className="w-4 h-4"
-          >
-            <path d="M12 19l-7-7 7-7"></path>
-            <path d="M19 12H5"></path>
-          </svg>
+          <ArrowLeft className="w-4 h-4" />
           <span>Back to Services</span>
         </a>
 
         {/* Category tag */}
         <div className="inline-flex items-center gap-2 bg-purple-500/10 border border-purple-500/20 rounded-full px-4 py-2 mb-6">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            className="w-4 h-4 text-purple-300"
-          >
-            <path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"></path>
-            <path d="M17 18h1"></path>
-            <path d="M12 18h1"></path>
-            <path d="M7 18h1"></path>
-          </svg>
+          <Factory className="w-4 h-4 text-purple-300" />
           <span className="text-sm font-medium text-purple-300">
             Heavy Industry & Processing
           </span>

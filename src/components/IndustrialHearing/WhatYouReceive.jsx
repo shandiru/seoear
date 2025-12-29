@@ -29,7 +29,7 @@ export default function WhatYouReceive() {
           {items.map((item, index) => (
             <div
               key={index}
-              className="flex items-start gap-3 p-4 rounded-lg hover:bg-muted/50 transition-colors"
+              className="flex items-start gap-3 p-4 rounded-lg hover:bg-[rgba(0,0,0,0.03)] transition-colors"
             >
               <CircleCheck className="w-5 h-5 sm:w-6 sm:h-6 text-emerald-500 flex-shrink-0 mt-1" />
               <span className="text-sm sm:text-base font-medium">

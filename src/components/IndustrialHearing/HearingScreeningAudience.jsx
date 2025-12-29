@@ -50,7 +50,7 @@ export default function HearingScreeningAudience() {
         </div>
 
         {/* CTA Button */}
-        <button className="px-8 sm:px-10 py-3 text-base sm:text-lg font-medium rounded-md bg-emerald-500 text-white hover:bg-emerald-600 transition">
+        <button className="px-8 sm:px-10 py-2 text-base sm:text-lg font-medium rounded-md bg-emerald-500 text-white hover:bg-emerald-600 transition">
           Schedule Your Team&apos;s Screening
         </button>
       </div>
