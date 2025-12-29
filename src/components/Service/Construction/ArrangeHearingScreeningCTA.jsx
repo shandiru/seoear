@@ -1,5 +1,7 @@
 import { HashLink } from "react-router-hash-link";
 
+const BRAND_GREEN = "#43AA8B";
+
 const ArrangeHearingScreeningCTA = () => {
   // Smooth scroll function for sticky navbar
   const enhancedScroll = (el) => {
@@ -10,7 +12,12 @@ const ArrangeHearingScreeningCTA = () => {
   };
 
   return (
-    <section className="py-20 bg-gradient-to-br from-emerald-500 to-emerald-600">
+    <section
+      className="py-20"
+      style={{
+        background: `linear-gradient(to bottom right, ${BRAND_GREEN}, ${BRAND_GREEN})`,
+      }}
+    >
       <div className="container mx-auto px-4 text-center">
 
         {/* Heading */}
@@ -19,7 +26,7 @@ const ArrangeHearingScreeningCTA = () => {
         </h2>
 
         {/* Description */}
-        <p className="text-xl text-amber-50 max-w-2xl mx-auto mb-10 text-pretty">
+        <p className="text-xl text-white max-w-2xl mx-auto mb-10 text-pretty">
           Stay compliant and protect your team with professional on-site hearing
           tests for construction workers.
         </p>
@@ -34,7 +41,7 @@ const ArrangeHearingScreeningCTA = () => {
               [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0
               outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px]
               aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive
-              h-10 rounded-md has-[>svg]:px-4 bg-white text-emerald-600 hover:bg-emerald-50 text-lg px-10"
+              h-10 rounded-md has-[>svg]:px-4 bg-white text-[#43AA8B] hover:bg-[#c8f5e4] text-lg px-10"
           >
             Contact Us Today
           </a>

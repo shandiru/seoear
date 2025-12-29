@@ -2,6 +2,8 @@ import React from "react";
 import { ArrowLeft, Construction } from "lucide-react";
 import { HashLink } from "react-router-hash-link";
 
+const BRAND_GREEN = "#43AA8B";
+
 const ConstructionHero = () => {
   // Smooth scroll function with offset for sticky navbar
   const enhancedScroll = (el) => {
@@ -32,16 +34,23 @@ const ConstructionHero = () => {
         {/* Back Button */}
         <a
           href="/industrial"
-          className="inline-flex items-center gap-3 text-emerald-400 hover:text-emerald-300 mb-8 px-2 md:px-4"
+          className="inline-flex items-center gap-3 mb-8 px-2 md:px-4"
+          style={{ color: BRAND_GREEN }}
         >
-          <ArrowLeft className="w-5 h-5" />
+          <ArrowLeft className="w-5 h-5" style={{ color: BRAND_GREEN }} />
           <span>Back to Services</span>
         </a>
 
         {/* Category Badge */}
-        <div className="inline-flex items-center gap-3 bg-emerald-500/10 border border-emerald-500/20 rounded-full px-5 py-2 mb-8">
-          <Construction className="w-5 h-5 text-emerald-400" />
-          <span className="text-sm md:text-base font-medium text-emerald-400">
+        <div
+          className="inline-flex items-center gap-3 rounded-full px-5 py-2 mb-8 border"
+          style={{
+            backgroundColor: "rgba(67,170,139,0.1)",
+            borderColor: "rgba(67,170,139,0.2)",
+          }}
+        >
+          <Construction className="w-5 h-5" style={{ color: BRAND_GREEN }} />
+          <span className="text-sm md:text-base font-medium" style={{ color: BRAND_GREEN }}>
             Construction &amp; Civil Engineering
           </span>
         </div>
@@ -60,7 +69,8 @@ const ConstructionHero = () => {
         <HashLink
           to="/#contact"
           scroll={enhancedScroll}
-          className="inline-flex items-center justify-center h-12 px-8 text-lg font-medium rounded-md bg-emerald-500 hover:bg-emerald-600 text-white transition"
+          className="inline-flex items-center justify-center h-12 px-8 text-lg font-medium rounded-md text-white transition"
+          style={{ backgroundColor: BRAND_GREEN }}
         >
           Contact Us Today
         </HashLink>
