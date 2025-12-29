@@ -37,7 +37,7 @@ export default function HearingProgramme() {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="w-6 h-6 text-emerald-500 flex-shrink-0 mt-1"
+                  className="w-6 h-6 text-[#43AA8B] flex-shrink-0 mt-1"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"

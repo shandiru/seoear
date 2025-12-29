@@ -31,7 +31,7 @@ export default function WhatYouReceive() {
               key={index}
               className="flex items-start gap-3 p-4 rounded-lg hover:bg-[rgba(0,0,0,0.03)] transition-colors"
             >
-              <CircleCheck className="w-5 h-5 sm:w-6 sm:h-6 text-emerald-500 flex-shrink-0 mt-1" />
+              <CircleCheck className="w-5 h-5 sm:w-6 sm:h-6 text-[#43AA8B] flex-shrink-0 mt-1" />
               <span className="text-sm sm:text-base font-medium">
                 {item}
               </span>

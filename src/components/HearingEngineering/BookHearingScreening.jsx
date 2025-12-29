@@ -9,7 +9,7 @@ export default function BookHearingScreening() {
   };
 
   return (
-    <section className="py-20 bg-gradient-to-br from-emerald-500 to-emerald-600">
+    <section className="py-20 bg-[#43AA8B] ">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 text-balance">
           Book Hearing Screening for Your Workshop
@@ -22,7 +22,7 @@ export default function BookHearingScreening() {
           {/* Make Call */}
           <a
             href="tel:+448081371961"
-            className="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-all disabled:pointer-events-none disabled:opacity-50 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] h-10 rounded-md bg-white text-emerald-600 hover:bg-emerald-50 text-lg px-10"
+            className="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-all disabled:pointer-events-none disabled:opacity-50 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] h-10 rounded-md bg-white text-[#43AA8B] hover:bg-emerald-50 text-lg px-10"
           >
             Request a Quote
           </a>

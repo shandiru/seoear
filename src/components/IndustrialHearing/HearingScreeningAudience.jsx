@@ -52,7 +52,7 @@ export default function HearingScreeningAudience() {
         {/* CTA Button */}
         <a
           href="tel:+448081371961"
-          className="px-8 sm:px-10 py-2 text-base sm:text-lg font-medium rounded-md bg-emerald-500 text-white hover:bg-emerald-600 transition">
+          className="px-8 sm:px-10 py-2 text-base sm:text-lg font-medium rounded-md bg-[#43AA8B] text-white hover:bg-emerald-600 transition">
           Schedule Your Team&apos;s Screening
         </a>
       </div>
@@ -63,7 +63,7 @@ export default function HearingScreeningAudience() {
 function AudienceCard({ icon: Icon, text }) {
   return (
     <div className="bg-white/10 backdrop-blur border border-white/20 rounded-xl p-6 shadow-sm text-center">
-      <Icon className="w-8 h-8 text-emerald-400 mx-auto mb-3" />
+      <Icon className="w-8 h-8 text-[#43AA8B] mx-auto mb-3" />
       <p className="text-sm sm:text-base text-white">
         {text}
       </p>

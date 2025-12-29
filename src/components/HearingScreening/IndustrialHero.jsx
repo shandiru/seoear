@@ -31,16 +31,16 @@ const WarehouseLogisticsHero = () => {
         {/* Back Link */}
         <a
           href="/industrial"
-          className="inline-flex items-center gap-2 text-emerald-400 hover:text-emerald-300 mb-6 px-5"
+          className="inline-flex items-center gap-2 text-[#43AA8B] hover:text-emerald-300 mb-6 px-5"
         >
           <ArrowLeft className="w-4 h-4" />
           <span>Back to Services</span>
         </a>
 
         {/* Category Badge */}
-        <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/20 rounded-full px-4 py-2 mb-6">
-          <Warehouse className="w-4 h-4 text-emerald-400" />
-          <span className="text-sm font-medium text-emerald-400">
+        <div className="inline-flex items-center gap-2 bg-[#43AA8B]/10 border border-[#43AA8B]/20 rounded-full px-4 py-2 mb-6">
+          <Warehouse className="w-4 h-4 text-[#43AA8B]" />
+          <span className="text-sm font-medium text-[#43AA8B]">
             Heavy Industry & Processing
           </span>
         </div>
@@ -59,7 +59,7 @@ const WarehouseLogisticsHero = () => {
         <HashLink
           to="/#contact"
           scroll={enhancedScroll}
-          className="inline-flex items-center justify-center h-12 rounded-md bg-emerald-500 hover:bg-emerald-600 text-white text-lg font-medium px-8 transition"
+          className="inline-flex items-center justify-center h-12 rounded-md bg-[#43AA8B] hover:bg-emerald-600 text-white text-lg font-medium px-8 transition"
         >
           Contact Us Today
         </HashLink>

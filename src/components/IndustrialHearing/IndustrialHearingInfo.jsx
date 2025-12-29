@@ -55,7 +55,7 @@ function InfoLink({ icon: Icon, text, to }) {
       to={to} // <-- use react-router Link
       className="flex items-start gap-3 p-3 rounded-lg hover:bg-[rgba(0,0,0,0.03)] transition-colors"
     >
-      <Icon className="w-5 h-5 text-emerald-500 mt-1 flex-shrink-0" />
+      <Icon className="w-5 h-5 text-[#43AA8B] mt-1 flex-shrink-0" />
       <span className="text-sm sm:text-base text-muted-foreground hover:text-foreground">
         {text}
       </span>

@@ -21,16 +21,16 @@ export default function AutomotiveHearingScreening() {
         {/* Back Link */}
         <a
           href="/industrial"
-          className="inline-flex items-center gap-2 text-emerald-400 hover:text-emerald-300 mb-6 px-5"
+          className="inline-flex items-center gap-2 text-[#43AA8B] hover:text-emerald-300 mb-6 px-5"
         >
           <ArrowLeft className="w-4 h-4" />
           <span>Back to Services</span>
         </a>
 
         {/* Category Badge */}
-        <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/20 rounded-full px-4 py-2 mb-6">
-          <Settings className="w-4 h-4 text-emerald-400" />
-          <span className="text-sm font-medium text-emerald-400">
+        <div className="inline-flex items-center gap-2 bg-[#43AA8B]/10 border border-[#43AA8B]/20 rounded-full px-4 py-2 mb-6">
+          <Settings className="w-4 h-4 text-[#43AA8B]" />
+          <span className="text-sm font-medium text-[#43AA8B]">
             Automotive &amp; Engineering
           </span>
         </div>
@@ -50,7 +50,7 @@ export default function AutomotiveHearingScreening() {
           <HashLink
             to="/#contact"
             scroll={scrollWithOffset}
-            className="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-all disabled:pointer-events-none disabled:opacity-50 h-10 rounded-md bg-emerald-500 hover:bg-emerald-600 text-white text-lg px-8 focus:outline-none focus-visible:ring-3 focus-visible:ring-emerald-400"
+            className="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-all disabled:pointer-events-none disabled:opacity-50 h-10 rounded-md bg-[#43AA8B] hover:bg-[#43AA8B] text-white text-lg px-8 focus:outline-none focus-visible:ring-3 focus-visible:ring-[#43AA8B]"
           >
             Request a Quote Today
           </HashLink>

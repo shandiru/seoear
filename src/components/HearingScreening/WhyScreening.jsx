@@ -6,7 +6,7 @@ export default function WhyScreening() {
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="w-10 h-10 text-purple-500 mb-4"
+          className="w-10 h-10 text-[#43AA8B] mb-4"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -22,7 +22,7 @@ export default function WhyScreening() {
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="w-10 h-10 text-amber-500 mb-4"
+          className="w-10 h-10 text-[#43AA8B] mb-4"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -39,7 +39,7 @@ export default function WhyScreening() {
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="w-10 h-10 text-blue-500 mb-4"
+          className="w-10 h-10 text-[#43AA8B] mb-4"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -59,7 +59,7 @@ export default function WhyScreening() {
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="w-10 h-10 text-emerald-500 mb-4"
+          className="w-10 h-10 text-[#43AA8B] mb-4"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -82,7 +82,7 @@ export default function WhyScreening() {
           {cards.map((card, index) => (
             <div
               key={index}
-              className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl shadow-sm p-6 border-2 border-gray-200 hover:border-purple-500 transition-colors"
+              className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl shadow-sm p-6 border-2 border-gray-200 hover:border-[#43AA8B] transition-colors"
             >
               {card.icon}
               <h3 className="font-semibold mb-2">{card.title}</h3>

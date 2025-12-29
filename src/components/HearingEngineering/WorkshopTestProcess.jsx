@@ -45,7 +45,7 @@ export default function WorkshopTestProcess() {
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  className="w-6 h-6 text-emerald-500 flex-shrink-0 mt-1"
+                  className="w-6 h-6 text-[#43AA8B] flex-shrink-0 mt-1"
                 >
                   <circle cx="12" cy="12" r="10"></circle>
                   <path d="m9 12 2 2 4-4"></path>

@@ -9,7 +9,7 @@ export default function CTASection() {
   };
 
   return (
-    <section className="py-16 sm:py-20 lg:py-24 bg-gradient-to-br from-emerald-500 to-emerald-600">
+    <section className="py-16 sm:py-20 lg:py-24 bg-[#43AA8B]">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6 text-balance">
           Protect Hearing. Protect Your Business.
@@ -25,7 +25,7 @@ export default function CTASection() {
           <a
           href="tel:+448081371961"
            
-            className="h-12 px-8 sm:px-10 rounded-md bg-white text-emerald-600 text-base sm:text-lg font-medium transition hover:bg-emerald-50 focus:outline-none focus:ring-4 focus:ring-white/30 inline-flex items-center justify-center"
+            className="h-12 px-8 sm:px-10 rounded-md bg-white text-[#43AA8B] text-base sm:text-lg font-medium transition hover:bg-emerald-50 focus:outline-none focus:ring-4 focus:ring-white/30 inline-flex items-center justify-center"
           >
             Get in Touch Today
           </a>

@@ -20,28 +20,28 @@ export default function HearingTestProcess() {
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           <Step
             number="1"
-            color="bg-emerald-500"
+            color="bg-[#43AA8B]"
             title="Pre-Test Questionnaire"
             description="Employees answer questions covering noise exposure, previous hearing issues, and protective equipment use."
           />
 
           <Step
             number="2"
-            color="bg-blue-500"
+            color="bg-[#43AA8B]"
             title="Otoscopic Ear Check"
             description="A brief visual inspection of the ear canal to ensure no blockages or conditions affect results."
           />
 
           <Step
             number="3"
-            color="bg-amber-500"
+            color="bg-[#43AA8B]"
             title="Audiometry Test"
             description="Employee wears headphones and indicates when they hear tones at different frequencies and volumes."
           />
 
           <Step
             number="4"
-            color="bg-purple-500"
+            color="bg-[#43AA8B]"
             title="Results & Reporting"
             description="Immediate pass/refer outcome with clear explanation and employer summary report."
           />
@@ -50,7 +50,7 @@ export default function HearingTestProcess() {
         {/* Duration */}
         <div className="mt-10 sm:mt-12 text-center">
           <div className="inline-flex items-center gap-2 bg-[rgba(0,0,0,0.03)] px-6 py-3 rounded-full">
-            <Clock className="w-5 h-5 text-emerald-500" />
+            <Clock className="w-5 h-5 text-[#43AA8B]" />
             <span className="text-sm sm:text-base font-medium">
               Each test takes 10–15 minutes per person
             </span>

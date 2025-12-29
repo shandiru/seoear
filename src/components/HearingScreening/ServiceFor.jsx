@@ -14,7 +14,7 @@ export default function ServiceFor() {
         return (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-8 h-8 text-emerald-500 mx-auto mb-3"
+            className="w-8 h-8 text-[#43AA8B] mx-auto mb-3"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -30,7 +30,7 @@ export default function ServiceFor() {
         return (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-8 h-8 text-emerald-500 mx-auto mb-3"
+            className="w-8 h-8 text-[#43AA8B] mx-auto mb-3"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -44,7 +44,7 @@ export default function ServiceFor() {
         return (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-8 h-8 text-emerald-500 mx-auto mb-3"
+            className="w-8 h-8 text-[#43AA8B] mx-auto mb-3"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -57,7 +57,7 @@ export default function ServiceFor() {
         return (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-8 h-8 text-emerald-500 mx-auto mb-3"
+            className="w-8 h-8 text-[#43AA8B] mx-auto mb-3"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -73,7 +73,7 @@ export default function ServiceFor() {
         return (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-8 h-8 text-emerald-500 mx-auto mb-3"
+            className="w-8 h-8 text-[#43AA8B] mx-auto mb-3"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -98,7 +98,7 @@ export default function ServiceFor() {
           {people.map((person, idx) => (
             <div
               key={idx}
-              className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border border-gray-200 shadow-sm p-6 text-center hover:border-emerald-500 transition-colors"
+              className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border border-gray-200 shadow-sm p-6 text-center hover:border-[#43AA8B] transition-colors"
             >
               <Icon name={person.icon} />
               <p className="font-medium text-sm">{person.name}</p>

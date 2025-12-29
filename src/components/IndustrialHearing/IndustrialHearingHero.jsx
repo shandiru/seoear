@@ -21,16 +21,13 @@ export default function IndustrialHearingHero() {
         }}
       />
 
-      {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/60 to-transparent" />
-
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
 
         {/* Badge */}
-        <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/20 rounded-full px-4 py-2 mb-6">
-          <Volume2 className="w-4 h-4 text-emerald-400" />
-          <span className="text-sm font-medium text-emerald-400">
+        <div className="inline-flex items-center gap-2 bg-[#43AA8B]/10 border border-[#43AA8B]/20 rounded-full px-4 py-2 mb-6">
+          <Volume2 className="w-4 h-4 text-[#43AA8B]" />
+          <span className="text-sm font-medium text-[#43AA8B]">
             Workplace Health Surveillance
           </span>
         </div>
@@ -51,7 +48,7 @@ export default function IndustrialHearingHero() {
           <HashLink
             to="/#contact"
             scroll={scrollWithOffset}
-            className="px-8 py-3 text-lg font-medium rounded-md bg-emerald-500 text-white hover:bg-emerald-600 transition"
+            className="px-8 py-3 text-lg font-medium rounded-md bg-[#43AA8B] text-white hover:bg-emerald-600 transition"
           >
             Book On-Site Testing
           </HashLink>

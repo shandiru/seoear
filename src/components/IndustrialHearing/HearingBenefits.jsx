@@ -3,32 +3,32 @@ import { Shield, FileText, CircleCheck, TrendingUp } from "lucide-react";
 const benefits = [
   {
     icon: Shield,
-    iconBg: "bg-emerald-500/10",
-    iconColor: "text-emerald-500",
+    iconBg: "bg-[#43AA8B]/10",
+    iconColor: "text-[#43AA8B]",
     title: "Protect Employee Health",
     description:
       "Early detection prevents irreversible hearing damage from workplace noise exposure.",
   },
   {
     icon: FileText,
-    iconBg: "bg-blue-500/10",
-    iconColor: "text-blue-500",
+    iconBg: "bg-[#43AA8B]/10",
+    iconColor: "text-[#43AA8B]",
     title: "Meet Legal Obligations",
     description:
       "Comply with The Control of Noise at Work Regulations 2005 requirements.",
   },
   {
     icon: CircleCheck,
-    iconBg: "bg-amber-500/10",
-    iconColor: "text-amber-500",
+    iconBg: "bg-[#43AA8B]/10",
+    iconColor: "text-[#43AA8B]",
     title: "Reduce Risk & Liability",
     description:
       "Demonstrate duty of care and reduce risk of claims or enforcement action.",
   },
   {
     icon: TrendingUp,
-    iconBg: "bg-purple-500/10",
-    iconColor: "text-purple-500",
+    iconBg: "bg-[#43AA8B]/10",
+    iconColor: "text-[#43AA8B]",
     title: "Improve Productivity",
     description:
       "Healthy hearing ensures better communication and safer, more effective work.",
@@ -45,7 +45,7 @@ export default function HearingBenefits() {
             return (
               <div
                 key={index}
-                className="bg-card text-card-foreground flex flex-col rounded-xl shadow-sm p-6 border-gray-200 border-2 hover:border-emerald-500 transition-colors"
+                className="bg-card text-card-foreground flex flex-col rounded-xl shadow-sm p-6 border-gray-200 border-2 hover:border-[#43AA8B] transition-colors"
               >
                 <div
                   className={`w-12 h-12 rounded-full ${benefit.iconBg} flex items-center justify-center mb-4`}

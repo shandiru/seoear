@@ -4,25 +4,25 @@ export default function WorkshopHearingImportance() {
   const cards = [
     {
       icon: Settings,
-      color: "text-emerald-500",
+      color: "text-[#43AA8B]",
       title: "Mechanical Noise Exposure",
       desc: "Prolonged exposure to mechanical noise",
     },
     {
       icon: Activity,
-      color: "text-blue-500",
+      color: "text-[#43AA8B]",
       title: "Diagnostic Essential",
       desc: "Hearing is essential for diagnostics and safety",
     },
     {
       icon: Shield,
-      color: "text-amber-500",
+      color: "text-[#43AA8B]",
       title: "Protect Skilled Workers",
       desc: "Protects long-term skilled employees",
     },
     {
       icon: FileText,
-      color: "text-purple-500",
+      color: "text-[#43AA8B]",
       title: "Compliance Support",
       desc: "Supports insurance and compliance requirements",
     },
@@ -41,7 +41,7 @@ export default function WorkshopHearingImportance() {
             return (
               <div
                 key={idx}
-                className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl shadow-sm p-6 border-2 border-gray-200 hover:border-emerald-500 transition-colors"
+                className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl shadow-sm p-6 border-2 border-gray-200 hover:border-[#43AA8B] transition-colors"
               >
                 <Icon className={`w-10 h-10 ${card.color} mb-4`} />
                 <h3 className="font-semibold mb-2">{card.title}</h3>
