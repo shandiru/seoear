@@ -4,32 +4,32 @@ const faqs = [
   {
     question: "Is hearing screening mandatory?",
     answer:
-      "Yes, hearing screening is mandatory in many industries to comply with occupational health and safety regulations.",
+      "Yes, where employees are exposed to harmful noise levels. Employers must assess risk and provide health surveillance when required under The Control of Noise at Work Regulations 2005.",
   },
   {
     question: "Does the test hurt?",
     answer:
-      "No, the test is completely painless and non-invasive.",
+      "No. The test is completely painless and non-invasive. Employees simply wear headphones and indicate when they hear different tones.",
   },
   {
     question: "How long does it take?",
     answer:
-      "Each screening typically takes about 10–15 minutes per employee.",
+      "Around 10–15 minutes per employee, depending on group size. We work efficiently to minimize disruption to your operations.",
   },
   {
     question: "Do employees need to prepare?",
     answer:
-      "No special preparation is required. Employees should simply avoid loud noise exposure before the test.",
+      "Employees should avoid loud noise exposure for several hours before the test where possible for the most accurate results.",
   },
   {
     question: "What happens if an employee fails?",
     answer:
-      "If an employee does not pass, further medical evaluation and workplace recommendations will be provided.",
+      `A "refer" result does not mean permanent hearing loss. It indicates further assessment is recommended, usually through a full audiology evaluation.`,
   },
   {
     question: "Can tests be done on-site?",
     answer:
-      "Yes, screenings can be conducted directly at your workplace for convenience.",
+      "Yes. We offer on-site industrial testing, ideal for minimising downtime and disruption to your business operations.",
   },
 ];
 
