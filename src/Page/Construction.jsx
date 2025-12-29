@@ -7,38 +7,40 @@ import HearingScreeningCards from "../components/Service/Construction/HearingScr
 import WhatHappensDuringTest from "../components/Service/Construction/WhatHappensDuringTest";
 import WhoThisServiceIsFor from "../components/Service/Construction/WhoThisServiceIsFor";
 import ArrangeHearingScreeningCTA from "../components/Service/Construction/ArrangeHearingScreeningCTA";
+
 function Construction() { 
   return (
     <>
       {/* ✅ SEO Metadata */}
       <Helmet>
-        <title>Ear Wax Removal Grantham | Trusted Mobile Ear Cleaning</title>
-        <meta name="title" content="Ear Wax Removal Grantham | Trusted Mobile Ear Cleaning"></meta>
+        <title>Hearing Screening for Construction Sites | On-Site Workplace Hearing Tests</title>
+        <meta 
+          name="title" 
+          content="Hearing Screening for Construction Sites | On-Site Workplace Hearing Tests" 
+        />
         <meta
           name="description"
-          content="EarWeGo provides mobile ear wax removal in Grantham. Trusted, effective ear cleaning at your convenience. Schedule your appointment today."
+          content="Protect workers on construction and civil engineering sites with on-site hearing screening. Ensure safety, HSE compliance, and early detection of hearing issues."
         />
         <meta
           name="keywords"
-          content="ear wax removal Grantham"
+          content="construction hearing tests, site hearing screening, workplace hearing tests, construction safety hearing tests"
         />
         <meta name="robots" content="index, follow" />
-        <meta name="google-site-verification" content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" />
-    <link rel="canonical" href="https://earwego.co.uk/areas-we-cover/ear-wax-removal-grantham/" />
-
-
+        <meta 
+          name="google-site-verification" 
+          content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" 
+        />
+        <link rel="canonical" href="https://earwego.co.uk/services/construction" />
       </Helmet>
 
-      <ConstructionHero/>
-    <ConstructionHearingScreening/>
-    <HearingScreeningCards/>
-    <WhatHappensDuringTest/>
-    <WhoThisServiceIsFor/>
-    <ArrangeHearingScreeningCTA/>
-      
-
       {/* ✅ Page Sections */}
-    
+      <ConstructionHero />
+      <ConstructionHearingScreening />
+      <HearingScreeningCards />
+      <WhatHappensDuringTest />
+      <WhoThisServiceIsFor />
+      <ArrangeHearingScreeningCTA />
     </>
   );
 }

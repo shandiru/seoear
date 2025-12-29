@@ -7,37 +7,40 @@ import WhyHearingScreening from "../components/Service/Factories/WhyHearingScree
 import OnSiteHearingTests from "../components/Service/Factories/OnSiteHearingTests";
 import WhoThisServiceIsFor from "../components/Service/Factories/WhoThisServiceIsFor";
 import HearingTestSection from "../components/Service/Factories/HearingTestSection";
+
 function Factories() {
   return (
     <>
       {/* ✅ SEO Metadata */}
       <Helmet>
-        <title>Ear Wax Removal Grantham | Trusted Mobile Ear Cleaning</title>
-        <meta name="title" content="Ear Wax Removal Grantham | Trusted Mobile Ear Cleaning"></meta>
+        <title>Hearing Screening for Factories & Manufacturing Plants | Workplace Hearing Tests</title>
+        <meta 
+          name="title" 
+          content="Hearing Screening for Factories & Manufacturing Plants | Workplace Hearing Tests" 
+        />
         <meta
           name="description"
-          content="EarWeGo provides mobile ear wax removal in Grantham. Trusted, effective ear cleaning at your convenience. Schedule your appointment today."
+          content="Protect employees with on-site hearing screening for factories and manufacturing plants. Ensure compliance with UK health & safety regulations and workplace safety."
         />
         <meta
           name="keywords"
-          content="ear wax removal Grantham"
+          content="factory hearing tests, industrial hearing screening, workplace hearing tests, manufacturing hearing tests"
         />
         <meta name="robots" content="index, follow" />
-        <meta name="google-site-verification" content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" />
-    <link rel="canonical" href="https://earwego.co.uk/areas-we-cover/ear-wax-removal-grantham/" />
-
-
+        <meta 
+          name="google-site-verification" 
+          content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" 
+        />
+        <link rel="canonical" href="https://earwego.co.uk/services/factories" />
       </Helmet>
 
+      {/* ✅ Page Sections */}
       <ServiceHero />
       <ServiceDescription />
-        <WhyHearingScreening />
-        <OnSiteHearingTests />
-        <WhoThisServiceIsFor />
-        <HearingTestSection />
-
-      {/* ✅ Page Sections */}
-    
+      <WhyHearingScreening />
+      <OnSiteHearingTests />
+      <WhoThisServiceIsFor />
+      <HearingTestSection />
     </>
   );
 }
