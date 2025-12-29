@@ -35,7 +35,6 @@ const Navbar = () => {
     }
   };
 
-  // Navigation links (regular links)
   const links = [
     { label: "Why Us", href: "/#whyus" },
     { label: "Pricing", href: "/#pricing" },
@@ -47,17 +46,15 @@ const Navbar = () => {
     { label: "Contact", href: "/#contact" },
   ];
 
-  // Service Pages
   const services = [
-    { label: "Industrial Hearing", href: "/industrial" },
-    { label: "Factories", href: "/services/factories" },
-    { label: "Construction", href: "/services/construction" },
-    { label: "Warehouses", href: "/services/warehouses" },
-    { label: "Workshops", href: "/services/workshops" },
-    { label: "Industrial Plants", href: "/services/industrial-plants" },
+    { name: "Industrial Hearing", path: "/industrial" },
+    { name: "Factories", path: "/services/factories" },
+    { name: "Construction", path: "/services/construction" },
+    { name: "Warehouses", path: "/services/warehouses" },
+    { name: "Workshops", path: "/services/workshops" },
+    { name: "Industrial Plants", path: "/services/industrial-plants" },
   ];
 
-  // Locations
   const locations = [
     { name: "Nottingham", path: "/areas-we-cover/ear-wax-removal-nottingham/" },
     { name: "Derby", path: "/areas-we-cover/ear-wax-removal-derby/" },
@@ -109,19 +106,19 @@ const Navbar = () => {
                 onClick={() => setServicesOpen((prev) => !prev)}
                 className="flex items-center gap-1 text-[#4B5563] hover:text-[#0D1525] font-medium text-base"
               >
-                Industrial
+                Services
                 {servicesOpen ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
               </button>
               {servicesOpen && (
                 <div className="absolute right-0 mt-2 w-60 bg-white border border-gray-200 shadow-md rounded-md py-2 z-50">
                   {services.map((service) => (
                     <Link
-                      key={service.label}
-                      to={service.href}
+                      key={service.name}
+                      to={service.path}
                       onClick={() => setServicesOpen(false)}
                       className="block px-4 py-2 text-[#4B5563] hover:bg-[#F8FAFC] hover:text-[#0D1525] transition-colors"
                     >
-                      {service.label}
+                      {service.name}
                     </Link>
                   ))}
                 </div>
@@ -154,11 +151,20 @@ const Navbar = () => {
               )}
             </div>
 
-            {/* Hidden SEO-only links */}
+            {/* Hidden SEO-only links for Locations */}
             <div style={{ display: "none" }}>
               {locations.map((loc) => (
                 <a key={loc.name} href={loc.path}>
                   Earwax Removal {loc.name}
+                </a>
+              ))}
+            </div>
+
+            {/* Hidden SEO-only links for Services */}
+            <div style={{ display: "none" }}>
+              {services.map((service) => (
+                <a key={service.name} href={service.path}>
+                  {service.name}
                 </a>
               ))}
             </div>
@@ -212,15 +218,15 @@ const Navbar = () => {
                   <div className="ml-4 mt-1 flex flex-col space-y-1">
                     {services.map((service) => (
                       <Link
-                        key={service.label}
-                        to={service.href}
+                        key={service.name}
+                        to={service.path}
                         onClick={() => {
                           setOpen(false);
                           setServicesOpen(false);
                         }}
                         className="block px-3 py-2 text-[#4B5563] hover:bg-[#F8FAFC] hover:text-[#0D1525] rounded-md transition-colors"
                       >
-                        {service.label}
+                        {service.name}
                       </Link>
                     ))}
                   </div>
@@ -255,11 +261,20 @@ const Navbar = () => {
                 )}
               </div>
 
-              {/* Hidden SEO-only links for mobile */}
+              {/* Hidden SEO-only links for Locations (mobile) */}
               <div style={{ display: "none" }}>
                 {locations.map((loc) => (
                   <a key={loc.name} href={loc.path}>
                     Earwax Removal {loc.name}
+                  </a>
+                ))}
+              </div>
+
+              {/* Hidden SEO-only links for Services (mobile) */}
+              <div style={{ display: "none" }}>
+                {services.map((service) => (
+                  <a key={service.name} href={service.path}>
+                    {service.name}
                   </a>
                 ))}
               </div>
