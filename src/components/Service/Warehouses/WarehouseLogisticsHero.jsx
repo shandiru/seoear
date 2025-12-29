@@ -1,8 +1,17 @@
 import { ArrowLeft, Warehouse } from "lucide-react";
+import { HashLink } from "react-router-hash-link";
 
 const WarehouseLogisticsHero = () => {
+  // Smooth scroll function with offset for sticky navbar
+  const enhancedScroll = (el) => {
+    if (el) {
+      const y = el.getBoundingClientRect().top + window.scrollY - 100;
+      window.scrollTo({ top: y, behavior: "smooth" });
+    }
+  };
+
   return (
-    <section className="relative min-h-[100vh] flex items-center justify-center overflow-hidden bg-linear-to-br from-slate-900 via-slate-800 to-slate-900 px-4">
+    <section className="relative min-h-[100vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 px-4">
       
       {/* Background Image */}
       <div
@@ -47,12 +56,13 @@ const WarehouseLogisticsHero = () => {
         </p>
 
         {/* CTA Button */}
-        <button
-          type="button"
+        <HashLink
+          to="/#contact"
+          scroll={enhancedScroll}
           className="inline-flex items-center justify-center h-12 rounded-md bg-emerald-500 hover:bg-emerald-600 text-white text-lg font-medium px-8 transition"
         >
           Get in Touch Today
-        </button>
+        </HashLink>
 
       </div>
     </section>

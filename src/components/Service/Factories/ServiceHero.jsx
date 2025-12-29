@@ -1,9 +1,18 @@
 import React from "react";
 import { ArrowLeft, Factory } from "lucide-react";
+import { HashLink } from "react-router-hash-link";
 
 const ServiceHero = () => {
+  // Function to handle smooth scroll with offset
+  const enhancedScroll = (el) => {
+    if (el) {
+      const y = el.getBoundingClientRect().top + window.scrollY - 100; // adjust offset for sticky navbar
+      window.scrollTo({ top: y, behavior: "smooth" });
+    }
+  };
+
   return (
-    <section className="relative min-h-[100vh] flex items-center justify-center overflow-hidden bg-linear-to-br from-slate-900 via-slate-800 to-slate-900">
+    <section className="relative min-h-[100vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
       
       {/* Background Image */}
       <div
@@ -48,9 +57,13 @@ const ServiceHero = () => {
         </p>
 
         {/* CTA Button */}
-        <button className="inline-flex items-center justify-center h-12 px-8 text-lg font-medium rounded-md bg-emerald-500 hover:bg-emerald-600 text-white transition">
+        <HashLink
+          to="/#contact"
+          scroll={enhancedScroll}
+          className="inline-flex items-center justify-center h-12 px-8 text-lg font-medium rounded-md bg-emerald-500 hover:bg-emerald-600 text-white transition"
+        >
           Book a Site Visit Today
-        </button>
+        </HashLink>
       </div>
     </section>
   );
