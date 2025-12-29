@@ -3,7 +3,7 @@ import { ArrowLeft, Factory } from "lucide-react";
 
 const ServiceHero = () => {
   return (
-    <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+    <section className="relative min-h-[100vh] flex items-center justify-center overflow-hidden bg-linear-to-br from-slate-900 via-slate-800 to-slate-900">
       
       {/* Background Image */}
       <div

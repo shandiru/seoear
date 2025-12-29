@@ -21,27 +21,27 @@ const WhoThisServiceIsFor = () => {
 
           {/* Card */}
           <div className="bg-white rounded-2xl shadow-md p-8 text-center">
-            <HardHat className="w-8 h-8 text-orange-500 mx-auto mb-4" />
+            <HardHat className="w-8 h-8 text-emerald-400 mx-auto mb-4" />
             <p className="font-medium">Site Operatives</p>
           </div>
 
           <div className="bg-white rounded-2xl shadow-md p-8 text-center">
-            <Wrench className="w-8 h-8 text-orange-500 mx-auto mb-4" />
+            <Wrench className="w-8 h-8 text-emerald-400 mx-auto mb-4" />
             <p className="font-medium">Groundworkers</p>
           </div>
 
           <div className="bg-white rounded-2xl shadow-md p-8 text-center">
-            <Construction className="w-8 h-8 text-orange-500 mx-auto mb-4" />
+            <Construction className="w-8 h-8 text-emerald-400 mx-auto mb-4" />
             <p className="font-medium">Plant Operators</p>
           </div>
 
           <div className="bg-white rounded-2xl shadow-md p-8 text-center">
-            <TriangleAlert className="w-8 h-8 text-orange-500 mx-auto mb-4" />
+            <TriangleAlert className="w-8 h-8 text-emerald-400 mx-auto mb-4" />
             <p className="font-medium">Demolition Teams</p>
           </div>
 
           <div className="bg-white rounded-2xl shadow-md p-8 text-center">
-            <Users className="w-8 h-8 text-orange-500 mx-auto mb-4" />
+            <Users className="w-8 h-8 text-emerald-400 mx-auto mb-4" />
             <p className="font-medium">Site Managers</p>
           </div>
 

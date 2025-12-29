@@ -2,7 +2,7 @@ import { ArrowLeft, Warehouse } from "lucide-react";
 
 const WarehouseLogisticsHero = () => {
   return (
-    <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 px-4">
+    <section className="relative min-h-[100vh] flex items-center justify-center overflow-hidden bg-linear-to-br from-slate-900 via-slate-800 to-slate-900 px-4">
       
       {/* Background Image */}
       <div
@@ -12,7 +12,7 @@ const WarehouseLogisticsHero = () => {
 
       {/* Overlay Gradient */}
       <div
-        className="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-900/50 to-transparent"
+        className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent"
         aria-hidden="true"
       />
 
@@ -22,16 +22,16 @@ const WarehouseLogisticsHero = () => {
         {/* Back Link */}
         <a
           href="/industrial"
-          className="inline-flex items-center gap-2 text-blue-300 hover:text-blue-200 mb-6 px-5"
+          className="inline-flex items-center gap-2 text-emerald-400 hover:text-emerald-300 mb-6 px-5"
         >
           <ArrowLeft className="w-4 h-4" />
           <span>Back to Services</span>
         </a>
 
         {/* Category Badge */}
-        <div className="inline-flex items-center gap-2 bg-blue-500/10 border border-blue-500/20 rounded-full px-4 py-2 mb-6">
-          <Warehouse className="w-4 h-4 text-blue-300" />
-          <span className="text-sm font-medium text-blue-300">
+        <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/20 rounded-full px-4 py-2 mb-6">
+          <Warehouse className="w-4 h-4 text-emerald-400" />
+          <span className="text-sm font-medium text-emerald-400">
             Warehouses &amp; Logistics
           </span>
         </div>
@@ -42,14 +42,14 @@ const WarehouseLogisticsHero = () => {
         </h1>
 
         {/* Subheading */}
-        <p className="text-xl text-blue-50 max-w-3xl mb-8 text-pretty">
+        <p className="text-xl text-slate-300 max-w-3xl mb-8 text-pretty">
           Workplace Hearing Tests for Busy Logistics Operations
         </p>
 
         {/* CTA Button */}
         <button
           type="button"
-          className="inline-flex items-center justify-center h-10 rounded-md bg-blue-500 hover:bg-blue-600 text-white text-lg font-medium px-8 transition"
+          className="inline-flex items-center justify-center h-12 rounded-md bg-emerald-500 hover:bg-emerald-600 text-white text-lg font-medium px-8 transition"
         >
           Get in Touch Today
         </button>

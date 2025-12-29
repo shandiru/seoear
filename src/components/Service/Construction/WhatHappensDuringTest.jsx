@@ -2,7 +2,7 @@ import { CircleCheck } from "lucide-react";
 
 const WhatHappensDuringTest = () => {
   return (
-    <section className="py-16 bg-background">
+    <section className="py-16 bg-[rgba(0,0,0,0.03)]">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
 
@@ -16,12 +16,12 @@ const WhatHappensDuringTest = () => {
 
             {/* Item 1 */}
             <div className="flex items-start gap-4 p-4 rounded-lg bg-[rgba(0,0,0,0.03)]">
-              <CircleCheck className="w-6 h-6 text-amber-500 flex-shrink-0 mt-1" />
+              <CircleCheck className="w-6 h-6 text-emerald-400 flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-semibold mb-1">
                   Noise-Exposure and PPE Usage Questionnaire
                 </h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-slate-500">
                   Understanding exposure history and protective equipment use
                 </p>
               </div>
@@ -29,12 +29,12 @@ const WhatHappensDuringTest = () => {
 
             {/* Item 2 */}
             <div className="flex items-start gap-4 p-4 rounded-lg bg-[rgba(0,0,0,0.03)]">
-              <CircleCheck className="w-6 h-6 text-amber-500 flex-shrink-0 mt-1" />
+              <CircleCheck className="w-6 h-6 text-emerald-400 flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-semibold mb-1">
                   Ear Canal Inspection
                 </h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-slate-500">
                   Visual check for blockages or conditions
                 </p>
               </div>
@@ -42,12 +42,12 @@ const WhatHappensDuringTest = () => {
 
             {/* Item 3 */}
             <div className="flex items-start gap-4 p-4 rounded-lg bg-[rgba(0,0,0,0.03)]">
-              <CircleCheck className="w-6 h-6 text-amber-500 flex-shrink-0 mt-1" />
+              <CircleCheck className="w-6 h-6 text-emerald-400 flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-semibold mb-1">
                   Audiometric Hearing Assessment
                 </h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-slate-500">
                   Comprehensive hearing level testing
                 </p>
               </div>
@@ -55,12 +55,12 @@ const WhatHappensDuringTest = () => {
 
             {/* Item 4 */}
             <div className="flex items-start gap-4 p-4 rounded-lg bg-[rgba(0,0,0,0.03)]">
-              <CircleCheck className="w-6 h-6 text-amber-500 flex-shrink-0 mt-1" />
+              <CircleCheck className="w-6 h-6 text-emerald-400 flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-semibold mb-1">
                   Immediate Results with Guidance
                 </h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-slate-500">
                   Clear next-step guidance provided on-site
                 </p>
               </div>
@@ -69,7 +69,7 @@ const WhatHappensDuringTest = () => {
           </div>
 
           {/* Highlight Box */}
-          <div className="mt-8 p-6 bg-amber-500/10 border border-amber-500/20 rounded-lg">
+          <div className="mt-8 p-6 bg-emerald-500/10 border border-emerald-500/20 rounded-lg">
             <p className="text-sm">
               All testing is carried out using{" "}
               <span className="font-semibold">

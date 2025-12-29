@@ -2,7 +2,7 @@ import React from "react";
 
 const HearingTestSection = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-emerald-500 to-emerald-600">
+    <section className="py-20 bg-linear-to-br from-emerald-500 to-emerald-600">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-4xl font-bold text-white mb-6 text-balance">
           Book Industrial Hearing Tests for Your Factory

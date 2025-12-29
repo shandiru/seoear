@@ -1,6 +1,6 @@
 const ArrangeHearingScreeningCTA = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-amber-500 to-orange-600">
+    <section className="py-20 bg-linear-to-br from-emerald-500 to-emerald-600">
       <div className="container mx-auto px-4 text-center">
 
         {/* Heading */}
@@ -20,8 +20,13 @@ const ArrangeHearingScreeningCTA = () => {
           {/* Primary CTA */}
           <button
             type="button"
-            className="inline-flex items-center justify-center h-10 rounded-md bg-white text-amber-600 text-lg font-medium px-10 hover:bg-amber-50 transition"
+           className="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-all disabled:pointer-events-none disabled:opacity-50
+            [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0
+            outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px]
+            aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive
+            h-10 rounded-md has-[>svg]:px-4 bg-white text-emerald-600 hover:bg-emerald-50 text-lg px-10"
           >
+          
             Contact Us Today
           </button>
 

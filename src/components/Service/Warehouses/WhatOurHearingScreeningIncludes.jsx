@@ -2,7 +2,7 @@ import { CircleCheck } from "lucide-react";
 
 const WhatOurHearingScreeningIncludes = () => {
   return (
-    <section className="py-16 bg-background">
+    <section className="py-16 bg-[rgba(0,0,0,0.03)]">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
 
@@ -15,60 +15,60 @@ const WhatOurHearingScreeningIncludes = () => {
           <div className="space-y-4">
 
             <div className="flex items-start gap-4 p-4 rounded-lg bg-[rgba(0,0,0,0.03)]">
-              <CircleCheck className="w-6 h-6 text-blue-500 flex-shrink-0 mt-1" />
+              <CircleCheck className="w-6 h-6 text-emerald-400 flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-semibold mb-1">
                   Noise-Exposure Questionnaire
                 </h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-slate-500">
                   Understanding workplace noise exposure
                 </p>
               </div>
             </div>
 
             <div className="flex items-start gap-4 p-4 rounded-lg bg-[rgba(0,0,0,0.03)]">
-              <CircleCheck className="w-6 h-6 text-blue-500 flex-shrink-0 mt-1" />
+              <CircleCheck className="w-6 h-6 text-emerald-400 flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-semibold mb-1">
                   Ear Health Inspection
                 </h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-slate-500">
                   Professional otoscopic examination
                 </p>
               </div>
             </div>
 
             <div className="flex items-start gap-4 p-4 rounded-lg bg-[rgba(0,0,0,0.03)]">
-              <CircleCheck className="w-6 h-6 text-blue-500 flex-shrink-0 mt-1" />
+              <CircleCheck className="w-6 h-6 text-emerald-400 flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-semibold mb-1">
                   Audiometric Hearing Test
                 </h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-slate-500">
                   Comprehensive hearing assessment
                 </p>
               </div>
             </div>
 
             <div className="flex items-start gap-4 p-4 rounded-lg bg-[rgba(0,0,0,0.03)]">
-              <CircleCheck className="w-6 h-6 text-blue-500 flex-shrink-0 mt-1" />
+              <CircleCheck className="w-6 h-6 text-emerald-400 flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-semibold mb-1">
                   Confidential Employee Results
                 </h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-slate-500">
                   Private results for each worker
                 </p>
               </div>
             </div>
 
             <div className="flex items-start gap-4 p-4 rounded-lg bg-[rgba(0,0,0,0.03)]">
-              <CircleCheck className="w-6 h-6 text-blue-500 flex-shrink-0 mt-1" />
+              <CircleCheck className="w-6 h-6 text-emerald-400 flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-semibold mb-1">
                   Employer Compliance Documentation
                 </h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-slate-500">
                   Complete records for your business
                 </p>
               </div>
@@ -77,7 +77,7 @@ const WhatOurHearingScreeningIncludes = () => {
           </div>
 
           {/* Highlight Box */}
-          <div className="mt-8 p-6 bg-blue-500/10 border border-blue-500/20 rounded-lg">
+          <div className="mt-8 p-6 bg-emerald-500/10 border border-emerald-500/20 rounded-lg">
             <p className="text-sm">
               Testing is{" "}
               <span className="font-semibold">
