@@ -29,6 +29,9 @@ import NotFoundPage from "./Page/NotFoundPage.jsx";
 import IndustrialHearing from "./Page/IndustrialHearing.jsx";
 import HearingScreening from "./Page/HearingScreening.jsx";
 import HearingEngineering from "./Page/HearingEngineering.jsx";
+import Factories from "./Page/factories.jsx";
+import Construction from "./Page/Construction.jsx";
+import Warehouses from "./Page/Warehouses.jsx";
 
 function App() {
   return (
@@ -64,6 +67,10 @@ function App() {
         <Route path="/industrial" element={<IndustrialHearing /> } />
         <Route path="/services/industrial-plants" element={<HearingScreening /> } />
         <Route path="/services/workshops" element={<HearingEngineering /> } />
+
+          <Route path="/services/factories" element={<Factories /> } />
+          <Route path="/services/construction" element={<Construction /> } />
+          <Route path="/services/warehouses" element={<Warehouses /> } />
         
 
         {/* Catch-all 404 */}
