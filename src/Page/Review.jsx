@@ -27,7 +27,7 @@ export default function ReviewPage() {
         } else {
             setShowReviewBox(false);
             window.open(
-                'https://www.google.com/search?q=earwego+reviews&rlz=1C1CHBD_enLK1099LK1099&oq=earwego+review&gs_lcrp=EgZjaHJvbWUqCAgAEEUYJxg7MggIABBFGCcYOzIGCAEQRRg5MgcIAhAAGO8FMgcIAxAAGO8FMgoIBBAAGIAEGKIEMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEJMTAzMjlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8',
+                'https://www.google.com/search?rlz=1C1CHBD_enLK1099LK1099&sca_esv=0d39acdbfaa95ae9&cs=1&sxsrf=AE3TifObueP3wSW1i1jfZ0y79yRA7UqEOw:1767014227454&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E3d-GP9G2ynJvZecJPoaPO8ZAnR75gKuWwmeKzOIoOLUyvzGkNmERF-mjYJLB9cStwHXzGPcE4Iuty82kHOIy72JxCV4&q=Earwego+Reviews&sa=X&ved=2ahUKEwiOtdz68OKRAxVtV0EAHY7kJHgQ0bkNegQIHRAD&cshid=1767014467515629&biw=1449&bih=746&dpr=2#lrd=0x4879f17175ebd3cd:0x4cc5abbc5eefd982,3,,,,',
                 '_blank',
                 'noopener,noreferrer'
             );
