@@ -6,6 +6,8 @@ import {
   CheckCircle
 } from "lucide-react";
 
+const BRAND_GREEN = "#43AA8B";
+
 const HearingScreeningSection = () => {
   return (
     <section className="py-16 bg-[rgba(0,0,0,0.03)]">
@@ -19,7 +21,7 @@ const HearingScreeningSection = () => {
 
           {/* Card */}
           <div className="bg-white flex flex-col gap-6 rounded-xl p-6 border border-gray-200 shadow-sm hover:shadow-md transition">
-            <TriangleAlert className="w-10 h-10 text-amber-500" />
+            <TriangleAlert className="w-10 h-10" style={{ color: BRAND_GREEN }} />
             <div>
               <h3 className="font-semibold mb-2">Exceeds Safe Limits</h3>
               <p className="text-sm text-gray-500">
@@ -29,7 +31,7 @@ const HearingScreeningSection = () => {
           </div>
 
           <div className="bg-white flex flex-col gap-6 rounded-xl p-6 border border-gray-200 shadow-sm hover:shadow-md transition">
-            <Shield className="w-10 h-10 text-emerald-500" />
+            <Shield className="w-10 h-10" style={{ color: BRAND_GREEN }} />
             <div>
               <h3 className="font-semibold mb-2">Safety Critical</h3>
               <p className="text-sm text-gray-500">
@@ -39,7 +41,7 @@ const HearingScreeningSection = () => {
           </div>
 
           <div className="bg-white flex flex-col gap-6 rounded-xl p-6 border border-gray-200 shadow-sm hover:shadow-md transition">
-            <FileText className="w-10 h-10 text-blue-500" />
+            <FileText className="w-10 h-10" style={{ color: BRAND_GREEN }} />
             <div>
               <h3 className="font-semibold mb-2">HSE Compliance</h3>
               <p className="text-sm text-gray-500">
@@ -49,7 +51,7 @@ const HearingScreeningSection = () => {
           </div>
 
           <div className="bg-white flex flex-col gap-6 rounded-xl p-6 border border-gray-200 shadow-sm hover:shadow-md transition">
-            <HardHat className="w-10 h-10 text-purple-500" />
+            <HardHat className="w-10 h-10" style={{ color: BRAND_GREEN }} />
             <div>
               <h3 className="font-semibold mb-2">Safety-Critical Roles</h3>
               <p className="text-sm text-gray-500">
@@ -59,7 +61,7 @@ const HearingScreeningSection = () => {
           </div>
 
           <div className="bg-white flex flex-col gap-6 rounded-xl p-6 border border-gray-200 shadow-sm hover:shadow-md transition">
-            <CheckCircle className="w-10 h-10 text-emerald-500" />
+            <CheckCircle className="w-10 h-10" style={{ color: BRAND_GREEN }} />
             <div>
               <h3 className="font-semibold mb-2">Insurance & Audits</h3>
               <p className="text-sm text-gray-500">

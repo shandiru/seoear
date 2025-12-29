@@ -4,19 +4,21 @@ import { FiCalendar, FiPhone } from "react-icons/fi";
 import { HashLink } from "react-router-hash-link";
 
 export default function HeroMicroSuction() {
+  const BRAND_GREEN = "#43AA8B";
+
   return (
-    <section className="py-20 bg-linear-to-b from-gray-50 to-white">
+    <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
       <div className="container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto">
+
           {/* Badge */}
           <span className="inline-flex items-center justify-center rounded-md border border-emerald-200 bg-emerald-50 text-emerald-700 px-3 py-1 text-xs font-medium mb-6">
             Safe &amp; Professional
           </span>
 
           {/* Title */}
-          <h1 className="text-5xl md:text-6xl font-extrabold text-[#0D1525] mb-6 leading-tight">
-            Ear Wax Removal by{" "}
-            <span className="text-[#10B981]">Micro Suction</span>
+          <h1 className="text-5xl md:text-6xl font-extrabold mb-6 leading-tight text-[#0D1525]">
+            Ear Wax Removal by <span style={{ color: BRAND_GREEN }}>Micro Suction</span>
           </h1>
 
           {/* Subtitle */}
@@ -25,34 +27,32 @@ export default function HeroMicroSuction() {
             and completely safe when carried out by trained professionals.
           </p>
 
-          {/* Actions */}
+          {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
+
             {/* Primary CTA */}
-            <HashLink
-              smooth
-              to="/#contact"
-            >
+            <HashLink smooth to="/#contact">
               <button
                 type="button"
-                className="inline-flex items-center gap-2 rounded-md h-12 px-7 text-lg font-medium text-white bg-[#10B981] hover:bg-emerald-700 shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400"
+                style={{ backgroundColor: BRAND_GREEN }}
+                className="inline-flex items-center gap-2 rounded-md h-12 px-7 text-lg font-medium text-white hover:bg-[#36816E] shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#36816E] transition"
               >
                 <FiCalendar className="w-5 h-5" />
                 Book Your Appointment
               </button>
-
             </HashLink>
 
             {/* Secondary CTA */}
-            <a href="tel: +448081371961">
+            <a href="tel:+448081371961">
               <button
                 type="button"
-                className="inline-flex items-center gap-2 rounded-md h-12 px-7 text-lg font-medium border border-gray-300 text-[#0D1525] bg-white hover:bg-emerald-50 hover:border-emerald-300 hover:text-[#10B981] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300"
+                className="inline-flex items-center gap-2 rounded-md h-12 px-7 text-lg font-medium border border-gray-300 text-[#0D1525] bg-white hover:bg-[#E6F2EF] hover:border-[#43AA8B] hover:text-[#43AA8B] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#43AA8B] transition"
               >
                 <FiPhone className="w-5 h-5" />
                 Call Us Today
               </button>
-
             </a>
+
           </div>
         </div>
       </div>

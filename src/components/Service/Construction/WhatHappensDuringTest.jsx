@@ -1,5 +1,7 @@
 import { CircleCheck } from "lucide-react";
 
+const BRAND_GREEN = "#43AA8B";
+
 const WhatHappensDuringTest = () => {
   return (
     <section className="py-16 bg-[rgba(0,0,0,0.03)]">
@@ -16,7 +18,10 @@ const WhatHappensDuringTest = () => {
 
             {/* Item 1 */}
             <div className="flex items-start gap-4 p-4 rounded-lg bg-[rgba(0,0,0,0.03)]">
-              <CircleCheck className="w-6 h-6 text-emerald-400 flex-shrink-0 mt-1" />
+              <CircleCheck
+                className="w-6 h-6 flex-shrink-0 mt-1"
+                style={{ color: BRAND_GREEN }}
+              />
               <div>
                 <h3 className="font-semibold mb-1">
                   Noise-Exposure and PPE Usage Questionnaire
@@ -29,7 +34,10 @@ const WhatHappensDuringTest = () => {
 
             {/* Item 2 */}
             <div className="flex items-start gap-4 p-4 rounded-lg bg-[rgba(0,0,0,0.03)]">
-              <CircleCheck className="w-6 h-6 text-emerald-400 flex-shrink-0 mt-1" />
+              <CircleCheck
+                className="w-6 h-6 flex-shrink-0 mt-1"
+                style={{ color: BRAND_GREEN }}
+              />
               <div>
                 <h3 className="font-semibold mb-1">
                   Ear Canal Inspection
@@ -42,7 +50,10 @@ const WhatHappensDuringTest = () => {
 
             {/* Item 3 */}
             <div className="flex items-start gap-4 p-4 rounded-lg bg-[rgba(0,0,0,0.03)]">
-              <CircleCheck className="w-6 h-6 text-emerald-400 flex-shrink-0 mt-1" />
+              <CircleCheck
+                className="w-6 h-6 flex-shrink-0 mt-1"
+                style={{ color: BRAND_GREEN }}
+              />
               <div>
                 <h3 className="font-semibold mb-1">
                   Audiometric Hearing Assessment
@@ -55,7 +66,10 @@ const WhatHappensDuringTest = () => {
 
             {/* Item 4 */}
             <div className="flex items-start gap-4 p-4 rounded-lg bg-[rgba(0,0,0,0.03)]">
-              <CircleCheck className="w-6 h-6 text-emerald-400 flex-shrink-0 mt-1" />
+              <CircleCheck
+                className="w-6 h-6 flex-shrink-0 mt-1"
+                style={{ color: BRAND_GREEN }}
+              />
               <div>
                 <h3 className="font-semibold mb-1">
                   Immediate Results with Guidance
@@ -69,7 +83,13 @@ const WhatHappensDuringTest = () => {
           </div>
 
           {/* Highlight Box */}
-          <div className="mt-8 p-6 bg-emerald-500/10 border border-emerald-500/20 rounded-lg">
+          <div
+            className="mt-8 p-6 border rounded-lg"
+            style={{
+              backgroundColor: "rgba(67,170,139,0.1)",
+              borderColor: "rgba(67,170,139,0.2)",
+            }}
+          >
             <p className="text-sm">
               All testing is carried out using{" "}
               <span className="font-semibold">

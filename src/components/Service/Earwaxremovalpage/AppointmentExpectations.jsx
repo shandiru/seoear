@@ -77,7 +77,7 @@ export default function AppointmentExpectations() {
           <HashLink
             to="/#contact"
             scroll={fastScroll}
-            className="inline-flex items-center justify-center gap-2 h-12 px-8 text-[15px] sm:text-lg rounded-md font-medium text-white bg-emerald-600 hover:bg-emerald-700 shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400 transition-colors whitespace-nowrap"
+            className="inline-flex items-center justify-center gap-2 h-12 px-8 text-[15px] sm:text-lg rounded-md font-medium text-white bg-[#43AA8B] hover:bg-emerald-700 shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400 transition-colors whitespace-nowrap"
           >
             <FiCalendar className="w-5 h-5 flex-shrink-0" />
             <span className="truncate sm:whitespace-normal">
