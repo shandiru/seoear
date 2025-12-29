@@ -6,7 +6,7 @@ const ServiceHero = () => {
   // Function to handle smooth scroll with offset
   const enhancedScroll = (el) => {
     if (el) {
-      const y = el.getBoundingClientRect().top + window.scrollY - 100; // adjust offset for sticky navbar
+      const y = el.getBoundingClientRect().top + window.scrollY - 100;
       window.scrollTo({ top: y, behavior: "smooth" });
     }
   };
@@ -32,16 +32,29 @@ const ServiceHero = () => {
         {/* Back Button */}
         <a
           href="/industrial"
-          className="inline-flex items-center gap-3 text-emerald-400 hover:text-emerald-300 mb-8 px-2 md:px-4"
+          style={{ color: "#43AA8B" }}
+          className="inline-flex items-center gap-3 mb-8 px-2 md:px-4 transition-opacity hover:opacity-80"
         >
           <ArrowLeft className="w-5 h-5" />
           <span>Back to Services</span>
         </a>
 
         {/* Category Badge */}
-        <div className="inline-flex items-center gap-3 bg-emerald-500/10 border border-emerald-500/20 rounded-full px-5 py-2 mb-8">
-          <Factory className="w-5 h-5 text-emerald-400" />
-          <span className="text-sm md:text-base font-medium text-emerald-400">
+        <div
+          className="inline-flex items-center gap-3 rounded-full px-5 py-2 mb-8 border"
+          style={{
+            backgroundColor: "rgba(67, 170, 139, 0.1)",
+            borderColor: "rgba(67, 170, 139, 0.25)",
+          }}
+        >
+          <Factory
+            className="w-5 h-5"
+            style={{ color: "#43AA8B" }}
+          />
+          <span
+            className="text-sm md:text-base font-medium"
+            style={{ color: "#43AA8B" }}
+          >
             Manufacturing &amp; Production
           </span>
         </div>
@@ -60,10 +73,19 @@ const ServiceHero = () => {
         <HashLink
           to="/#contact"
           scroll={enhancedScroll}
-          className="inline-flex items-center justify-center h-12 px-8 text-lg font-medium rounded-md bg-emerald-500 hover:bg-emerald-600 text-white transition"
+          style={{ backgroundColor: "#43AA8B" }}
+          onMouseEnter={(e) =>
+            (e.currentTarget.style.backgroundColor = "#368A75")
+          }
+          onMouseLeave={(e) =>
+            (e.currentTarget.style.backgroundColor = "#43AA8B")
+          }
+          className="inline-flex items-center justify-center h-12 px-8 text-lg
+            font-medium rounded-md text-white transition shadow-md"
         >
           Book a Site Visit Today
         </HashLink>
+
       </div>
     </section>
   );

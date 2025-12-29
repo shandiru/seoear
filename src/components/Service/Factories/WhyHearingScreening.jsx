@@ -22,7 +22,10 @@ const WhyHearingScreening = () => {
 
           {/* Card 1 */}
           <div className="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm">
-            <Shield className="w-10 h-10 text-emerald-500 mb-6" />
+            <Shield
+              className="w-10 h-10 mb-6"
+              style={{ color: "#43AA8B" }}
+            />
             <h3 className="font-semibold text-lg mb-3">
               Continuous Noise Exposure
             </h3>
@@ -33,7 +36,10 @@ const WhyHearingScreening = () => {
 
           {/* Card 2 */}
           <div className="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm">
-            <Clock className="w-10 h-10 text-blue-500 mb-6" />
+            <Clock
+              className="w-10 h-10 mb-6"
+              style={{ color: "#43AA8B" }}
+            />
             <h3 className="font-semibold text-lg mb-3">
               Long Shift Impact
             </h3>
@@ -44,7 +50,10 @@ const WhyHearingScreening = () => {
 
           {/* Card 3 */}
           <div className="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm">
-            <CircleCheck className="w-10 h-10 text-orange-500 mb-6" />
+            <CircleCheck
+              className="w-10 h-10 mb-6"
+              style={{ color: "#43AA8B" }}
+            />
             <h3 className="font-semibold text-lg mb-3">
               Early Detection
             </h3>
@@ -55,7 +64,10 @@ const WhyHearingScreening = () => {
 
           {/* Card 4 */}
           <div className="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm">
-            <FileText className="w-10 h-10 text-purple-500 mb-6" />
+            <FileText
+              className="w-10 h-10 mb-6"
+              style={{ color: "#43AA8B" }}
+            />
             <h3 className="font-semibold text-lg mb-3">
               Legal Compliance
             </h3>
@@ -67,7 +79,10 @@ const WhyHearingScreening = () => {
 
           {/* Card 5 */}
           <div className="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm">
-            <HardHat className="w-10 h-10 text-emerald-500 mb-6" />
+            <HardHat
+              className="w-10 h-10 mb-6"
+              style={{ color: "#43AA8B" }}
+            />
             <h3 className="font-semibold text-lg mb-3">
               Duty of Care
             </h3>
@@ -77,8 +92,17 @@ const WhyHearingScreening = () => {
           </div>
 
           {/* Highlight Card */}
-          <div className="bg-emerald-50 border border-emerald-200 rounded-2xl p-8 shadow-sm flex flex-col justify-center">
-            <div className="text-5xl font-bold text-emerald-500 mb-4">
+          <div
+            className="rounded-2xl p-8 shadow-sm flex flex-col justify-center border"
+            style={{
+              backgroundColor: "rgba(67, 170, 139, 0.1)",
+              borderColor: "rgba(67, 170, 139, 0.25)",
+            }}
+          >
+            <div
+              className="text-5xl font-bold mb-4"
+              style={{ color: "#43AA8B" }}
+            >
               10–15
             </div>
             <p className="text-gray-600 text-sm">

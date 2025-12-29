@@ -20,7 +20,10 @@ const WhoThisServiceIsForWarehousing = () => {
 
           {/* Card 1 */}
           <div className="bg-white flex flex-col gap-6 rounded-xl border border-gray-200 shadow-sm p-6 text-center">
-            <Warehouse className="w-8 h-8 text-emerald-400 mx-auto mb-3" />
+            <Warehouse
+              className="w-8 h-8 mx-auto mb-3"
+              style={{ color: "#43AA8B" }}
+            />
             <p className="font-medium text-sm">
               Warehouse Operatives
             </p>
@@ -28,7 +31,10 @@ const WhoThisServiceIsForWarehousing = () => {
 
           {/* Card 2 */}
           <div className="bg-white flex flex-col gap-6 rounded-xl border border-gray-200 shadow-sm p-6 text-center">
-            <Truck className="w-8 h-8 text-emerald-400 mx-auto mb-3" />
+            <Truck
+              className="w-8 h-8 mx-auto mb-3"
+              style={{ color: "#43AA8B" }}
+            />
             <p className="font-medium text-sm">
               Forklift &amp; HGV Drivers
             </p>
@@ -36,7 +42,10 @@ const WhoThisServiceIsForWarehousing = () => {
 
           {/* Card 3 */}
           <div className="bg-white flex flex-col gap-6 rounded-xl border border-gray-200 shadow-sm p-6 text-center">
-            <Users className="w-8 h-8 text-emerald-400 mx-auto mb-3" />
+            <Users
+              className="w-8 h-8 mx-auto mb-3"
+              style={{ color: "#43AA8B" }}
+            />
             <p className="font-medium text-sm">
               Dispatch &amp; Loading Teams
             </p>
@@ -44,7 +53,10 @@ const WhoThisServiceIsForWarehousing = () => {
 
           {/* Card 4 */}
           <div className="bg-white flex flex-col gap-6 rounded-xl border border-gray-200 shadow-sm p-6 text-center">
-            <Shield className="w-8 h-8 text-emerald-400 mx-auto mb-3" />
+            <Shield
+              className="w-8 h-8 mx-auto mb-3"
+              style={{ color: "#43AA8B" }}
+            />
             <p className="font-medium text-sm">
               Supervisors &amp; Managers
             </p>

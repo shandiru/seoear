@@ -31,16 +31,29 @@ const WarehouseLogisticsHero = () => {
         {/* Back Link */}
         <a
           href="/industrial"
-          className="inline-flex items-center gap-2 text-emerald-400 hover:text-emerald-300 mb-6 px-5"
+          style={{ color: "#43AA8B" }}
+          className="inline-flex items-center gap-2 mb-6 px-5 transition-opacity hover:opacity-80"
         >
           <ArrowLeft className="w-4 h-4" />
           <span>Back to Services</span>
         </a>
 
         {/* Category Badge */}
-        <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/20 rounded-full px-4 py-2 mb-6">
-          <Warehouse className="w-4 h-4 text-emerald-400" />
-          <span className="text-sm font-medium text-emerald-400">
+        <div
+          className="inline-flex items-center gap-2 rounded-full px-4 py-2 mb-6 border"
+          style={{
+            backgroundColor: "rgba(67, 170, 139, 0.1)",
+            borderColor: "rgba(67, 170, 139, 0.25)",
+          }}
+        >
+          <Warehouse
+            className="w-4 h-4"
+            style={{ color: "#43AA8B" }}
+          />
+          <span
+            className="text-sm font-medium"
+            style={{ color: "#43AA8B" }}
+          >
             Warehouses &amp; Logistics
           </span>
         </div>
@@ -59,7 +72,15 @@ const WarehouseLogisticsHero = () => {
         <HashLink
           to="/#contact"
           scroll={enhancedScroll}
-          className="inline-flex items-center justify-center h-12 rounded-md bg-emerald-500 hover:bg-emerald-600 text-white text-lg font-medium px-8 transition"
+          style={{ backgroundColor: "#43AA8B" }}
+          onMouseEnter={(e) =>
+            (e.currentTarget.style.backgroundColor = "#368A75")
+          }
+          onMouseLeave={(e) =>
+            (e.currentTarget.style.backgroundColor = "#43AA8B")
+          }
+          className="inline-flex items-center justify-center h-12 rounded-md
+            text-white text-lg font-medium px-8 transition shadow-md"
         >
           Get in Touch Today
         </HashLink>
