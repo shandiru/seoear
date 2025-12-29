@@ -26,6 +26,9 @@ import EarwaxremovalWorksop from "./Page/EarwaxremovalWorksop.jsx";
 import EarwaxremovalLoughborough from "./Page/EarwaxremovalLoughborough.jsx";
 
 import NotFoundPage from "./Page/NotFoundPage.jsx";
+import IndustrialHearing from "./Page/IndustrialHearing.jsx";
+import HearingScreening from "./Page/HearingScreening.jsx";
+import HearingEngineering from "./Page/HearingEngineering.jsx";
 
 function App() {
   return (
@@ -58,6 +61,10 @@ function App() {
         <Route path="/areas-we-cover/ear-wax-removal-loughborough" element={<EarwaxremovalLoughborough />} />
         {/* Reviews Page */}
         <Route path="/reviews" element={<ReviewPage />} />
+        <Route path="/industrial" element={<IndustrialHearing /> } />
+        <Route path="/services/industrial-plants" element={<HearingScreening /> } />
+        <Route path="/services/workshops" element={<HearingEngineering /> } />
+        
 
         {/* Catch-all 404 */}
         <Route path="*" element={<NotFoundPage />} />
