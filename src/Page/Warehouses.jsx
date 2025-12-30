@@ -7,6 +7,7 @@ import WhyHearingScreeningWarehousing from "../components/Service/Warehouses/Why
 import WhatOurHearingScreeningIncludes from "../components/Service/Warehouses/WhatOurHearingScreeningIncludes";
 import WhoThisServiceIsForWarehousing from "../components/Service/Warehouses/WhoThisServiceIsForWarehousing";
 import WarehouseHearingCTA from "../components/Service/Warehouses/WarehouseHearingCTA";
+import FAQSection from "../components/Service/Warehouses/FAQSection";
 function Warehouses() {
   return (
     <>
@@ -37,6 +38,7 @@ function Warehouses() {
       <WhyHearingScreeningWarehousing />
         <WhatOurHearingScreeningIncludes />
         <WhoThisServiceIsForWarehousing />
+        <FAQSection />
         <WarehouseHearingCTA />
         
 

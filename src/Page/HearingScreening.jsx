@@ -7,7 +7,7 @@ import WhyScreening from '../components/HearingScreening/WhyScreening';
 import HearingProgramme from '../components/HearingScreening/HearingProgramme';
 import ServiceFor from '../components/HearingScreening/ServiceFor';
 import HearingScreeningCTA from '../components/HearingScreening/HearingScreeningCTA';
-
+import FAQSection from '../components/HearingScreening/FAQSection';
 const HearingScreening = () => {
   return (
     <div>
@@ -41,6 +41,7 @@ const HearingScreening = () => {
       <HearingProgramme />
       <ServiceFor />
       <HearingScreeningCTA />
+      <FAQSection />
     </div>
   )
 }

@@ -7,7 +7,7 @@ import WhyHearingScreening from "../components/Service/Factories/WhyHearingScree
 import OnSiteHearingTests from "../components/Service/Factories/OnSiteHearingTests";
 import WhoThisServiceIsFor from "../components/Service/Factories/WhoThisServiceIsFor";
 import HearingTestSection from "../components/Service/Factories/HearingTestSection";
-
+import FAQSection from "../components/Service/Factories/FAQSection";
 function Factories() {
   return (
     <>
@@ -40,6 +40,7 @@ function Factories() {
       <WhyHearingScreening />
       <OnSiteHearingTests />
       <WhoThisServiceIsFor />
+      <FAQSection />
       <HearingTestSection />
     </>
   );

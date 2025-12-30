@@ -7,7 +7,7 @@ import HearingScreeningCards from "../components/Service/Construction/HearingScr
 import WhatHappensDuringTest from "../components/Service/Construction/WhatHappensDuringTest";
 import WhoThisServiceIsFor from "../components/Service/Construction/WhoThisServiceIsFor";
 import ArrangeHearingScreeningCTA from "../components/Service/Construction/ArrangeHearingScreeningCTA";
-
+import FAQSection from "../components/Service/Construction/FAQSection";
 function Construction() { 
   return (
     <>
@@ -40,6 +40,7 @@ function Construction() {
       <HearingScreeningCards />
       <WhatHappensDuringTest />
       <WhoThisServiceIsFor />
+      <FAQSection />
       <ArrangeHearingScreeningCTA />
     </>
   );

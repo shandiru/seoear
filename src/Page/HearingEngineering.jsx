@@ -7,6 +7,7 @@ import WorkshopHearingImportance from '../components/HearingEngineering/Workshop
 import WorkshopTestProcess from '../components/HearingEngineering/WorkshopTestProcess';
 import ServiceForSection from '../components/HearingEngineering/ServiceForSection';
 import BookHearingScreening from '../components/HearingEngineering/BookHearingScreening';
+import FAQSection from '../components/HearingEngineering/FAQSection';
 
 const HearingEngineering = () => {
   return (
@@ -40,6 +41,7 @@ const HearingEngineering = () => {
       <WorkshopHearingImportance />
       <WorkshopTestProcess />
       <ServiceForSection />
+      <FAQSection />
       <BookHearingScreening />
     </div>
   );
