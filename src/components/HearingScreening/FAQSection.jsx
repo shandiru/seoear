@@ -2,36 +2,37 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "Is hearing screening mandatory?",
+    question: "Why is hearing screening critical in industrial plants?",
     answer:
-      "Yes, where employees are exposed to harmful noise levels. Employers must assess risk and provide health surveillance when required under The Control of Noise at Work Regulations 2005.",
+      "Continuous high-decibel machinery and long shifts significantly increase the risk of hearing damage among workers.",
   },
   {
-    question: "Does the test hurt?",
+    question: "How do you manage large workforces?",
     answer:
-      "No. The test is completely painless and non-invasive. Employees simply wear headphones and indicate when they hear different tones.",
+      "We provide structured hearing screening programmes suitable for large teams and multi-shift industrial operations.",
   },
   {
-    question: "How long does it take?",
+    question: "Is hearing screening a one-off requirement?",
     answer:
-      "Around 10–15 minutes per employee, depending on group size. We work efficiently to minimize disruption to your operations.",
+      "No. Ongoing monitoring is essential to track changes over time and protect long-term hearing health.",
   },
   {
-    question: "Do employees need to prepare?",
+    question: "Do you support compliance audits?",
     answer:
-      "Employees should avoid loud noise exposure for several hours before the test where possible for the most accurate results.",
+      "Yes. We provide clear documentation suitable for HSE inspections and internal compliance audits.",
   },
   {
-    question: "What happens if an employee fails?",
+    question: "Can hearing screening reduce employer liability?",
     answer:
-      `A "refer" result does not mean permanent hearing loss. It indicates further assessment is recommended, usually through a full audiology evaluation.`,
+      "Yes. Regular testing demonstrates duty of care and proactive risk management, helping reduce employer liability.",
   },
   {
-    question: "Can tests be done on-site?",
+    question: "Do you offer ongoing surveillance programmes?",
     answer:
-      "Yes. We offer on-site industrial testing, ideal for minimising downtime and disruption to your business operations.",
+      "Yes. We can set up scheduled hearing surveillance plans tailored specifically to your facility and workforce.",
   },
 ];
+
 
 export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState(null);
@@ -41,7 +42,7 @@ export default function FAQSection() {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold mb-10 text-center">
-            Frequently Asked Questions
+            Industrial Plants & Processing Facilities Hearing Screening – FAQs
           </h2>
 
           <div className="space-y-4">

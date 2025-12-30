@@ -31,37 +31,6 @@ const faqs = [
     answer:
       "Yes. Employers receive clear documentation suitable for audits, inspections, and insurance requirements.",
   },
-  // Existing FAQ items
-  {
-    question: "Is hearing screening mandatory?",
-    answer:
-      "Yes, where employees are exposed to harmful noise levels. Employers must assess risk and provide health surveillance when required under The Control of Noise at Work Regulations 2005.",
-  },
-  {
-    question: "Does the test hurt?",
-    answer:
-      "No. The test is completely painless and non-invasive. Employees simply wear headphones and indicate when they hear different tones.",
-  },
-  {
-    question: "How long does it take?",
-    answer:
-      "Around 10–15 minutes per employee, depending on group size. We work efficiently to minimize disruption to your operations.",
-  },
-  {
-    question: "Do employees need to prepare?",
-    answer:
-      "Employees should avoid loud noise exposure for several hours before the test where possible for the most accurate results.",
-  },
-  {
-    question: "What happens if an employee fails?",
-    answer:
-      `A "refer" result does not mean permanent hearing loss. It indicates further assessment is recommended, usually through a full audiology evaluation.`,
-  },
-  {
-    question: "Can tests be done on-site?",
-    answer:
-      "Yes. We offer on-site industrial testing, ideal for minimising downtime and disruption to your business operations.",
-  },
 ];
 
 export default function FAQSection() {
@@ -72,7 +41,7 @@ export default function FAQSection() {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold mb-10 text-center">
-            Frequently Asked Questions
+            Factory & Manufacturing Plant Hearing Screening – FAQs
           </h2>
 
           <div className="space-y-4">

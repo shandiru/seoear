@@ -2,36 +2,37 @@ import { useState } from "react";
 
 const industrialFaqs = [
   {
-    question: "Why is hearing screening critical in industrial plants?",
+    question: "Are workshops legally required to carry out hearing tests?",
     answer:
-      "Continuous high-decibel machinery and long shifts significantly increase hearing damage risk.",
+      "Yes. Where noise exposure reaches legal action levels, hearing screening is required under workplace noise regulations.",
   },
   {
-    question: "How do you manage large workforces?",
+    question: "What equipment causes the most hearing risk?",
     answer:
-      "We provide structured screening programmes suitable for large teams and multi-shift operations.",
+      "Air tools, compressors, welding equipment, engine testing systems, and fabrication machinery present the highest risk.",
   },
   {
-    question: "Is hearing screening a one-off requirement?",
+    question: "Can hearing loss affect technical work?",
     answer:
-      "No. Ongoing monitoring is essential to track changes and protect long-term hearing health.",
+      "Yes. Reduced hearing can impact diagnostics accuracy, safety awareness, and effective communication on the workshop floor.",
   },
   {
-    question: "Do you support compliance audits?",
+    question: "Can tests be done during working hours?",
     answer:
-      "Yes. We provide documentation suitable for HSE inspections and internal audits.",
+      "Yes. Hearing tests are quick and designed to fit seamlessly into normal workshop operations.",
   },
   {
-    question: "Can hearing screening reduce employer liability?",
+    question: "What happens if hearing damage is detected?",
     answer:
-      "Yes. Regular testing demonstrates duty of care and proactive risk management.",
+      "We provide clear guidance on next steps, including further assessment and recommendations for protective controls.",
   },
   {
-    question: "Do you offer ongoing surveillance programmes?",
+    question: "Do you test small independent workshops?",
     answer:
-      "Yes. We can set up scheduled hearing surveillance plans tailored to your facility.",
+      "Yes. We work with single-site independent workshops as well as large engineering and industrial facilities.",
   },
 ];
+
 
 export default function IndustrialFAQSection() {
   const [openIndex, setOpenIndex] = useState(null);
@@ -41,7 +42,7 @@ export default function IndustrialFAQSection() {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold mb-10 text-center">
-            Industrial Plants & Processing Facilities Hearing Screening – FAQs
+            Automotive & Engineering Workshop Hearing Screening – FAQs
           </h2>
 
           <div className="space-y-4">
