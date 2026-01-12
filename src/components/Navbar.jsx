@@ -54,7 +54,10 @@ const Navbar = () => {
     { name: "Workshops", path: "/services/workshops" },
     { name: "Industrial Plants", path: "/services/industrial-plants" },
   ];
-
+ const Blog =[
+   { name: "sustainable-home", path: "/blog/sustainable-home/" },
+    { name: "sustainable-car", path: "/blog/sustainable-car" },
+ ]
   const locations = [
     { name: "Nottingham", path: "/areas-we-cover/ear-wax-removal-nottingham/" },
     { name: "Derby", path: "/areas-we-cover/ear-wax-removal-derby/" },
@@ -165,6 +168,14 @@ const Navbar = () => {
               {services.map((service) => (
                 <a key={service.name} href={service.path}>
                   {service.name}
+                </a>
+              ))}
+            </div>
+            {/* Hidden SEO-only links for Services */}
+            <div style={{ display: "none" }}>
+              {Blog.map((blogs) => (
+                <a key={blogs.name} href={blogs.path}>
+                  {blogs.name}
                 </a>
               ))}
             </div>
