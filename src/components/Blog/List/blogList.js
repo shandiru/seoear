@@ -1,7 +1,7 @@
 // blogList.js
 export const blogs = [
   {
-    id: 1,
+    id: "sustainable-home",
     category: "Lifestyle",
     title: "Home Health Checks: Protecting Air Quality, Warmth & Wellbeing.",
     excerpt: "As the colder months approach, our homes play a vital role in keeping us warm, comfortable, and safe. Yet winter...",
@@ -9,7 +9,7 @@ export const blogs = [
     url: "#"
   },
   {
-    id: 2,
+    id: "sustainable-car",
     category: "Lifestyle",
     title: "Prepare Your Vehicle For Winter: Must-Have Features For Disabled Drivers & Passengers",
     excerpt: "With colder weather on the way, now is the ideal time for disabled drivers and passengers to prepare their vehicles...",
