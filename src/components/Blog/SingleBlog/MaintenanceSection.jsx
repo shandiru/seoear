@@ -1,12 +1,7 @@
 import React from 'react';
 
-const MaintenanceSection = () => {
-  const cleaningSteps = [
-    "Keep the window area clean – regular vacuuming and dusting will keep dirt to a minimum and stop it transferring to your blinds, curtains or shutters.",
-    "Regularly vacuuming and dusting works for most window dressings too. Go gentle and use the lowest setting to prevent damage.",
-    "Don’t use water on metal-based products and mechanisms to avoid rusting. A dry cloth is a much better option.",
-    "Keep mechanisms running smoothly with silicon spray."
-  ];
+const MaintenanceSection = ({ data }) => {
+  if (!data) return null;
 
   return (
     <section className="py-16 bg-white overflow-hidden">
@@ -17,8 +12,8 @@ const MaintenanceSection = () => {
           <div className="w-full lg:w-1/2">
             <div className="relative rounded-2xl overflow-hidden shadow-lg aspect-[3/2]">
               <img 
-                src="https://images.prismic.io/hillarys/aBtWOidWJ-7kRtQJ_HIL_2023_SOFTSVIDEOSTILLS_CLEANINGIMAGERY_10.jpg?auto=format,compress" 
-                alt="Woman steaming white curtains with a green pattern"
+                src={data.image} 
+                alt={data.title}
                 className="absolute inset-0 w-full h-full object-cover"
               />
             </div>
@@ -30,22 +25,22 @@ const MaintenanceSection = () => {
               className="text-3xl md:text-4xl font-serif font-bold mb-6"
               style={{ color: '#43AA8B' }}
             >
-              2. Will it start to look tatty?
+              {data.title}
             </h2>
             
             <p className="text-gray-700 text-lg mb-6">
-              Regular cleaning will help prolong the lifespan of all window dressings, 
-              so you won’t need to replace them. There are a few simple steps to follow:
+              {data.introText}
             </p>
 
             {/* Custom Green List */}
             <ul className="space-y-4 mb-8">
-              {cleaningSteps.map((step, index) => (
+              {data.steps.map((step, index) => (
                 <li key={index} className="flex items-start gap-3">
                   <span 
                     className="flex-shrink-0 mt-1 w-5 h-5 flex items-center justify-center rounded-full border-2"
                     style={{ borderColor: '#43AA8B', color: '#43AA8B' }}
                   >
+                    {/* FIXED: Removed backslashes from attributes below */}
                     <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
@@ -58,7 +53,7 @@ const MaintenanceSection = () => {
             <p className="text-gray-700">
               We’ve more detailed{' '}
               <a 
-                href="#" 
+                href={data.link.url} 
                 className="font-bold border-b-2 transition-all"
                 style={{ 
                   color: '#43AA8B', 
@@ -67,7 +62,7 @@ const MaintenanceSection = () => {
                 onMouseOver={(e) => e.currentTarget.style.borderColor = '#43AA8B'}
                 onMouseOut={(e) => e.currentTarget.style.borderColor = 'rgba(67, 170, 139, 0.3)'}
               >
-                cleaning guides
+                {data.link.text}
               </a>{' '}
               for our different blinds, curtains and shutters.
             </p>

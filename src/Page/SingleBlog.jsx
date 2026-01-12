@@ -9,7 +9,10 @@ import MaintenanceSection from "../components/Blog/SingleBlog/MaintenanceSection
 import FurnishingsSection from "../components/Blog/SingleBlog/FurnishingsSection";
 import BlogReferences from "../components/Blog/SingleBlog/BlogReferences";
 import InspirationCarousel from "../components/Blog/SingleBlog/InspirationCarousel";
+
+import { blogPosts } from "../components/Blog/SingleBlog/blogData"
 function SingleBlog() {
+    const currentPost = blogPosts["sustainable-home"];
   return (
     <>
       {/* ✅ SEO Metadata */}
@@ -17,15 +20,15 @@ function SingleBlog() {
       
       </Helmet>
         {/* ✅ Page Sections */}
-        <BlogHeroSection />
-        <SustainableContent />
-        <SeasonalSolutions />
-        <SustainableText />
-        <LongevitySection />
-        <MaintenanceSection />
-        <FurnishingsSection />
-        <BlogReferences />
-        <InspirationCarousel />
+        <BlogHeroSection data={currentPost.hero} />
+        <SustainableContent data={currentPost.intro} />
+      <SeasonalSolutions data={currentPost.seasonal} />
+        {/* <SustainableText  /> */}
+        <LongevitySection data ={currentPost.longevity}/>
+        <MaintenanceSection data={currentPost.maintenance} />
+        <FurnishingsSection data={currentPost.furnishings}/>
+        <BlogReferences data={currentPost.references}/>
+        <InspirationCarousel data={currentPost.carousel}/>
        
       
     </>
