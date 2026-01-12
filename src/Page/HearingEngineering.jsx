@@ -32,7 +32,7 @@ const HearingEngineering = () => {
           name="google-site-verification" 
           content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" 
         />
-        <link rel="canonical" href="https://earwego.co.uk/services/workshops" />
+        <link rel="canonical" href="https://earwego.co.uk/services/workshops/" />
       </Helmet>
 
       {/* ✅ Page Sections */}

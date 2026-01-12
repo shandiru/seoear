@@ -31,7 +31,7 @@ const HearingScreening = () => {
           name="google-site-verification" 
           content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" 
         />
-        <link rel="canonical" href="https://earwego.co.uk/services/industrial-plants" />
+        <link rel="canonical" href="https://earwego.co.uk/services/industrial-plants/" />
       </Helmet>
 
       {/* ✅ Page Sections */}
