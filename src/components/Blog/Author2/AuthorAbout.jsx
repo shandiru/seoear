@@ -54,7 +54,7 @@ const AuthorAbout = () => {
       {/* Right Image */}
       <div className="flex-1 w-full md:w-1/2">
         <img
-          src="/a2.png"
+          src="/mnt/data/773cff88-0d62-4833-906d-9e628c3cb7c1.png"
           alt="Yvonne"
           className="rounded-lg w-full h-auto object-cover shadow-md"
         />
