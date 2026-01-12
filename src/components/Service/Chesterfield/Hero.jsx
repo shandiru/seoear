@@ -14,8 +14,8 @@ export default function EarWaxHero() {
         <img
           src="/professional-healthcare-ear-examination-medical-eq.webp"
           alt="Professional ear care"
-            width="1920"
-            height="1080"
+             width="1024"
+            height="1024"
            className="w-full h-full object-cover opacity-10"
         />
       </div>
