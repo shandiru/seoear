@@ -3,7 +3,7 @@ import React, { useRef, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const ICONS_IMG = "icons.png";
+const ICONS_IMG = "icons.webp";
 const PHONE = "0808 137 1961";
 
 const REVIEWS = [

@@ -12,7 +12,7 @@ export default function AutomotiveHearingScreening() {
   return (
     <section className="relative min-h-[100vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-gray-800 to-slate-900">
       {/* Background Image */}
-      <div className="absolute inset-0 bg-[url('/automotive-workshop-mechanics-engineering.jpg')] bg-cover bg-center opacity-20"></div>
+      <div className="absolute inset-0 bg-[url('/automotive-workshop-mechanics-engineering.webp')] bg-cover bg-center opacity-20"></div>
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent"></div>
 

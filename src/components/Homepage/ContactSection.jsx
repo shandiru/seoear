@@ -4,7 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import emailjs from "emailjs-com";
 
-const ICONS_IMG = "icons.png"; // Decorative background image
+const ICONS_IMG = "icons.webp"; // Decorative background image
 
 const ContactSection = () => {
   const formRef = useRef();

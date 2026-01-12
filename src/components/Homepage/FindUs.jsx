@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const ICONS_IMG = "icons.png"; // Decorative background icons
+const ICONS_IMG = "icons.webp"; // Decorative background icons
 
 export default function FindUs() {
   useEffect(() => {

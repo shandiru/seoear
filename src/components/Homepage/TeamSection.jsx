@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const ICONS_IMG = "icons.png"; // Floating icons background image
+const ICONS_IMG = "icons.webp"; // Floating icons background image
 
 const team = [
   {
