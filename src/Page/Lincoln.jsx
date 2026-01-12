@@ -29,6 +29,58 @@ function Lincoln() {
              <meta name="robots" content="index, follow" />
              <meta name="google-site-verification" content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" />
             <link rel="canonical" href="https://earwego.co.uk/areas-we-cover/ear-wax-removal-lincoln/" />
+            <script type="application/ld+json">
+          {`
+                
+       {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Which areas do you cover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We cover Lincoln city, North Hykeham, Washingborough, Bracebridge Heath and nearby villages such as Nettleham and Skellingthorpe."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long will the appointment take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually 30 minutes, depending on the amount of wax."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can children be treated?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, from age 5 and above with parental consent."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is microsuction safe if I’ve had ear problems before?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, it’s a controlled and gentle procedure ideal for sensitive ears."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How soon can I get an appointment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We usually have availability within a few days in Lincolnshire."
+      }
+    }
+  ]
+}
+
+        `}
+        </script>
 
 
            </Helmet>

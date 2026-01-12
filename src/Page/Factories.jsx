@@ -31,7 +31,7 @@ function Factories() {
           name="google-site-verification" 
           content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" 
         />
-        <link rel="canonical" href="https://earwego.co.uk/services/factories" />
+        <link rel="canonical" href="https://earwego.co.uk/services/factories/" />
       </Helmet>
 
       {/* ✅ Page Sections */}

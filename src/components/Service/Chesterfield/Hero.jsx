@@ -12,9 +12,11 @@ export default function EarWaxHero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/professional-healthcare-ear-examination-medical-eq.jpg"
+          src="/professional-healthcare-ear-examination-medical-eq.webp"
           alt="Professional ear care"
-          className="w-full h-full object-cover opacity-10"
+             width="1024"
+            height="1024"
+           className="w-full h-full object-cover opacity-10"
         />
       </div>
 
