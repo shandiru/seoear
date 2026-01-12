@@ -33,6 +33,8 @@ import Factories from "./Page/factories.jsx";
 import Construction from "./Page/Construction.jsx";
 import Warehouses from "./Page/Warehouses.jsx";
 
+import BlogList from "./Page/BlogList.jsx";
+
 function App() {
   return (
     <Router>
@@ -72,7 +74,8 @@ function App() {
           <Route path="/services/construction" element={<Construction /> } />
           <Route path="/services/warehouses" element={<Warehouses /> } />
         
-
+        {/* blog */}
+        <Route path="/blog-list" element={<BlogList /> } />
         {/* Catch-all 404 */}
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
