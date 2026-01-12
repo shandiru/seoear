@@ -18,7 +18,7 @@ const SERVICES = [
 const SERVICE_CONTENT = {
   muffled: {
     title: "Muffled Hearing",
-    image: "/dental.png",
+    image: "/dental.webp",
     intro: [
       "Blocked ears or reduced hearing clarity can be caused by a build-up of ear wax, which prevents sound from travelling effectively to the eardrum.",
       "Our micro suction treatment gently clears the wax to restore natural hearing and clarity.",
@@ -35,7 +35,7 @@ const SERVICE_CONTENT = {
   },
   tinnitus: {
     title: "Tinnitus",
-    image: "/dental.png",
+    image: "/dental.webp",
     intro: [
       "Ringing or buzzing sounds in the ears can sometimes be triggered or worsened by ear wax pressing on the eardrum.",
       "Gentle micro suction can relieve pressure and may help reduce tinnitus symptoms.",
@@ -52,7 +52,7 @@ const SERVICE_CONTENT = {
   },
   Earache: {
     title: "Earache",
-    image: "/dental.png",
+    image: "/dental.webp",
     intro: [
       "Pain or discomfort in the ear may be linked to impacted ear wax creating pressure or trapping bacteria.",
       "Micro suction quickly removes the blockage, helping to ease discomfort.",
@@ -69,7 +69,7 @@ const SERVICE_CONTENT = {
   },
   Dizziness: {
     title: "Dizziness",
-    image: "/dental.png",
+    image: "/dental.webp",
     intro: [
       "Balance issues or feeling unsteady can occur if ear wax affects the inner ear or presses against the eardrum.",
       "Our team can remove the blockage to help restore balance and comfort.",
@@ -86,7 +86,7 @@ const SERVICE_CONTENT = {
   },
   Itchiness: {
     title: "Itchiness",
-    image: "/dental.png",
+    image: "/dental.webp",
     intro: [
       "An uncomfortable itching sensation can occur if wax builds up and irritates the ear canal skin.",
       "Micro suction removes the irritant and leaves your ears feeling fresh and clear.",
@@ -103,7 +103,7 @@ const SERVICE_CONTENT = {
   },
   DeviceIssues: {
     title: "Device Issues",
-    image: "/dental.png",
+    image: "/dental.webp",
     intro: [
       "Trouble using hearing aids or earphones can happen if wax blocks sound or causes feedback.",
       "Clearing the wax helps your devices work properly and comfortably again.",
@@ -174,7 +174,7 @@ export default function ServiceDetail() {
         {/* MUFFLED HEARING */}
         <div id="muffled" className="service-section">
           <h2>Muffled Hearing</h2>
-          <img src="/dental.png" alt="Muffled Hearing" />
+          <img src="/dental.webp" alt="Muffled Hearing" />
           <p>
             Blocked ears or reduced hearing clarity can be caused by a build-up
             of ear wax, which prevents sound from travelling effectively to the
@@ -198,7 +198,7 @@ export default function ServiceDetail() {
         {/* TINNITUS */}
         <div id="tinnitus" className="service-section">
           <h2>Tinnitus</h2>
-          <img src="/dental.png" alt="Tinnitus" />
+          <img src="/dental.webp" alt="Tinnitus" />
           <p>
             Ringing or buzzing sounds in the ears can sometimes be triggered or
             worsened by ear wax pressing on the eardrum.
@@ -221,7 +221,7 @@ export default function ServiceDetail() {
         {/* EARACHE */}
         <div id="earache" className="service-section">
           <h2>Earache</h2>
-          <img src="/dental.png" alt="Earache" />
+          <img src="/dental.webp" alt="Earache" />
           <p>
             Pain or discomfort in the ear may be linked to impacted ear wax
             creating pressure or trapping bacteria.
@@ -244,7 +244,7 @@ export default function ServiceDetail() {
         {/* DIZZINESS */}
         <div id="dizziness" className="service-section">
           <h2>Dizziness</h2>
-          <img src="/dental.png" alt="Dizziness" />
+          <img src="/dental.webp" alt="Dizziness" />
           <p>
             Balance issues or feeling unsteady can occur if ear wax affects the
             inner ear or presses against the eardrum.
@@ -267,7 +267,7 @@ export default function ServiceDetail() {
         {/* ITCHINESS */}
         <div id="itchiness" className="service-section">
           <h2>Itchiness</h2>
-          <img src="/dental.png" alt="Itchiness" />
+          <img src="/dental.webp" alt="Itchiness" />
           <p>
             An uncomfortable itching sensation can occur if wax builds up and
             irritates the ear canal skin.
@@ -290,7 +290,7 @@ export default function ServiceDetail() {
         {/* DEVICE ISSUES */}
         <div id="deviceissues" className="service-section">
           <h2>Device Issues</h2>
-          <img src="/dental.png" alt="Device Issues" />
+          <img src="/dental.webp" alt="Device Issues" />
           <p>
             Trouble using hearing aids or earphones can happen if wax blocks
             sound or causes feedback.

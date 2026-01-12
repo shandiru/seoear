@@ -23,7 +23,7 @@ const items = [
     full: `With more than a decade of hands-on expertise, we’ve built a reputation for safe, professional, and effective earwax removal. Our founder, Rab, has spent years perfecting his techniques and supporting countless clients to restore their hearing clarity and comfort.
 
 We pride ourselves on combining traditional care with modern best practices, ensuring every treatment is carried out to the highest standard. When you choose us, you’re choosing proven experience, trusted service, and genuine care for your wellbeing.`,
-    img: "/dental.png",
+    img: "/dental.webp",
     icon: <FiAward className="w-6 h-6 text-white" />,
   },
   {

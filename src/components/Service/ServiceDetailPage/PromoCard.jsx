@@ -14,7 +14,7 @@ export default function PromoCard({ image, title, tag, cta, onsetClick }) {
     <div className="relative overflow-hidden rounded-2xl bg-slate-100">
       {/* background image */}
       <img
-        src="/dental.png" // dynamic image as per your props
+        src="/dental.webp" // dynamic image as per your props
         alt={title}
         className="absolute inset-0 h-full w-full object-cover"
       />

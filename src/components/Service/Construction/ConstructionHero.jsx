@@ -21,7 +21,7 @@ const ConstructionHero = () => {
         className="absolute inset-0 bg-cover bg-center opacity-20"
         style={{
           backgroundImage:
-            "url('/construction-site-workers-wearing-safety-equipment.jpg')",
+            "url('/construction-site-workers-wearing-safety-equipment.webp')",
         }}
       />
 
