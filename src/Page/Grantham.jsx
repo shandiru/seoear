@@ -30,6 +30,59 @@ function Grantham() {
         <meta name="google-site-verification" content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" />
     <link rel="canonical" href="https://earwego.co.uk/areas-we-cover/ear-wax-removal-grantham/" />
 
+      <script type="application/ld+json">
+          {`
+                
+     {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do you visit areas outside Grantham?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we cover Barrowby, Great Gonerby, Harlaxton, Belton and nearby villages across Lincolnshire."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is microsuction suitable for older clients?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, it’s gentle and ideal for clients of all ages."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long will it take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most appointments last around 30 minutes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is ear wax removal safe for hearing aid users?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, and it can even improve hearing aid performance by reducing blockage and feedback."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How soon can I book?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Appointments are usually available within a few days in Grantham and nearby areas."
+      }
+    }
+  ]
+}
+
+
+        `}
+        </script>
 
       </Helmet>
 

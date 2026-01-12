@@ -29,6 +29,61 @@ function Chesterfield() {
         <meta name="robots" content="index, follow" />
         <meta name="google-site-verification" content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" />
       <link rel="canonical" href="https://earwego.co.uk/areas-we-cover/ear-wax-removal-chesterfield/" />
+       
+       <script type="application/ld+json">
+          {`
+                
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Which areas do you cover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We cover Chesterfield, Brampton, Newbold, Hasland, Wingerworth, Walton and nearby villages across Derbyshire."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does the appointment take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Typically around 30 minutes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can both ears be treated in one session?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, both ears can be done together for £60."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is microsuction safe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, it’s a clean and gentle method for removing ear wax — widely used by hearing care professionals."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How quickly can I get an appointment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Appointments are usually available within a few days across Derbyshire."
+      }
+    }
+  ]
+}
+
+
+        `}
+        </script>
+
 
       </Helmet>
 
