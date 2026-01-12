@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://earwego.co.uk/sitemap.xml
