@@ -36,6 +36,7 @@ import Warehouses from "./Page/Warehouses.jsx";
 import BlogList from "./Page/BlogList.jsx";
 import SingleBlog from "./Page/SingleBlog.jsx";
 import Author from "./Page/Author.jsx";
+
 function App() {
   return (
     <Router>
@@ -67,17 +68,18 @@ function App() {
         <Route path="/areas-we-cover/ear-wax-removal-loughborough" element={<EarwaxremovalLoughborough />} />
         {/* Reviews Page */}
         <Route path="/reviews" element={<ReviewPage />} />
-        <Route path="/industrial" element={<IndustrialHearing /> } />
-        <Route path="/services/industrial-plants" element={<HearingScreening /> } />
-        <Route path="/services/workshops" element={<HearingEngineering /> } />
+        <Route path="/industrial" element={<IndustrialHearing />} />
+        <Route path="/services/industrial-plants" element={<HearingScreening />} />
+        <Route path="/services/workshops" element={<HearingEngineering />} />
 
-          <Route path="/services/factories" element={<Factories /> } />
-          <Route path="/services/construction" element={<Construction /> } />
-          <Route path="/services/warehouses" element={<Warehouses /> } />
-        
+        <Route path="/services/factories" element={<Factories />} />
+        <Route path="/services/construction" element={<Construction />} />
+        <Route path="/services/warehouses" element={<Warehouses />} />
+
         {/* blog */}
-        <Route path="/blog-list" element={<BlogList /> } />
-       <Route path="/blog/:id" element={<SingleBlog />} />
+        <Route path="/blog-list" element={<BlogList />} />
+        <Route path="/blog/:id" element={<SingleBlog />} />
+        <Route path="/author" element={<Author />} />
         {/* Catch-all 404 */}
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
