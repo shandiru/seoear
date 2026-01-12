@@ -34,7 +34,7 @@ import Construction from "./Page/Construction.jsx";
 import Warehouses from "./Page/Warehouses.jsx";
 
 import BlogList from "./Page/BlogList.jsx";
-
+import SingleBlog from "./Page/SingleBlog.jsx";
 function App() {
   return (
     <Router>
@@ -76,6 +76,7 @@ function App() {
         
         {/* blog */}
         <Route path="/blog-list" element={<BlogList /> } />
+        <Route path="/single-blog" element={<SingleBlog /> } />
         {/* Catch-all 404 */}
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
