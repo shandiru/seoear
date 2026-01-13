@@ -16,6 +16,8 @@ export default function ServiceContent({
         <img
           src={image}
           alt={title}
+           width="750"
+           height="422"
           className="w-full max-h-64 sm:max-h-80 md:max-h-96 object-cover mx-auto"
         />
       </div>

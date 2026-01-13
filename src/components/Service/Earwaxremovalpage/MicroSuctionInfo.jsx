@@ -28,6 +28,8 @@ export default function MicroSuctionInfo({
             <img
               src={imageSrc}
               alt={imageAlt}
+              width="500"
+              height="333"
               className="w-full rounded-xl shadow-lg object-cover"
               loading="lazy"
             />

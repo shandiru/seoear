@@ -96,9 +96,13 @@ const Navbar = () => {
             <img
               src="/LOGO2-removebg-preview.png"
               alt="EarWeGo Logo"
+               width="500"
+               height="500"
               className="h-16 w-auto object-contain"
               loading="eager"
               decoding="async"
+
+             
             />
           </Link>
 

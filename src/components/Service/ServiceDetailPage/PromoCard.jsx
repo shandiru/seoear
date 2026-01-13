@@ -16,6 +16,8 @@ export default function PromoCard({ image, title, tag, cta, onsetClick }) {
       <img
         src="/dental.webp" // dynamic image as per your props
         alt={title}
+        width="750"
+        height="422"
         className="absolute inset-0 h-full w-full object-cover"
       />
       {/* linear mask for readability */}
