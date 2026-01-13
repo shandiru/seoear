@@ -1,15 +1,16 @@
 // src/App.jsx  OR  src/Page/Home.jsx
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import { Helmet } from "react-helmet";
 
+// Lazy-load homepage sections
 import Hero from "../components/Homepage/Hero";
-import WhyChoose from "../components/Homepage/WhyChoose";
-import Pricing from "../components/Homepage/Pricing";
-import TeamSection from "../components/Homepage/TeamSection";
-import Reviews from "../components/Homepage/Reviews";
-import FAQSection from "../components/Homepage/FAQSection";
-import ContactSection from "../components/Homepage/ContactSection";
-import FindUs from "../components/Homepage/FindUs";
+const WhyChoose = lazy(() => import("../components/Homepage/WhyChoose"));
+const Pricing = lazy(() => import("../components/Homepage/Pricing"));
+const TeamSection = lazy(() => import("../components/Homepage/TeamSection"));
+const Reviews = lazy(() => import("../components/Homepage/Reviews"));
+const FAQSection = lazy(() => import("../components/Homepage/FAQSection"));
+const ContactSection = lazy(() => import("../components/Homepage/ContactSection"));
+const FindUs = lazy(() => import("../components/Homepage/FindUs"));
 
 function Home() {
   return (
@@ -173,14 +174,107 @@ function Home() {
       </Helmet>
 
       {/* Homepage Sections */}
-      <Hero />
-      <WhyChoose />
-      <Pricing />
-      <TeamSection />
-      <Reviews />
-      <FAQSection />
-      <ContactSection />
-      <FindUs />
+      {/* Homepage Sections with Image Fallback */}
+ <Hero />
+
+<Suspense
+  fallback={
+    <div className="flex justify-center items-center my-8">
+      <img
+        src="http://localhost:5173/LOGO2-removebg-preview.png"
+        alt="Loading..."
+        className="w-32 h-32 animate-spin"
+      />
+    </div>
+  }
+>
+  <WhyChoose />
+</Suspense>
+
+<Suspense
+  fallback={
+    <div className="flex justify-center items-center my-8">
+      <img
+        src="http://localhost:5173/LOGO2-removebg-preview.png"
+        alt="Loading..."
+        className="w-32 h-32 animate-spin"
+      />
+    </div>
+  }
+>
+  <Pricing />
+</Suspense>
+
+<Suspense
+  fallback={
+    <div className="flex justify-center items-center my-8">
+      <img
+        src="http://localhost:5173/LOGO2-removebg-preview.png"
+        alt="Loading..."
+        className="w-32 h-32 animate-spin"
+      />
+    </div>
+  }
+>
+  <TeamSection />
+</Suspense>
+
+<Suspense
+  fallback={
+    <div className="flex justify-center items-center my-8">
+      <img
+        src="http://localhost:5173/LOGO2-removebg-preview.png"
+        alt="Loading..."
+        className="w-32 h-32 animate-spin"
+      />
+    </div>
+  }
+>
+  <Reviews />
+</Suspense>
+
+<Suspense
+  fallback={
+    <div className="flex justify-center items-center my-8">
+      <img
+        src="http://localhost:5173/LOGO2-removebg-preview.png"
+        alt="Loading..."
+        className="w-32 h-32 animate-spin"
+      />
+    </div>
+  }
+>
+  <FAQSection />
+</Suspense>
+
+<Suspense
+  fallback={
+    <div className="flex justify-center items-center my-8">
+      <img
+        src="http://localhost:5173/LOGO2-removebg-preview.png"
+        alt="Loading..."
+        className="w-32 h-32 animate-spin"
+      />
+    </div>
+  }
+>
+  <ContactSection />
+</Suspense>
+
+<Suspense
+  fallback={
+    <div className="flex justify-center items-center my-8">
+      <img
+        src="http://localhost:5173/LOGO2-removebg-preview.png"
+        alt="Loading..."
+        className="w-32 h-32 animate-spin"
+      />
+    </div>
+  }
+>
+  <FindUs />
+</Suspense>
+
     </>
   );
 }
