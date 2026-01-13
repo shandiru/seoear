@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+import React, { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ReviewPage from "./Page/Review.jsx";
@@ -36,8 +37,12 @@ import Warehouses from "./Page/Warehouses.jsx";
 import BlogList from "./Page/BlogList.jsx";
 import SingleBlog from "./Page/SingleBlog.jsx";
 import Author from "./Page/Author.jsx";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 function App() {
+    useEffect(() => {
+      AOS.init({ duration: 1000, once: false, mirror: true });
+    }, []);
   return (
     <Router>
       <Navbar />

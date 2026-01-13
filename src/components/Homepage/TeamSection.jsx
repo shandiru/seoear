@@ -21,13 +21,7 @@ const team = [
 ];
 
 export default function TeamSection() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: false,
-      mirror: true,
-    });
-  }, []);
+
 
   return (
     <section

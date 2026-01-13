@@ -44,13 +44,6 @@ const FAQSection = () => {
     setOpenIndex(openIndex === index ? null : index);
   };
 
-  useEffect(() => {
-    AOS.init({
-      duration: 800,
-      once: false,
-      mirror: true,
-    });
-  }, []);
 
   return (
     <section

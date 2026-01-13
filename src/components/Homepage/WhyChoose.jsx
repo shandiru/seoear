@@ -74,9 +74,7 @@ With expert service, medical grade equipment, and flexible appointment options, 
 export default function WhyChoose() {
   const [selected, setSelected] = useState(null);
 
-  useEffect(() => {
-    AOS.init({ duration: 1000, once: false, mirror: true });
-  }, []);
+ 
 
   return (
     <section

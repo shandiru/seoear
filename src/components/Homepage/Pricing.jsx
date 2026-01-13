@@ -6,13 +6,7 @@ import "aos/dist/aos.css";
 const ICONS_IMG = "icons.webp"; // Same floating icons image used in other sections
 
 export default function Pricing() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: false,
-      mirror: true,
-    });
-  }, []);
+
 
   return (
     <section

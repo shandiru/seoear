@@ -12,9 +12,7 @@ const ContactSection = () => {
   const [success, setSuccess] = useState(null);
   const [errors, setErrors] = useState({});
 
-  useEffect(() => {
-    AOS.init({ duration: 1000, once: false, mirror: true });
-  }, []);
+
 
   const phoneRegex = /^(?:\+44|0)[1-9]\d{8,9}$/;
 

@@ -6,13 +6,7 @@ import "aos/dist/aos.css";
 const ICONS_IMG = "icons.webp"; // Decorative background icons
 
 export default function FindUs() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: false,
-      mirror: true,
-    });
-  }, []);
+
 
   return (
     <section
