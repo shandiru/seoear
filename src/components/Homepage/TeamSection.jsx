@@ -9,13 +9,13 @@ const team = [
   {
     name: "Rab",
     role: "Founder",
-    avatar: "/img-right.jpeg",
+    avatar: "/img-right.webp",
     bio: `With over a decade of experience in professional earwax removal, Rab has built a reputation for his steady hands, expert knowledge, and friendly approach. His dedication ensures every client receives safe, effective treatment in a comfortable environment.`,
   },
   {
     name: "Rhegan",
     role: "Digital & Operations Support",
-    avatar: "/img-left.jpeg",
+    avatar: "/img-left.webp",
     bio: `Rhegan plays a key role in running the business day to day, from managing our social media presence to helping clients connect with us online. He brings a modern digital perspective, making sure our family business is easy to reach and continues to grow in today’s world.`,
   },
 ];

@@ -39,7 +39,7 @@ export default function IndustrialHearingInfo() {
             <div
               className="absolute inset-0 bg-cover bg-center"
               style={{
-                backgroundImage: "url('/image.png')",
+                backgroundImage: "url('/image.webp')",
               }}
             />
           </div>

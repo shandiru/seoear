@@ -17,7 +17,7 @@ export default function IndustrialHearingHero() {
         className="absolute inset-0 bg-cover bg-center opacity-20"
         style={{
           backgroundImage:
-            "url('/industrial-factory-workers-wearing-safety-equipmen.jpg')",
+            "url('/industrial-factory-workers-wearing-safety-equipmen.webp')",
         }}
       />
 
