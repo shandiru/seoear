@@ -41,16 +41,7 @@ export default function TeamSection() {
           alt="Decorative Icons"
           className="absolute top-[8%] left-[10%] w-16 sm:w-20 animate-float-slow"
         />
-        <img
-          src={ICONS_IMG}
-          alt="Decorative Icons"
-          className="absolute top-[35%] left-[35%] w-20 sm:w-24 animate-float-fast"
-        />
-        <img
-          src={ICONS_IMG}
-          alt="Decorative Icons"
-          className="absolute bottom-[25%] right-[25%] w-16 sm:w-20 animate-float-medium"
-        />
+       
         <img
           src={ICONS_IMG}
           alt="Decorative Icons"

@@ -32,11 +32,7 @@ export default function Hero() {
           alt="Decorative Icons"
           className="absolute bottom-[25%] right-[25%] w-16 sm:w-20 animate-float-medium"
         />
-        <img
-          src={ICONS_IMG}
-          alt="Decorative Icons"
-          className="absolute bottom-[10%] left-[30%] w-16 sm:w-20 animate-float-slow"
-        />
+        
         <img
           src={ICONS_IMG}
           alt="Decorative Icons"
