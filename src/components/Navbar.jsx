@@ -89,7 +89,7 @@ const Navbar = () => {
 
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50 transition-all duration-300">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center">
@@ -103,7 +103,7 @@ const Navbar = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex space-x-8 items-center">
+          <nav className="hidden xl:flex space-x-8 items-center">
             {links.map((link) => (
               <HashLink
                 key={link.label}
@@ -222,7 +222,7 @@ const Navbar = () => {
           {/* Desktop Call Now */}
           <a
             href="tel:+448081371961"
-            className="hidden lg:inline-flex items-center gap-2 rounded-md text-sm font-semibold shadow h-10 px-5 bg-[#43AA8B] hover:bg-[#368a75] text-white transition-all"
+            className="hidden xl:inline-flex items-center gap-2 rounded-md text-sm font-semibold shadow h-10 px-5 bg-[#43AA8B] hover:bg-[#368a75] text-white transition-all"
           >
             <Phone className="w-4 h-4" />
             Call Now
@@ -232,7 +232,7 @@ const Navbar = () => {
           <button
             aria-label="Toggle Menu"
             onClick={() => setOpen(!open)}
-            className="lg:hidden inline-flex items-center justify-center w-10 h-10 text-gray-800"
+            className="xl:hidden inline-flex items-center justify-center w-10 h-10 text-gray-800"
           >
             {open ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
@@ -240,7 +240,7 @@ const Navbar = () => {
 
         {/* Mobile Drawer */}
         {open && (
-          <div className="lg:hidden border-t border-gray-200 py-4 animate-fadeIn overflow-y-auto max-h-[80vh]">
+          <div className="xl:hidden border-t border-gray-200 py-4 animate-fadeIn overflow-y-auto max-h-[80vh]">
             <nav className="flex flex-col space-y-1">
               {links.map((link) => (
                 <HashLink
