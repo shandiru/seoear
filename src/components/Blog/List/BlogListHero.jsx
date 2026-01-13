@@ -14,15 +14,12 @@ const BlogHero = () => {
             className="text-5xl md:text-6xl font-bold mb-6 tracking-tight"
             style={{ color: '#43AA8B' }}
           >
-            Blogs and news
+            Blogs & News
           </h1>
           
           <p className="text-lg md:text-xl leading-relaxed text-gray-800">
-            Stay informed with the latest news on driving with disabilities 
-            from Mobility in Motion and read our blog articles offering 
-            insights into all aspects of vehicle adaptations, accessible 
-            travel and leading an independent life. Keep in touch for the 
-            latest news and updates, including new product launches.
+            Stay informed about ear health, hearing care, and the latest updates from EarWeGo
+description- Keep up to date with expert advice, practical tips, and company news from EarWeGo. Our blog covers everything from earwax build-up and hearing health to micro-suction aftercare and common ear conditions. We also share service updates, new coverage areas, and important announcements—so you’re always informed and confident about your ear care.
           </p>
         </div>
         

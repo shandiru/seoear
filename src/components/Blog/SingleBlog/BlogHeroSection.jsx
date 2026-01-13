@@ -27,9 +27,23 @@ const BlogHeroSection = ({ data }) => {
                 />
               </div>
               <div className="flex flex-col text-sm">
-                <p className="opacity-90">
-                  Author <span className="font-bold border-b border-white/40 ml-1 cursor-pointer">{data.author}</span>
-                </p>
+               <p className="opacity-90">
+  Author{" "}
+  <a
+    href={`/author/${data.author
+      .toLowerCase()
+      .replace(/\s+/g, "-")
+      .replace(/[^a-z0-9-]/g, "")}`}
+    className="font-bold border-b border-white/40 ml-1 
+               hover:text-white
+               hover:border-[#43AA8B] 
+               transition 
+               bg-transparent"
+  >
+    {data.author}
+  </a>
+</p>
+
                 <p className="opacity-80 font-light">{data.authorRole}</p>
                 <p className="opacity-80 font-light mt-1 text-[10px] uppercase tracking-wider">Written {data.date}</p>
               </div>

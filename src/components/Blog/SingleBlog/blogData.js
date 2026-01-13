@@ -5,31 +5,31 @@ export const blogPosts = {
     
     // 1. Hero Section Data
     hero: {
-      title: "How to make your home a more sustainable space",
+      title: "Micro Suction Ear Wax Removal: The Safest Way to Hear Clearly",
       bgImage: "https://images.prismic.io/hillarys/aNVNYp5xUNkB1Gxj_HIL-25-CALMLIVINGCOLLECTION-ROLLERBLINDS-ALTHEALINEN-LIVINGROOM-01.jpg?auto=format,compress",
-      author: "Yvonne Keal",
-      authorRole: "Product Management Specialist",
+      author: "EarWeGo Clinical Team",
+      authorRole: "Professional Ear Care Specialists",
       authorImg: "https://images.prismic.io/hillarys/Z-Lw3HdAxsiBv5Qk_hill_22_yvonne_ww-look-book_007-author-bio.jpg?auto=format%2Ccompress",
-      date: "07/05/2025"
+      date: "Today’s date"
     },
 
     // 2. Introduction Text Section
     intro: {
       title: "Buy once, buy well",
-      description: "When it comes to living in a more sustainable way, small, thoughtful changes can make a big difference. From monitoring energy usage to turning the lights off in unused rooms and switching over to long-lasting LED bulbs there’s plenty we can all do to help.",
+      description: "When it comes to ear health, small and informed decisions can make a big difference. From avoiding cotton buds to recognising early signs of wax build-up, simple actions can help protect your hearing and prevent discomfort.",
       linkText: "quality standards",
       linkUrl: "/about/quality-standards"
     },
 
     // 3. Seasonal Solutions Section
     seasonal: {
-      title: "Seasonal solutions",
+      title: "Why Ear Wax Builds Up",
       image: "https://images.prismic.io/hillarys/aBtS7CdWJ-7kRtM__HIL_2023_CHALLENGEHILLARYS_BEATAYLOR_DUETTE_SILKCHARCOAL_DINING_24.jpg?auto=format%2Ccompress&width=768",
       content: [
-        "According to research by English Heritage, 18% of a home’s heat loss is through the windows. So choosing the right window dressing can have a big impact on helping to keep your home insulated.",
-        "Fully lined curtains are a great way to tackle heat loss. Close them to reduce draughts and block the heat of the sun on sunny days.",
-        "Shutters offer a little more flexibility. They’re effective at reducing draughts and filtering sunlight without blocking views and light completely.",
-        "Specialist blinds with a honeycomb structure trap heat in shaped cells to create a barrier. Duette® blinds reduce heat loss by up to 55% according to 2023 laboratory tests."
+        "Ear wax is natural and protects the ear, but in some people it builds up faster than it can clear naturally, leading to blocked ears and hearing issues.",
+        "Factors such as narrow ear canals, headphone use, hearing aids, age, and attempts to clean ears with cotton buds can all contribute to wax build-up.",
+        "Choosing the right removal method is essential to avoid pushing wax deeper or damaging the ear canal.",
+        
       ],
       linkText: "Thermal blinds"
     },
@@ -122,7 +122,7 @@ export const blogPosts = {
     // 2. Introduction Text Section
     intro: {
       title: "Buy once, buy well",
-      description: "When it comes to living in a more sustainable way, small, thoughtful changes can make a big difference. From monitoring energy usage to turning the lights off in unused rooms and switching over to long-lasting LED bulbs there’s plenty we can all do to help.",
+      description: "When it comes to ear health, small and informed decisions can make a big difference. From avoiding cotton buds to recognising early signs of wax build-up, simple actions can help protect your hearing and prevent discomfort.",
       linkText: "quality standards",
       linkUrl: "/about/quality-standards"
     },
