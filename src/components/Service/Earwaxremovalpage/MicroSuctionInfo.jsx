@@ -3,7 +3,7 @@ import React from "react";
 import { FiShield, FiClock, FiCheckCircle } from "react-icons/fi";
 
 export default function MicroSuctionInfo({
-  imageSrc = "/h5.jpg", 
+  imageSrc = "/h5.webp", 
   imageAlt = "Professional ear examination with microscope",
 }) {
   return (

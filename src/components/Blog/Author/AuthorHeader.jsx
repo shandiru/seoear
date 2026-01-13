@@ -16,7 +16,7 @@ const AuthorHeader = () => {
       {/* Right Image Section */}
       <div className="md:w-1/2 flex justify-center">
         <img
-          src="/a1.png"
+          src="/a1.webp"
           alt="Yvonne Keal"
           className="w-full max-w-md rounded-lg shadow-lg object-cover"
         />
