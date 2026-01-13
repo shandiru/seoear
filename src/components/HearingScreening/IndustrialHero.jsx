@@ -15,7 +15,7 @@ const WarehouseLogisticsHero = () => {
       
       {/* Background Image */}
       <div
-        className="absolute inset-0 bg-[url('/industrial-processing-plant-heavy-industry.jpg')] bg-cover bg-center opacity-20"
+        className="absolute inset-0 bg-[url('/industrial-processing-plant-heavy-industry.webp')] bg-cover bg-center opacity-20"
         aria-hidden="true"
       />
 

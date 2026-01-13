@@ -9,7 +9,7 @@ export default function HearingScreeningAudience() {
         className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('/industrial-workers-team-in-safety-gear.jpg')",
+            "url('/industrial-workers-team-in-safety-gear.webp')",
         }}
       />
 
