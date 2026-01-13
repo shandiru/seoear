@@ -282,6 +282,20 @@ const Navbar = () => {
                 )}
               </div>
 
+
+              <div className="px-3">
+                <button onClick={() => setBlogOpen(!blogOpen)} className="w-full flex items-center justify-between py-2 text-[#4B5563]">
+                  Blog {blogOpen ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+                </button>
+                {blogOpen && (
+                  <div className="ml-4 flex flex-col space-y-1">
+                    {Blognav.map((b) => (
+                      <Link key={b.name} to={b.path} onClick={() => setOpen(false)} className="block py-2 text-[#4B5563]">{b.name}</Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+
               {/* Mobile Location Dropdown */}
               <div className="px-3">
                 <button
