@@ -8,6 +8,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [locationOpen, setLocationOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
+   const [blogOpen, setBlogOpen] = useState(false);
   const location = useLocation();
 
   useEffect(() => {
@@ -16,6 +17,7 @@ const Navbar = () => {
         setOpen(false);
         setLocationOpen(false);
         setServicesOpen(false);
+        setBlogOpen(false);
       }
     };
     window.addEventListener("resize", handleResize);
@@ -26,6 +28,7 @@ const Navbar = () => {
     setOpen(false);
     setLocationOpen(false);
     setServicesOpen(false);
+    setBlogOpen(false);
   }, [location]);
 
   const enhancedScroll = (el) => {
@@ -57,6 +60,9 @@ const Navbar = () => {
  const Blog =[
    { name: "sustainable-home", path: "/blog/sustainable-home/" },
     { name: "sustainable-car", path: "/blog/sustainable-car" },
+      { name: "blog-list", path: "/blog-list" },
+      {name: "author", path: "/author" },
+      {name: "author2", path: "/author2" },
  ]
   const locations = [
     { name: "Nottingham", path: "/areas-we-cover/ear-wax-removal-nottingham/" },
@@ -73,6 +79,13 @@ const Navbar = () => {
     { name: "Worksop", path: "/areas-we-cover/ear-wax-removal-worksop/" },
     { name: "Loughborough", path: "/areas-we-cover/ear-wax-removal-loughborough/" },
   ];
+
+  const Blognav =[
+    { name: "Blog", path: "/blog-list" },
+    { name: "Author", path: "/author" },
+  { name: "Author2", path: "/author2" },
+
+  ]
 
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50 transition-all duration-300">
@@ -122,6 +135,31 @@ const Navbar = () => {
                       className="block px-4 py-2 text-[#4B5563] hover:bg-[#F8FAFC] hover:text-[#0D1525] transition-colors"
                     >
                       {service.name}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            <div className="relative">
+              <button
+                type="button"
+                onClick={() => setBlogOpen((prev) => !prev)}
+                className="flex items-center gap-1 text-[#4B5563] hover:text-[#0D1525] font-medium text-base"
+              >
+                Blog
+                {blogOpen ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+              </button>
+              {blogOpen && (
+                <div className="absolute right-0 mt-2 w-60 bg-white border border-gray-200 shadow-md rounded-md py-2 z-50">
+                  {Blognav.map((blog) => (
+                    <Link
+                      key={blog.name}
+                      to={blog.path}
+                      onClick={() => setBlogOpen(false)}
+                      className="block px-4 py-2 text-[#4B5563] hover:bg-[#F8FAFC] hover:text-[#0D1525] transition-colors"
+                    >
+                      {blog.name}
                     </Link>
                   ))}
                 </div>
