@@ -24,10 +24,7 @@ const IndustrialHearing = () => {
           name="description"
           content="Protect your workforce with industrial hearing screening. On-site hearing tests for factories, construction sites, warehouses, workshops, and processing facilities."
         />
-        <meta
-          name="keywords"
-          content="industrial hearing tests, workplace hearing screening, factory hearing tests, construction hearing tests, workshop hearing tests"
-        />
+        
         <meta name="robots" content="index, follow" />
         <meta 
           name="google-site-verification" 

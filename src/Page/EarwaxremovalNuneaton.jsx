@@ -22,10 +22,7 @@ function EarwaxremovalNuneaton() {
           name="description"
           content="EarWeGo provides mobile ear wax removal in Nuneaton. Gentle, safe ear cleaning by our professional team. Book your appointment today."
         />
-        <meta
-          name="keywords"
-          content="ear wax removal nuneaton , ear syringing nuneaton ,ear cleaning nuneaton"
-        />
+       
         <meta name="robots" content="index, follow" />
         <meta name="google-site-verification" content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" />
        <link rel="canonical" href="https://earwego.co.uk/areas-we-cover/ear-wax-removal-nuneaton/" />

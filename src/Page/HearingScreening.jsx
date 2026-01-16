@@ -22,10 +22,7 @@ const HearingScreening = () => {
           name="description"
           content="Protect employees in industrial plants and processing facilities with professional on-site hearing screening. Ensure compliance and safeguard workforce health."
         />
-        <meta
-          name="keywords"
-          content="industrial hearing tests, plant hearing screening, processing facility hearing tests, large-scale hearing surveillance"
-        />
+       
         <meta name="robots" content="index, follow" />
         <meta 
           name="google-site-verification" 

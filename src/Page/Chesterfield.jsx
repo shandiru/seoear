@@ -22,10 +22,7 @@ function Chesterfield() {
           name="description"
           content="Choose EarWeGo for mobile ear wax removal in Chesterfield. Expert ear cleaning in the comfort of your home. Request your appointment now."
         />
-        <meta
-          name="keywords"
-          content="ear wax removal chesterfield , ear cleaning chesterfield"
-        />
+       
         <meta name="robots" content="index, follow" />
         <meta name="google-site-verification" content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" />
       <link rel="canonical" href="https://earwego.co.uk/areas-we-cover/ear-wax-removal-chesterfield/" />

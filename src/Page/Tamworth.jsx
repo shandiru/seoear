@@ -22,10 +22,7 @@ function EarwaxremovalTamworth() {
           name="description"
           content="Book mobile ear wax removal in Tamworth with EarWeGo. Safe, reliable ear cleaning in your home or office. Schedule your appointment today."
         />
-        <meta
-          name="keywords"
-          content="ear wax removal Tamworth"
-        />
+       
         <meta name="robots" content="index, follow" />
         <meta name="google-site-verification" content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" />
         <link rel="canonical" href="https://earwego.co.uk/areas-we-cover/ear-wax-removal-tamworth/" />

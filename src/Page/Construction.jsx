@@ -22,10 +22,7 @@ function Construction() {
           name="description"
           content="Protect workers on construction and civil engineering sites with on-site hearing screening. Ensure safety, HSE compliance, and early detection of hearing issues."
         />
-        <meta
-          name="keywords"
-          content="construction hearing tests, site hearing screening, workplace hearing tests, construction safety hearing tests"
-        />
+       
         <meta name="robots" content="index, follow" />
         <meta 
           name="google-site-verification" 

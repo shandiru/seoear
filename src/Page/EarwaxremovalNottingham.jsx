@@ -22,10 +22,7 @@ function EarwaxremovalNottingham() {
           name="description"
           content="EarWeGo offers mobile ear wax removal across Nottingham. Expert, safe ear cleaning in your home or workplace. Book your appointment now."
         />
-        <meta
-          name="keywords"
-          content="ear wax removal Nottingham ,ear cleaning Nottingham ,ear syringing Nottingham ,ear suction Nottingham"
-        />
+       
         <meta name="robots" content="index, follow" />
         <meta name="google-site-verification" content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" />
         <link rel="canonical" href="https://earwego.co.uk/areas-we-cover/ear-wax-removal-nottingham/" />

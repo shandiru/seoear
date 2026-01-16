@@ -18,10 +18,7 @@ function Earwax() {
           name="description"
           content="Experience safe and professional micro-suction ear wax removal with EarWeGo. Our trained clinicians use modern techniques for quick, pain-free ear care at home."
         />
-        <meta
-          name="keywords"
-          content="ear wax removal, micro suction, ear cleaning, home ear care, safe ear treatment, EarWeGo"
-        />
+        
         <meta name="robots" content="index, follow" />
          <link rel="canonical" href="https://earwego.co.uk/earwaxremovalpage/" />
          <meta name="google-site-verification" content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" />

@@ -22,10 +22,7 @@ function EarwaxremovalStafford() {
           name="description"
           content="Trust EarWeGo for mobile ear wax removal in Stafford. Expert, gentle ear cleaning in the comfort of your home. Book your appointment today."
         />
-        <meta
-          name="keywords"
-          content="ear wax removal Stafford , ear syringing Stafford ,ear cleaning Stafford"
-        />
+        
         <meta name="robots" content="index, follow" />
         <meta name="google-site-verification" content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" />
         <link rel="canonical" href="https://earwego.co.uk/areas-we-cover/ear-wax-removal-stafford/" />

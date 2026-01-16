@@ -22,10 +22,7 @@ function EarwaxremovalLeicester() {
           name="description"
           content="Choose EarWeGo for mobile ear wax removal in Leicester. Trusted, professional ear cleaning wherever you are. Book your appointment today."
         />
-        <meta
-          name="keywords"
-          content="ear wax removal Leicester , ear syringing leicester"
-        />
+       
         <meta name="robots" content="index, follow" />
         <meta name="google-site-verification" content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" />
         <link rel="canonical" href="https://earwego.co.uk/areas-we-cover/ear-wax-removal-leicester/" />

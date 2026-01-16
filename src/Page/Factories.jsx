@@ -22,10 +22,7 @@ function Factories() {
           name="description"
           content="Protect employees with on-site hearing screening for factories and manufacturing plants. Ensure compliance with UK health & safety regulations and workplace safety."
         />
-        <meta
-          name="keywords"
-          content="factory hearing tests, industrial hearing screening, workplace hearing tests, manufacturing hearing tests"
-        />
+       
         <meta name="robots" content="index, follow" />
         <meta 
           name="google-site-verification" 

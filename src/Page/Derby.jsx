@@ -22,10 +22,7 @@ function EarwaxremovalDerby() {
           name="description"
           content="Book mobile ear wax removal in Derby with EarWeGo. Gentle, professional ear cleaning at your convenience. Schedule your appointment today."
         />
-        <meta
-          name="keywords"
-          content="ear wax removal derby, ear syringing derby, ear cleaning derby"
-        />
+        
         <meta name="robots" content="index, follow" />
         <meta name="google-site-verification" content="ZSdPnc9hEmCcaSGgqWkfB-xJaSEbqzxr3k99I19tV8I" />
         <link rel="canonical" href="https://earwego.co.uk/areas-we-cover/ear-wax-removal-derby/" />

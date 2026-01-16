@@ -141,7 +141,7 @@ export default function Hero() {
   {/* Video Card */}
   <div className="relative z-10 bg-white rounded-2xl shadow-2xl max-w-md w-full h-[320px] overflow-hidden group">
     <video
-      src="/hero.mp4"
+      src="/newherojan.mp4"
       className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
       autoPlay
       loop

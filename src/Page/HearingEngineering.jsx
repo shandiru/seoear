@@ -23,10 +23,7 @@ const HearingEngineering = () => {
           name="description"
           content="Protect your technicians and engineers with professional hearing screening for automotive and engineering workshops. Ensure safety and legal compliance."
         />
-        <meta
-          name="keywords"
-          content="workshop hearing tests, automotive hearing screening, engineering hearing screening, industrial hearing tests"
-        />
+       
         <meta name="robots" content="index, follow" />
         <meta 
           name="google-site-verification" 
