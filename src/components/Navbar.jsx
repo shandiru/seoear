@@ -57,13 +57,13 @@ const Navbar = () => {
     { name: "Workshops", path: "/services/workshops" },
     { name: "Industrial Plants", path: "/services/industrial-plants" },
   ];
- const Blog =[
-   { name: "sustainable-home", path: "/blog/sustainable-home/" },
-    { name: "sustainable-car", path: "/blog/sustainable-car" },
-      { name: "blog-list", path: "/blog-list" },
-      {name: "author", path: "/author" },
-      {name: "author2", path: "/author2" },
- ]
+//  const Blog =[
+//    { name: "sustainable-home", path: "/blog/sustainable-home/" },
+//     { name: "sustainable-car", path: "/blog/sustainable-car" },
+//       { name: "blog-list", path: "/blog-list" },
+//       {name: "author", path: "/author" },
+//       {name: "author2", path: "/author2" },
+//  ]
   const locations = [
     { name: "Nottingham", path: "/areas-we-cover/ear-wax-removal-nottingham/" },
     { name: "Derby", path: "/areas-we-cover/ear-wax-removal-derby/" },
@@ -80,12 +80,12 @@ const Navbar = () => {
     { name: "Loughborough", path: "/areas-we-cover/ear-wax-removal-loughborough/" },
   ];
 
-  const Blognav =[
-    { name: "Blog", path: "/blog-list" },
-    { name: "Author", path: "/author" },
-  { name: "Author2", path: "/author2" },
+  // const Blognav =[
+  //   { name: "Blog", path: "/blog-list" },
+  //   { name: "Author", path: "/author" },
+  // { name: "Author2", path: "/author2" },
 
-  ]
+  // ]
 
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50 transition-all duration-300">
@@ -145,7 +145,7 @@ const Navbar = () => {
               )}
             </div>
 
-            <div className="relative">
+            {/* <div className="relative">
               <button
                 type="button"
                 onClick={() => setBlogOpen((prev) => !prev)}
@@ -168,7 +168,7 @@ const Navbar = () => {
                   ))}
                 </div>
               )}
-            </div>
+            </div> */}
 
             {/* Location Dropdown */}
             <div className="relative">
@@ -214,13 +214,13 @@ const Navbar = () => {
               ))}
             </div>
             {/* Hidden SEO-only links for Services */}
-            <div style={{ display: "none" }}>
+            {/* <div style={{ display: "none" }}>
               {Blog.map((blogs) => (
                 <a key={blogs.name} href={blogs.path}>
                   {blogs.name}
                 </a>
               ))}
-            </div>
+            </div> */}
           </nav>
 
           {/* Desktop Call Now */}
@@ -287,18 +287,18 @@ const Navbar = () => {
               </div>
 
 
-              <div className="px-3">
+              {/* <div className="px-3">
                 <button onClick={() => setBlogOpen(!blogOpen)} className="w-full flex items-center justify-between py-2 text-[#4B5563]">
                   Blog {blogOpen ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
                 </button>
-                {blogOpen && (
+                 {blogOpen && (
                   <div className="ml-4 flex flex-col space-y-1">
                     {Blognav.map((b) => (
                       <Link key={b.name} to={b.path} onClick={() => setOpen(false)} className="block py-2 text-[#4B5563]">{b.name}</Link>
                     ))}
                   </div>
-                )}
-              </div>
+                )} 
+              </div> */}
 
               {/* Mobile Location Dropdown */}
               <div className="px-3">
