@@ -91,45 +91,7 @@ export default function FindUs() {
         </div>
       </div>
 
-      {/* === Animations === */}
-      <style jsx>{`
-        @keyframes float-slow {
-          0%,
-          100% {
-            transform: translateY(0px) rotate(0deg);
-          }
-          50% {
-            transform: translateY(-10px) rotate(2deg);
-          }
-        }
-        @keyframes float-medium {
-          0%,
-          100% {
-            transform: translateY(0px) rotate(0deg);
-          }
-          50% {
-            transform: translateY(-25px) rotate(-3deg);
-          }
-        }
-        @keyframes float-fast {
-          0%,
-          100% {
-            transform: translateY(0px) rotate(0deg);
-          }
-          50% {
-            transform: translateY(-35px) rotate(5deg);
-          }
-        }
-        .animate-float-slow {
-          animation: float-slow 8s ease-in-out infinite;
-        }
-        .animate-float-medium {
-          animation: float-medium 6s ease-in-out infinite;
-        }
-        .animate-float-fast {
-          animation: float-fast 4.5s ease-in-out infinite;
-        }
-      `}</style>
+     
     </section>
   );
 }
