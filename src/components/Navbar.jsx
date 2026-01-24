@@ -70,7 +70,7 @@ const Navbar = () => {
     { name: "Leicester", path: "/areas-we-cover/ear-wax-removal-leicester/" },
     { name: "Lincoln", path: "/areas-we-cover/ear-wax-removal-lincoln/" },
     { name: "Grantham", path: "/areas-we-cover/ear-wax-removal-grantham/" },
-    { name: "Stafford", path: "/areas-we-cover/ear-wax-removal-stafford/" },
+    { name: "Lichfield", path: "/areas-we-cover/ear-wax-removal-lichfield/" },
     { name: "Tamworth", path: "/areas-we-cover/ear-wax-removal-tamworth/" },
     { name: "Burton", path: "/areas-we-cover/ear-wax-removal-burton/" },
     { name: "Chesterfield", path: "/areas-we-cover/ear-wax-removal-chesterfield/" },

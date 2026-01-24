@@ -18,6 +18,7 @@ import EarwaxremovalLeicester from "./Page/EarwaxremovalLeicester.jsx";
 import Lincoln from "./Page/Lincoln.jsx";
 import Grantham from "./Page/Grantham.jsx";
 import EarwaxremovalStafford from "./Page/EarwaxremovalStafford.jsx";
+import EarwaxremovalLichfield from "./Page/EarwaxremovalLichfield.jsx";
 import EarwaxremovalTamworth from "./Page/Tamworth.jsx";
 import Burton from "./Page/Burton.jsx";
 import Chesterfield from "./Page/Chesterfield.jsx";
@@ -64,6 +65,7 @@ function App() {
         <Route path="/areas-we-cover/ear-wax-removal-lincoln" element={<Lincoln />} />
         <Route path="/areas-we-cover/ear-wax-removal-grantham" element={<Grantham />} />
         <Route path="/areas-we-cover/ear-wax-removal-stafford" element={<EarwaxremovalStafford />} />
+           <Route path="/areas-we-cover/ear-wax-removal-lichfield" element={<EarwaxremovalLichfield />} />
         <Route path="/areas-we-cover/ear-wax-removal-tamworth" element={<EarwaxremovalTamworth />} />
         <Route path="/areas-we-cover/ear-wax-removal-burton" element={<Burton />} />
         <Route path="/areas-we-cover/ear-wax-removal-chesterfield" element={<Chesterfield />} />
