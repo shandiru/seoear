@@ -46,3 +46,6 @@ html, body {
         .animate-float-fast {
           animation: float-fast 4.5s ease-in-out infinite;
         }
+         .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+        .scrollbar-hide::-webkit-scrollbar { display: none; }
+        .line-clamp-6 { display: -webkit-box; -webkit-line-clamp: 6; -webkit-box-orient: vertical; overflow: hidden; }
