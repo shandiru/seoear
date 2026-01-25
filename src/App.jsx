@@ -86,7 +86,7 @@ function App() {
         {/* blog */}
         <Route path="/blog-list" element={<BlogList />} />
         <Route path="/blog/:id" element={<SingleBlog />} />
-        <Route path="/author" element={<Author />} />
+        <Route path="/blog/authors/rab-newton" element={<Author />} />
         <Route path="/author2" element={<Author /> } />
         {/* Catch-all 404 */}
         <Route path="*" element={<NotFoundPage />} />
