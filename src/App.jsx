@@ -37,7 +37,7 @@ import Warehouses from "./Page/Warehouses.jsx";
 
 import BlogList from "./Page/BlogList.jsx";
 import SingleBlog from "./Page/SingleBlog.jsx";
-import Author from "./Page/Author.jsx";
+import Rab from "./Page/Rab-newton.jsx";
 import AOS from "aos";
 import "aos/dist/aos.css";
 function App() {
@@ -86,8 +86,8 @@ function App() {
         {/* blog */}
         <Route path="/blog-list" element={<BlogList />} />
         <Route path="/blog/:id" element={<SingleBlog />} />
-        <Route path="/blog/authors/rab-newton" element={<Author />} />
-        <Route path="/author2" element={<Author /> } />
+        <Route path="/blog/authors/rab-newton" element={<Rab />} />
+        {/* <Route path="/author2" element={<Author /> } /> */}
         {/* Catch-all 404 */}
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
