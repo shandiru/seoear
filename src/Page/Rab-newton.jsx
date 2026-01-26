@@ -49,7 +49,7 @@ const Rab = () => {
 
       <AuthorHeader />
       <AuthorAbout />
-      <BlogCards />
+      {/* <BlogCards /> */}
     </div>
   )
 }
