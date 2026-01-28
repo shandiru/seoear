@@ -84,7 +84,7 @@ function App() {
         <Route path="/services/warehouses" element={<Warehouses />} />
 
         {/* blog */}
-        <Route path="/blog-list" element={<BlogList />} />
+        <Route path="/blogs" element={<BlogList />} />
         <Route path="/blog/:id" element={<SingleBlog />} />
         <Route path="/blog/authors/rab-newton" element={<Rab />} />
     

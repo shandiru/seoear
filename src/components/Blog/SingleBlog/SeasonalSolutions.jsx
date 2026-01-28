@@ -35,19 +35,8 @@ const SeasonalSolutions = ({ data }) => {
 
               {/* Dynamic Link */}
               <p className="pt-4">
-                Learn more about the benefits of our{' '}
-                <a 
-                  href="#" 
-                  className="font-bold border-b-2 transition-all"
-                  style={{ 
-                    color: '#43AA8B', 
-                    borderColor: 'rgba(67, 170, 139, 0.3)' 
-                  }}
-                  onMouseOver={(e) => e.currentTarget.style.borderColor = '#43AA8B'}
-                  onMouseOut={(e) => e.currentTarget.style.borderColor = 'rgba(67, 170, 139, 0.3)'}
-                >
-                  {data.linkText}
-                </a>.
+              
+                
               </p>
             </div>
           </div>

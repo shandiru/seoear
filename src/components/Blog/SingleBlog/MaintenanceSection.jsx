@@ -10,7 +10,7 @@ const MaintenanceSection = ({ data }) => {
           
           {/* Left Column: Image */}
           <div className="w-full lg:w-1/2">
-            <div className="relative rounded-2xl overflow-hidden shadow-lg aspect-[3/2]">
+            <div className="relative rounded-2xl overflow-hidden shadow-lg aspect-[3/3]">
               <img 
                 src={data.image} 
                 alt={data.title}
@@ -50,22 +50,7 @@ const MaintenanceSection = ({ data }) => {
               ))}
             </ul>
 
-            <p className="text-gray-700">
-              We’ve more detailed{' '}
-              <a 
-                href={data.link.url} 
-                className="font-bold border-b-2 transition-all"
-                style={{ 
-                  color: '#43AA8B', 
-                  borderColor: 'rgba(67, 170, 139, 0.3)' 
-                }}
-                onMouseOver={(e) => e.currentTarget.style.borderColor = '#43AA8B'}
-                onMouseOut={(e) => e.currentTarget.style.borderColor = 'rgba(67, 170, 139, 0.3)'}
-              >
-                {data.link.text}
-              </a>{' '}
-              for our different blinds, curtains and shutters.
-            </p>
+          
           </div>
 
         </div>

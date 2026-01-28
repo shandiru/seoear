@@ -29,7 +29,7 @@ const FurnishingsSection = ({ data }) => {
 
           {/* Right Column: Image */}
           <div className="w-full lg:w-1/2">
-            <div className="relative rounded-2xl overflow-hidden shadow-lg aspect-[3/2]">
+            <div className="relative rounded-2xl overflow-hidden shadow-lg aspect-[3/3]">
               <img 
                 src={data.image} 
                 alt={data.title}

@@ -22,12 +22,7 @@ const BlogArchive = () => {
   }, []);
 
   const categories = [
-    "View all categories",
-    "Accessible travel",
-    "Driving with adaptations",
-    "Lifestyle",
-    "News",
-    "Press"
+    "Ear Care"
   ];
 
   // Filtering Logic

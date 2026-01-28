@@ -46,6 +46,7 @@ const Navbar = () => {
     { label: "FAQ", href: "/#faq" },
     { label: "Symptoms", href: "/symptoms/" },
     { label: "Micro Suction", href: "/earwaxremovalpage/" },
+     { label: "Blogs", href: "/blogs" },
     { label: "Contact", href: "/#contact" },
   ];
 
@@ -57,13 +58,10 @@ const Navbar = () => {
     { name: "Workshops", path: "/services/workshops" },
     { name: "Industrial Plants", path: "/services/industrial-plants" },
   ];
-//  const Blog =[
-//    { name: "sustainable-home", path: "/blog/sustainable-home/" },
-//     { name: "sustainable-car", path: "/blog/sustainable-car" },
-//       { name: "blog-list", path: "/blog-list" },
-//       {name: "author", path: "/author" },
-//       {name: "author2", path: "/author2" },
-//  ]
+ const Blog =[
+   { name: "micro-suction-ear-wax-removal", path: "/blog/micro-suction-ear-wax-removal" },
+
+ ]
   const locations = [
     { name: "Nottingham", path: "/areas-we-cover/ear-wax-removal-nottingham/" },
     { name: "Derby", path: "/areas-we-cover/ear-wax-removal-derby/" },
@@ -214,13 +212,13 @@ const Navbar = () => {
               ))}
             </div>
             {/* Hidden SEO-only links for Services */}
-            {/* <div style={{ display: "none" }}>
+            <div style={{ display: "none" }}>
               {Blog.map((blogs) => (
                 <a key={blogs.name} href={blogs.path}>
                   {blogs.name}
                 </a>
               ))}
-            </div> */}
+            </div>
           </nav>
 
           {/* Desktop Call Now */}

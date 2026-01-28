@@ -30,7 +30,7 @@ const BlogHeroSection = ({ data }) => {
                <p className="opacity-90">
   Author{" "}
   <a
-    href={`/author/${data.author
+    href={`/blog/authors/${data.author
       .toLowerCase()
       .replace(/\s+/g, "-")
       .replace(/[^a-z0-9-]/g, "")}`}

@@ -54,7 +54,7 @@ function SingleBlog() {
                 <BlogReferences data={currentPost.references} />
             </main>
 
-            <InspirationCarousel data={currentPost.carousel} />
+         
         </div>
     );
 }
